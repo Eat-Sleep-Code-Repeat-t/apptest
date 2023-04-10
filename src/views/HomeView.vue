@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
 import BannerSection from "@/components/BannerSection.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import RegisterSection from "@/components/RegisterSection.vue";
@@ -21,7 +20,6 @@ import FooterSection from "@/components/FooterSection.vue";
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
     HeaderSection,
     BannerSection,
     FooterSection,
