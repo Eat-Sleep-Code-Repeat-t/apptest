@@ -2,9 +2,7 @@
   <div class="home">
     <HeaderSection />
     <BannerSection />
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <RegisterSection />
+    <GamesCategory />
     <LoyaltySection />
     <FooterSection />
   </div>
@@ -13,18 +11,20 @@
 <script>
 import BannerSection from "@/components/BannerSection.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
-import RegisterSection from "@/components/RegisterSection.vue";
+// import RegisterSection from "@/components/RegisterSection.vue";
 import LoyaltySection from "@/components/LoyaltySection.vue";
 import FooterSection from "@/components/FooterSection.vue";
+import GamesCategory from "@/components/GamesCategory.vue";
 
 export default {
   name: "HomeView",
   components: {
     HeaderSection,
+    GamesCategory,
     BannerSection,
     FooterSection,
     LoyaltySection,
-    RegisterSection
+    // RegisterSection
   },
 };
 </script>

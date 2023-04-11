@@ -2,7 +2,8 @@
   <div class="banner">
     <div class="container">
       <h1 class="banner__title text-start">CoinGames</h1>
-      <div
+      
+      <!-- <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
@@ -29,13 +30,6 @@
               alt="..."
             />
           </div>
-          <!-- <div class="carousel-item">
-            <img
-              src="../assets/img/banner/4.webm"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div> -->
         </div>
         <div class="buttons">
           <button
@@ -57,7 +51,8 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
+      </div> -->
+      
     </div>
   </div>
 </template>
