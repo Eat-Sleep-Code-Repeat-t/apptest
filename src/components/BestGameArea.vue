@@ -13,16 +13,17 @@
     <div class="container">
       <div class="row">
         <div class="col-2">
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="../../src/assets/img/BestGameArea/background.webp"
-                alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
+          <div class="cartGame">
+            <div class="cartGame__block">
+              <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="cartGame">
+            <div class="cartGame__block">
+              <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
             </div>
           </div>
         </div>
@@ -31,8 +32,50 @@
   </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 .banner__title {
+
   padding-top: 40px;
   padding-bottom: 20px;
-}</style>
+}
+
+.cartGame {
+  width: 100%;
+  max-width: 275px;
+  padding-right: 10px;
+
+  &__block {
+
+    position: relative;
+
+    &__img {
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+      &:hover{
+        filter: grayscale(1);
+        transition: .3s;
+      }
+    }
+
+  }
+}
+
+.cartGame__block
+ {
+  content: ""; 
+  position: absolute;
+  width: 100%; 
+  background-color: rgba(235, 36, 36, 0.8);
+ 
+}
+
+// .cartGame__block:hover::after {
+//   content: "Кнопка"; 
+//   width: 100%;
+//   background-color: orange; 
+// }
+
+
+
+</style>

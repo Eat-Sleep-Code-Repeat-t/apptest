@@ -6,12 +6,12 @@ import path from 'path';
     <div class="container">
 
       <div class="row border__category">
-        <div class="col-xl-10">
+        <div class="col-xl-9">
           <!-- navbar-menu  -->
           <div class="row">
             <div class="col-xl-11">
-              <div class="category__menu  text-white position-relative overflow ">
-                <ul class="category__name ">
+              <div class="text-white position-relative overflow ">
+                <ul class="category__name">
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Лобби</a>
                   </li>
@@ -65,7 +65,7 @@ import path from 'path';
 
         </div>
 
-        <div class="col-xl-2 ">
+        <div class="col-xl-3">
           <div class="category__menu d-flex justify-content-between">
             <div><button class="bth">Поиск игр</button></div>
             <div><button class="bth">Все провайдеры</button></div>
@@ -80,15 +80,16 @@ import path from 'path';
 <style scoped lang="scss">
 .border__category {
   background-color: #17313a;
-  border-radius: 8px;
+  border-radius: 20px;
+  padding: 20px 0;
+  align-items: center;
 }
 
 .category__menu {
   width: 100%;
   // height: 80px;
 
-  padding: 30px 0;
-
+  // padding: 20px 0;
 }
 
 .category {
@@ -97,11 +98,13 @@ import path from 'path';
     list-style: none;
     margin: 0;
     padding: 0;
+    
 
-    white-space: nowrap; 
-    overflow-x: scroll; 
+    white-space: nowrap;
+    overflow-x: scroll;
     overflow: hidden;
 
+  
 
     &__item {
       display: inline-block;
@@ -109,6 +112,7 @@ import path from 'path';
       font-size: 1.4rem;
       font-weight: 400;
       cursor: pointer;
+      
     }
 
   }
@@ -123,6 +127,7 @@ import path from 'path';
 }
 
 .bth {
+  padding: 10px 20px;
 
   border-radius: 10px;
   font-style: normal;
@@ -139,9 +144,6 @@ import path from 'path';
   cursor: pointer;
 }
 
-.position {
-  position: relative;
-}
 
 .overflow {
   overflow-x: auto;
@@ -155,7 +157,7 @@ import path from 'path';
 }
 
 .arrow-posinion {
-  padding: 30px 0;
+  // padding: 30px 0;
 }
 
 .arrow {
