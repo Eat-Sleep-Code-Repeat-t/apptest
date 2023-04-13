@@ -6,11 +6,11 @@ import path from 'path';
     <div class="container">
 
       <div class="row border__category">
-        <div class="col-xl-10 ">
+        <div class="col-xl-10">
           <!-- navbar-menu  -->
           <div class="row">
-            <div class="col-xl-11 " >
-              <div class="category__menu  text-white">
+            <div class="col-xl-11">
+              <div class="category__menu  text-white position overflow ">
                 <ul class="category__name">
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Лобби</a>
@@ -42,15 +42,21 @@ import path from 'path';
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Популярн</a>
                   </li>
+                  <li class="category__name__item">
+                    <a class="nav-link" href="#">Популярн12311231323</a>
+                  </li>
+                  <li class="category__name__item">
+                    <a class="nav-link" href="#">Популярн123123</a>
+                  </li>
                 </ul>
               </div>
             </div>
 
             <div class="col-xl-1">
-              <div class="category__menu text-white">
-                <button class="arrow" style="padding-right: 30px;">&#60;
+              <div class="text-white arrow-posinion">
+                <button @click="scrollLeftOrRight('left')" class="arrow" style="padding-right: 20px;">&#60;
                 </button>
-                <button class="arrow"> &#62;
+                <button @click="scrollLeftOrRight('right')" class="arrow"> &#62;
                 </button>
               </div>
             </div>
@@ -94,7 +100,7 @@ import path from 'path';
 
     &__item {
       display: inline-block;
-      margin-right: 30px;
+      padding-right: 25px;
       font-size: 1.4rem;
       font-weight: 400;
       cursor: pointer;
@@ -127,5 +133,75 @@ import path from 'path';
   outline: none;
   cursor: pointer;
 }
+
+.position {
+  position: relative;
+}
+
+.overflow {
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.category__menu {
+  overflow: hidden;
+}
+
+.arrow-posinion {
+  padding: 30px 0;
+}
+
+.arrow {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.category__name__item:last-child {
+  padding-right: 0;
+}
 </style>
+
+
+<script>
+export default {
+  methods: {
+    scrollLeftOrRight(direction) {
+      if (direction === 'left') {
+        this.scrollLeft();
+      } else if (direction === 'right') {
+        this.scrollRight();
+      }
+    },
+
+    scrollLeft() {
+      const categoryMenu = document.querySelector('.category__name');
+      const containerWidth = categoryMenu.parentNode.offsetWidth;
+      const currentScrollPos = categoryMenu.scrollLeft;
+      const newPosition = currentScrollPos - containerWidth;
+      categoryMenu.scrollTo({
+        left: newPosition,
+        behavior: 'smooth'
+      });
+    },
+    scrollRight() {
+      const categoryMenu = document.querySelector('.category__name');
+      const containerWidth = categoryMenu.parentNode.offsetWidth;
+      const currentScrollPos = categoryMenu.scrollLeft;
+      const newPosition = currentScrollPos + containerWidth;
+      categoryMenu.scrollTo({
+        left: newPosition,
+        behavior: 'smooth'
+      });
+    },
+  }
+};
+</script>
 
