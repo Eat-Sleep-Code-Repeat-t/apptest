@@ -10,7 +10,7 @@ import path from 'path';
           <!-- navbar-menu  -->
           <div class="row">
             <div class="col-xl-11">
-              <div class="category__menu  text-white position overflow ">
+              <div class="category__menu  text-white position-relative overflow ">
                 <ul class="category__name">
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Лобби</a>
