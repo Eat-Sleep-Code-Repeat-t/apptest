@@ -11,7 +11,7 @@ import path from 'path';
           <div class="row">
             <div class="col-xl-11">
               <div class="category__menu  text-white position-relative overflow ">
-                <ul class="category__name">
+                <ul class="category__name ">
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Лобби</a>
                   </li>
@@ -97,6 +97,11 @@ import path from 'path';
     list-style: none;
     margin: 0;
     padding: 0;
+
+    white-space: nowrap; 
+    overflow-x: scroll; 
+    overflow: hidden;
+
 
     &__item {
       display: inline-block;
@@ -188,7 +193,7 @@ export default {
       const newPosition = currentScrollPos - containerWidth;
       categoryMenu.scrollTo({
         left: newPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     },
     scrollRight() {
