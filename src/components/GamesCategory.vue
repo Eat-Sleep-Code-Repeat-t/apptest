@@ -6,9 +6,9 @@ import path from 'path';
     <div class="container">
 
       <div class="row border__category">
-        <div class="col-xl-9">
+        <div class="col-xl-9 ">
           <!-- navbar-menu  -->
-          <div class="row">
+          <div class="row spaceLeft">
             <div class="col-xl-11">
               <div class="text-white position-relative overflow ">
                 <ul class="category__name">
@@ -78,11 +78,37 @@ import path from 'path';
 </template>
 
 <style scoped lang="scss">
+
+.spaceLeft {
+  padding-left: 11px;
+}
+.spaceRight {
+  padding-right: 5px;
+}
+
 .border__category {
   background-color: #17313a;
   border-radius: 20px;
   padding: 20px 0;
   align-items: center;
+}
+
+.category__name__item:hover:before {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+.category__name__item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  color: #d4145a;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-out;
 }
 
 .category__menu {
@@ -103,8 +129,6 @@ import path from 'path';
     white-space: nowrap;
     overflow-x: scroll;
     overflow: hidden;
-
-  
 
     &__item {
       display: inline-block;

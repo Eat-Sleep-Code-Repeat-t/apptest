@@ -17,6 +17,10 @@
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
             </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button ">Играть</button>
+              <button class="cartGame__button__two">Демо</button>
+            </div>
           </div>
         </div>
 
@@ -24,6 +28,10 @@
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button ">Играть</button>
+              <button class="cartGame__button__two">Демо</button>
             </div>
           </div>
         </div>
@@ -40,9 +48,12 @@
 }
 
 .cartGame {
+
   width: 100%;
   max-width: 275px;
   padding-right: 10px;
+
+  position: relative;
 
   &__block {
 
@@ -52,30 +63,71 @@
       max-width: 100%;
       height: auto;
       cursor: pointer;
-      &:hover{
+
+
+
+      &:hover {
         filter: grayscale(1);
         transition: .3s;
+        
       }
+
     }
 
   }
 }
 
-.cartGame__block
- {
-  content: ""; 
-  position: absolute;
-  width: 100%; 
-  background-color: rgba(235, 36, 36, 0.8);
- 
+
+
+.cartGame:hover> .cartGame__block {
+  filter: grayscale(1);
+  transition: .3s;
 }
 
-// .cartGame__block:hover::after {
-//   content: "Кнопка"; 
-//   width: 100%;
-//   background-color: orange; 
-// }
+
+.cartGame__button_position {
+  align-items: center;
+}
 
 
+.cartGame__button {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  margin: 60px 0px;
+  background-color: #d4145a;
+  box-shadow: 0 0 15px #ff3d84;
+  border: 2px solid #d4145a;
+  color: #fff;
+  
+  opacity: 0;
+  transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.cartGame__button__two {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: none;
+  border: 2px solid #d4145a;
+  border: 2px solid #d4145a;
+  opacity: 0;
+  transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.cartGame:hover button {
+  bottom: 20px;
+  opacity: 1;
+}
+
+.font {
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.45;
+}
 
 </style>
