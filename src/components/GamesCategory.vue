@@ -91,31 +91,46 @@ import path from 'path';
   border-radius: 20px;
   padding: 20px 0;
   align-items: center;
+  position: relative;
 }
 
-.category__name__item:hover:before {
-  transform: scaleX(1);
-  opacity: 1;
-}
-
-.category__name__item:before {
+.category__name :before {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px;
-  height: 2px;
+  bottom: 0;
   width: 100%;
-  color: #d4145a;
+  height: 2px;
+  background-color: #d4145a;
   transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease-out;
+  transform-origin: center;
+  transition: transform 0.2s ease-out;
+
 }
+.nav-link{
+  position: relative;
+}
+// .category__name__item{
+//   position: relative;
+// }
+// .category__name__item .nav-link{
+//   position: relative;
+// }
+.category__name__item .nav-link:hover:before {
+  transform: scaleX(1);
+}
+// .category__name__item .nav-link{
+//   transform: scaleX(0);
+// }
+// .category__name__item .nav-link:hover{
+//   border-bottom: 2px solid #d4145a;
+//   transform: scaleX(1);
+// transform-origin: center;
+// transition: transform 0.3s ease-out;
+// }
 
 .category__menu {
   width: 100%;
-  // height: 80px;
-
-  // padding: 20px 0;
 }
 
 .category {
@@ -175,7 +190,6 @@ import path from 'path';
   overflow: hidden;
 }
 
-
 .category__menu {
   overflow: hidden;
 }
@@ -204,6 +218,7 @@ import path from 'path';
 <script>
 export default {
   methods: {
+    
     scrollLeftOrRight(direction) {
       if (direction === 'left') {
         this.scrollLeft();
@@ -216,14 +231,14 @@ export default {
       const categoryMenu = document.querySelector('.category__name');
       const containerWidth = categoryMenu.parentNode.offsetWidth;
       const currentScrollPos = categoryMenu.scrollLeft;
-      const newPosition = currentScrollPos - containerWidth;
+      const newPosition = currentScrollPos - containerWidth ;
       categoryMenu.scrollTo({
         left: newPosition,
         behavior: 'smooth',
       });
     },
     scrollRight() {
-      const categoryMenu = document.querySelector('.category__name');
+      const categoryMenu = document.querySelector('.category__name') ;
       const containerWidth = categoryMenu.parentNode.offsetWidth;
       const currentScrollPos = categoryMenu.scrollLeft;
       const newPosition = currentScrollPos + containerWidth;
@@ -232,6 +247,8 @@ export default {
         behavior: 'smooth'
       });
     },
+
+
   }
 };
 </script>
