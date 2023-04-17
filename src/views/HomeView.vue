@@ -4,6 +4,7 @@
     <BannerSection />
     <GamesCategory />
     <BestGameArea />
+    <BestWinnerArea />
     <LoyaltySection />
     <FooterSection />
   </div>
@@ -16,7 +17,9 @@ import HeaderSection from "@/components/HeaderSection.vue";
 import LoyaltySection from "@/components/LoyaltySection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import GamesCategory from "@/components/GamesCategory.vue";
-import BestGameArea from "@/components/BestGameArea.vue"
+import BestGameArea from "@/components/BestGameArea.vue";
+import BestWinnerArea from "@/components/BestWinnerArea.vue";
+
 
 
 export default {
@@ -26,6 +29,7 @@ export default {
     GamesCategory,
     BestGameArea,
     BannerSection,
+    BestWinnerArea,
     FooterSection,
     LoyaltySection,
     // RegisterSection

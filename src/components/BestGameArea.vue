@@ -41,10 +41,14 @@
 </template>
 
 <style scoped lang="scss">
+
+.BestGameArea {
+  margin: 30px 0;
+}
+
 .banner__title {
 
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
 .cartGame {
@@ -115,6 +119,7 @@
   background-color: none;
   border: 2px solid #d4145a;
   border: 2px solid #d4145a;
+
   opacity: 0;
   transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -127,7 +132,7 @@
 .font {
     font-size: 1.4rem;
     font-style: normal;
-    line-height: 1.45;
+    font-weight: bold;
 }
 
 </style>
