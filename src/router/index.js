@@ -1,11 +1,39 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import LiveCasino from "../views/LiveCasino.vue";
+import CasinoPage from "../views/CasinoPage.vue";
+import PromoPage from "../views/PromoPage.vue";
+import TournomentPage from "../views/TournamentsPage.vue";
+
+
 
 const routes = [
   {
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/livecasino",
+    name: "LiveCasino",
+    component: LiveCasino,
+  },
+
+  {
+    path: "/casino",
+    name: "Casino",
+    component: CasinoPage,
+  },
+  {
+    path: "/promo",
+    name: "PromoPage",
+    component: PromoPage,
+  },
+
+  {
+    path: "/tournaments",
+    name: "TornomentPage",
+    component: TournomentPage,
   },
   {
     path: "/about",
@@ -28,6 +56,7 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/games/SpaceXY.vue"),
   },
+
 ];
 
 const router = createRouter({

@@ -14,7 +14,7 @@
             <div class="header__burger-line"></div>
             <div class="header__burger-line"></div>
           </div>
-          <a href="#">
+          <a href="/">
             <img
               src="../assets/img/header/logo.png"
               class="header__logo header__logo--desktop"
@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Лайв Казино</a>
+                  <a class="nav-link" href="/livecasino">Лайв Казино</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Казино</a>
+                  <a class="nav-link" href="/casino">Казино</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Акции</a>
+                  <a class="nav-link" href="/promo">Акции</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Турниры</a>
+                  <a class="nav-link" href="/tournaments">Турниры</a>
                 </li>
               </ul>
             </div>
@@ -240,7 +240,7 @@
 
         <ul class="nav flex-column">
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link active" href="#1">
+            <a class="nav-link active" href="/livecasino">
               <div class="d-flex align-items-center">
                 <svg
                   class="offcanvas__menu-icon"
