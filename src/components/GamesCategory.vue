@@ -105,29 +105,18 @@ import path from 'path';
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.2s ease-out;
-
+  
+  
 }
 .nav-link{
   position: relative;
+  padding-bottom: 5px;
 }
-// .category__name__item{
-//   position: relative;
-// }
-// .category__name__item .nav-link{
-//   position: relative;
-// }
+
 .category__name__item .nav-link:hover:before {
   transform: scaleX(1);
 }
-// .category__name__item .nav-link{
-//   transform: scaleX(0);
-// }
-// .category__name__item .nav-link:hover{
-//   border-bottom: 2px solid #d4145a;
-//   transform: scaleX(1);
-// transform-origin: center;
-// transition: transform 0.3s ease-out;
-// }
+
 
 .category__menu {
   width: 100%;
@@ -139,6 +128,8 @@ import path from 'path';
     list-style: none;
     margin: 0;
     padding: 0;
+    display: block;
+    
     
 
     white-space: nowrap;

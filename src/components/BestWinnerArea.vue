@@ -19,14 +19,14 @@
                     </div>
                   </div>
                   <div class="col-xl-7">
-                    <div class="row ">
+                    <div class="row">
                       <div class="col-xl-2">
                         <div class="col__game__flag">
                           <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-xl-9">
-                        <div class="col__game__loginName"> MarkZERO</div>
+                        <div class="col__game__loginName">MarkZERO</div>
                       </div>
                     </div>
                     <div class="col__game__nameGames">American Roulette</div>
@@ -118,14 +118,14 @@
                     </div>
                   </div>
                   <div class="col-xl-7">
-                    <div class="row ">
+                    <div class="row">
                       <div class="col-xl-2">
                         <div class="col__game__flag">
                           <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-xl-9">
-                        <div class="col__game__loginName"> MarkZERO</div>
+                        <div class="col__game__loginName">MarkZERO</div>
                       </div>
                     </div>
                     <div class="col__game__nameGames">American Roulette</div>
@@ -150,7 +150,7 @@
           <div class="col__second">
 
             <div class="col__title">
-              <h4>Самые крупные выигрыши</h4>
+              <h4 class="font__title">Самые крупные выигрыши</h4>
             </div>
             <div class="col__game">
 
@@ -158,37 +158,30 @@
                 <div class="row">
                   <div class="col-xl-4">
                     <div class="col__game__logoGame">
+                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-7">
                     <div class="row">
-                      <div class="col__game__flag"></div>
-                      <div class="col__game__loginName"></div>
+                      <div class="col-xl-2">
+                        <div class="col__game__flag">
+                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/au.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-9">
+                        <div class="col__game__loginName">MarkZERO</div>
+                      </div>
                     </div>
-                    <div class="col__game__nameGames"></div>
+                    <div class="col__game__nameGames">American Roulette</div>
                     <div class="row">
-                      <div class="col__game__coinIco"></div>
-                      <div class="col__game__coinValueWin"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="width__game">
-                <div class="row">
-                  <div class="col-xl-4">
-                    <div class="col__game__logoGame">
-                    </div>
-                  </div>
-                  <div class="col-xl-4">
-                    <div class="row">
-                      <div class="col__game__flag"></div>
-                      <div class="col__game__loginName"></div>
-                    </div>
-                    <div class="col__game__nameGames"></div>
-                    <div class="row">
-                      <div class="col__game__coinIco"></div>
-                      <div class="col__game__coinValueWin"></div>
+                      <div class="col-xl-2">
+                        <div class="col__game__coinIco">
+                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-10">
+                        <div class="col__game__coinValueWin">1,000 000</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -198,17 +191,30 @@
                 <div class="row">
                   <div class="col-xl-4">
                     <div class="col__game__logoGame">
+                      <img class="img" src="../../src/assets/img/bestWinnerArea/fire_in_the_hole_xbomb.jpg" alt="">
                     </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-7">
                     <div class="row">
-                      <div class="col__game__flag"></div>
-                      <div class="col__game__loginName"></div>
+                      <div class="col-xl-2">
+                        <div class="col__game__flag">
+                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-9">
+                        <div class="col__game__loginName">MarkZERO</div>
+                      </div>
                     </div>
-                    <div class="col__game__nameGames"></div>
+                    <div class="col__game__nameGames">American Roulette</div>
                     <div class="row">
-                      <div class="col__game__coinIco"></div>
-                      <div class="col__game__coinValueWin"></div>
+                      <div class="col-xl-2">
+                        <div class="col__game__coinIco">
+                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-10">
+                        <div class="col__game__coinValueWin">1,000 000</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -218,17 +224,63 @@
                 <div class="row">
                   <div class="col-xl-4">
                     <div class="col__game__logoGame">
+                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
-                  <div class="col-xl-4">
+                  <div class="col-xl-7">
                     <div class="row">
-                      <div class="col__game__flag"></div>
-                      <div class="col__game__loginName"></div>
+                      <div class="col-xl-2">
+                        <div class="col__game__flag">
+                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-9">
+                        <div class="col__game__loginName">MarkZERO</div>
+                      </div>
                     </div>
-                    <div class="col__game__nameGames"></div>
+                    <div class="col__game__nameGames">American Roulette</div>
                     <div class="row">
-                      <div class="col__game__coinIco"></div>
-                      <div class="col__game__coinValueWin"></div>
+                      <div class="col-xl-2">
+                        <div class="col__game__coinIco">
+                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-10">
+                        <div class="col__game__coinValueWin">1,000 000</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="width__game">
+                <div class="row">
+                  <div class="col-xl-4">
+                    <div class="col__game__logoGame">
+                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-xl-7">
+                    <div class="row">
+                      <div class="col-xl-2">
+                        <div class="col__game__flag">
+                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-9">
+                        <div class="col__game__loginName">MarkZERO</div>
+                      </div>
+                    </div>
+                    <div class="col__game__nameGames">American Roulette</div>
+                    <div class="row">
+                      <div class="col-xl-2">
+                        <div class="col__game__coinIco">
+                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-xl-10">
+                        <div class="col__game__coinValueWin">1,000 000</div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -269,6 +321,10 @@
   z-index: 2;
 }
 
+div:nth-of-type(2) .col__title {
+  background: #8F218B;
+}
+
 
 .col__game {
   padding: 25px 10px 20px 10px;
@@ -279,7 +335,13 @@
   z-index: 1;
 }
 
+/* div:nth-of-type(2) .col__game {
+  background: #B022A2;
+} */
 
+.col__second .col__game:nth-of-type(n) {
+  background: #B022A2;
+}
 
 
 .width__game  {
@@ -294,8 +356,8 @@
 
 }
 
-.width__game:nth-child(evan) {
-  background: #aa8da9 ;
+.col__second .width__game:nth-child(2n) {
+  background: #5B2850;
 }
 
 .col__game__logoGame {

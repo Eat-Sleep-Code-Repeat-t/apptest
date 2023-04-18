@@ -12,7 +12,7 @@
   <div class="BestGameArea">
     <div class="container">
       <div class="row">
-        <div class="col-2">
+        <div class="col-xl-2">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="col-2">
+        <div class="col-xl-2">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
