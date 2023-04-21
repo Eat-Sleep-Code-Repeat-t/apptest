@@ -1,16 +1,15 @@
 <template>
   <div class="home">
     <HeaderSection />
-    <BannerSection />
+    <TournamentArea/>
     <FooterSection />
   </div>
 </template>
 
 
 <script>
-import BannerSection from "@/components/BannerSection.vue";
+import TournamentArea from "@/components/TournamentPage/TournamentArea.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
-// import RegisterSection from "@/components/RegisterSection.vue"; //old
 import FooterSection from "@/components/FooterSection.vue";
 import 'animate.css';
 
@@ -21,7 +20,7 @@ export default {
   components: {
     HeaderSection,
     
-    BannerSection,
+    TournamentArea,
     
     FooterSection,
     
