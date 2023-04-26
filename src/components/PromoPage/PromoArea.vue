@@ -12,7 +12,7 @@
   <div class="promo">
     <div class="container text-white">
 
-      <div class="row mb-4 ">
+      <div class="row">
         <div class="col-xl-6  ">
           <div class="background__cart">
             <div class="row">
@@ -153,6 +153,7 @@
 }
 
 .background__cart {
+  margin-bottom: 10px;
   background-color: #17313a;
   border-radius: 8px;
   width: 100%;

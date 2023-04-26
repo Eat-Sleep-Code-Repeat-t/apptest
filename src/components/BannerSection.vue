@@ -14,14 +14,19 @@
               <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
             </div>
           </div>
+
           <div class="carousel-item">
             <img src="../assets/img/banner/2.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
-              <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
-                слайда.</p>
-                <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
+              <h4 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h4>
+              <h4 class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для
+                третьего
+                слайда.</h4>
+              
+                <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet1</button>
+            
             </div>
+
           </div>
           <div class="carousel-item">
             <img src="../assets/img/banner/3.webp" class="d-block w-100" alt="..." />
@@ -29,14 +34,14 @@
               <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
               <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
                 слайда.</p>
-                <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
+              <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
             <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
             <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
               слайда.</p>
-              <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
+            <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
           </div>
         </div>
         <div class="buttons">
@@ -110,12 +115,17 @@ export default {
   }
 
   .carousel-caption {
-    display: flex!important;
+    display: flex !important;
     flex-direction: column;
     justify-content: flex-start;
-    
-    right: auto;
+
+    // right: auto;
     left: 5%;
+    padding-bottom: 0;
+
+  }
+
+  .banner__content__block {
 
   }
 
@@ -127,18 +137,25 @@ export default {
   }
 
   .style__p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: left;
+  }
+
+  .button__block {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .style__buttom {
     background-color: #d4145a;
-    padding: 1% 5%;
-    border: 0;
+    border: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 0.9vw;
     font-style: normal;
-    max-width: 25%;
+    max-width: 15%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;;
+    display: inline-block;
   }
 
 

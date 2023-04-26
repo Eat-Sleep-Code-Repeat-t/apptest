@@ -12,8 +12,8 @@
   <div class="BestGameArea">
     <div class="container">
       <div class="row">
-        <div class="col-xl-2">
-          <div class="cartGame">
+        <div class="col-xl-2 col-md-3 col-sm-4 col-4">
+          <div class="cartGame mx-auto">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
             </div>
@@ -24,8 +24,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame">
+        <div class="col-xl-2 col-md-3 col-sm-4 col-4">
+          <div class="cartGame mx-auto">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
             </div>
@@ -56,12 +56,14 @@
   width: 100%;
   max-width: 275px;
   padding-right: 10px;
+  padding-bottom: 20px;
 
   position: relative;
 
   &__block {
 
     position: relative;
+
 
     &__img {
       max-width: 100%;

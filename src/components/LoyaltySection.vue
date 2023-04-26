@@ -3,7 +3,7 @@
   <div class="loyalty">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 col-xl-3">
+        <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
               <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-3">
+        <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
               <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
@@ -105,7 +105,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-3">
+        <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
               <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-3">
+        <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
               <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
@@ -311,6 +311,12 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+
+.space1 {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 .loyalty {
   background-image: url(../assets/img/loyalty/bg.jpg);
   background-position: center;

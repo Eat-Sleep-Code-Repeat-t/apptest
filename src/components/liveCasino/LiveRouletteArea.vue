@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row">
         
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/roulette.webp">
@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/roulette.webp">
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/blackjack_3_hands_double_exposure.webp">
@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/blackjack_bonus.webp">
@@ -78,7 +78,7 @@
   <div class="BestGameArea">
     <div class="container">
       <div class="row">
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/limitless_blackjack.webp">
@@ -89,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/roulette.webp">
@@ -117,7 +117,7 @@
   <div class="BestGameArea">
     <div class="container">
       <div class="row">
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/baccarat.webp">
@@ -128,7 +128,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/roulette.webp">
@@ -156,7 +156,7 @@
   <div class="BestGameArea">
     <div class="container">
       <div class="row">
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/dead_or_alive_saloon.webp">
@@ -167,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-4 col-sm-6 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/LiveRouletteArea/roulette.webp">
@@ -199,6 +199,7 @@
 
   width: 100%;
   max-width: 400px;
+  padding-bottom: 10px;
   
 
   position: relative;

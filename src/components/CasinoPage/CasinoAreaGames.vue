@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
@@ -15,7 +15,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
@@ -39,7 +39,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/deadoralive2_not_mobile_sw.webp">
@@ -58,7 +58,7 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
@@ -82,7 +82,7 @@
           </div>
         </div>
         
-        <div class="col-xl-3">
+        <div class="ccol-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
@@ -112,7 +112,7 @@
     <div class="container">
       <div class="row ">
         
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
@@ -124,7 +124,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
@@ -136,7 +136,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
@@ -148,7 +148,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
               <img class="cartGame__block__img" src="@/assets/img/casinoPage/deadoralive2_not_mobile_sw.webp">
@@ -179,6 +179,7 @@
 
 .cartGame {
 
+  padding-bottom: 15px;
   width: 100%;
   max-width: 400px;
 
