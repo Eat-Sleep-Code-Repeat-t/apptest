@@ -192,7 +192,7 @@
 
 .banner__title {
 
-  padding-top: 50px;
+  padding-top: 2%;
 }
 
 .cartGame {

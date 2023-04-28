@@ -493,10 +493,10 @@
             <div class="col-xl-5 text-start">
               <div class="row">
                 <div class="col-xl-auto">
-                  <img class="footer__logo" src="../assets/img/footer/logo.png" alt="footer-logo" />
+                  <img class="footer__logo" src="@/assets/img/footer/logo.png" alt="footer-logo" />
                 </div>
                 <div class="col-xl-4">
-                  <div class="footer__main-menu">
+                  <div class="footer__main-menu ">
                     <div class="footer__main-menu__item">
                       Условия и положения
                     </div>
@@ -525,7 +525,7 @@
                 <div class="col-auto">
                   <div class="footer__main-license">
                     <div class="footer__main-license__licenseImg">
-                      <img class="img-fluid" src="../assets/img/footer/license.png" alt="" />
+                      <img class="img-fluid" src="@/assets/img/footer/license.png" alt="" />
                     </div>
 
                     <div class="footer__main-license__block18">
@@ -543,7 +543,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-10">
+                <div class="col-xl-10 space1">
                   <div class="footer__main__text">
                     Coingames.bet является зарегистрированной торговой маркой SG
                     International N.V. по адресу Dr. M.J. Hugenholtzweg 25 Unit
@@ -579,6 +579,11 @@ export default {
 
 <style scoped lang="scss">
 .footer {
+
+  .space1 {
+    padding-top: 10px;
+  }
+
   padding: 40px 0;
 
   &__merchants {

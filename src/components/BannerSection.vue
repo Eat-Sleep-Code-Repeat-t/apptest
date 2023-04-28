@@ -3,8 +3,9 @@
     <div class="container">
       <h1 class="banner__title text-start">CoinGames</h1>
 
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
         <div class="carousel-inner">
+          
           <div class="carousel-item active">
             <img src="../assets/img/banner/1.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block ">
@@ -22,9 +23,8 @@
               <h4 class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для
                 третьего
                 слайда.</h4>
-              
-                <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet1</button>
-            
+
+              <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet1</button>
             </div>
 
           </div>
@@ -67,6 +67,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .banner {
 
   margin-bottom: 20px;
@@ -79,6 +80,18 @@ export default {
     font-size: 3.6rem;
     font-style: normal;
     line-height: 1.2;
+  }
+
+  @media (max-width: 767px) {
+    .banner__title {
+      font-size: 2.6rem;  
+    }
+  }
+
+    @media (max-width: 450px) {
+      .banner__title {
+      font-size: 2.0rem;
+    }
   }
 
   .carousel-control-next {
@@ -125,19 +138,17 @@ export default {
 
   }
 
-  .banner__content__block {
-
-  }
+  .banner__content__block {}
 
   .style__h5 {
-    font-size: 2vw;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: left;
 
   }
 
   .style__p {
-    font-size: 1.3vw;
+    font-size: 2rem;
     text-align: left;
   }
 
@@ -150,15 +161,65 @@ export default {
     background-color: #d4145a;
     border: none;
     color: #fff;
-    font-size: 0.9vw;
+    font-size: 1.2rem;
     font-style: normal;
     max-width: 15%;
     padding-top: 0.5%;
-    padding-bottom: 0.5%;;
+    padding-bottom: 0.5%;
     display: inline-block;
   }
 
+  @media (max-width: 1200px) {
 
+    .style__h5 {
+      font-size: 2.3rem;
+    }
+
+    .style__p {
+      font-size: 1.6rem;
+    }
+
+    .style__buttom {
+      font-size: 1rem;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    .style__h5 {
+      font-size: 1.8rem;
+    }
+
+    .style__p {
+      font-size: 0.9rem;
+    }
+
+    .style__buttom {
+      font-size: 0.7rem;
+      max-width: 20%;
+    }
+  }
+
+    @media (max-width: 450px) {
+    .style__h5 {
+      font-size: 1.5rem;
+      
+    }
+
+    .style__p {
+      font-size: 0.7rem;
+    }
+
+    .style__buttom {
+      font-size: 0.8rem;
+      max-width: 35%;
+    }
+
+    .buttons{
+      display: none
+    }
+  
+  }
 
 }
 </style>

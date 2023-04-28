@@ -12,10 +12,10 @@
   <div class="BestGameArea">
     <div class="container">
       <div class="row">
-        <div class="col-xl-2 col-md-3 col-sm-4 col-4">
+        <div class="col-xl-2 col-md-3 col-sm-4 col-6">
           <div class="cartGame mx-auto">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/background.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -24,10 +24,22 @@
           </div>
         </div>
 
-        <div class="col-xl-2 col-md-3 col-sm-4 col-4">
+        <div class="col-xl-2 col-md-3 col-sm-4 col-6">
           <div class="cartGame mx-auto">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="../../src/assets/img/BestGameArea/background.webp">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/background.webp">
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button ">Играть</button>
+              <button class="cartGame__button__two">Демо</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+          <div class="cartGame mx-auto">
+            <div class="cartGame__block">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/background.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -48,7 +60,7 @@
 
 .banner__title {
 
-  padding-top: 50px;
+  padding-top: 4%;
 }
 
 .cartGame {

@@ -3,7 +3,7 @@
     <div class="container text-white">
       <div class="row ">
 
-        <div class="col-xl-3 mx-auto space1">
+        <div class="col-xl-4 col-lg-6 col-md-6 mx-auto space1">
           <div class="col__first">
 
             <div class="col__title">
@@ -147,7 +147,7 @@
           </div>
         </div>
         
-        <div class="col-xl-3 mx-auto space1  ">
+        <div class="col-xl-4 col-lg-6 col-md-6  mx-auto space1  ">
           <div class="col__second">
 
             <div class="col__title">
@@ -351,8 +351,8 @@ div:nth-of-type(2) .col__title {
 }
 
 
-.width__game  {
-
+.width__game {
+  position: relative;
   background: #432E57;
 
   height: 85px;

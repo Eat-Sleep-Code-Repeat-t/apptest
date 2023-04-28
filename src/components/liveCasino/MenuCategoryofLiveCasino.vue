@@ -2,14 +2,14 @@
 import path from 'path';
 
 <template>
-  <div class="GamesCategory">
+  <div class="GamesCategory d-none d-lg-block">
     <div class="container">
 
-      <div class="row border__category  ">
-        <div class="col-xl-9">
+      <div class="row border__category">
+        <div class="coll-xll-9 col-xl-9 col-lg-8 col-md-8">
           <!-- navbar-menu  -->
           <div class="row">
-            <div class="col-xl-11">
+            <div class="col-xll-11 col-xl-11 col-lg-11 col-md-11">
               <div class="text-white position-relative overflow d-flex justify-content-between left-posion">
                 <ul class="category__name">
                   <li class="category__name__item">
@@ -43,7 +43,7 @@ import path from 'path';
         
         </div>
 
-        <div class="col-xl-3">
+        <div class="coll-xll-3 col-xl-3 col-lg-4 col-md-4">
           <div class="category__menu d-flex justify-content-between">
             <div>
               <button class="bth">Поиск игр
@@ -89,7 +89,7 @@ import path from 'path';
 
 
 .left-posion {
-  // padding-left: 2%;
+  padding-left: 2%;
 }
 
 .border__category {
@@ -180,6 +180,12 @@ import path from 'path';
   overflow: hidden;
   outline: none;
   cursor: pointer;
+}
+
+@media (max-width: 1400px) and (min-width: 1198px) {
+  .bth {
+    padding: 10px 10px;
+  }
 }
 
 .ico__serch{

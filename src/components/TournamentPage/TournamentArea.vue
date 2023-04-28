@@ -13,11 +13,11 @@
     <div class="container text-white">
 
       <div class="row">
-        <div class="col-xl-8 mx-auto ">
+        <div class="col-8 mx-auto ">
           <div class="background__cart">
             <div class="row">
 
-              <div class="col-xl-7 space ">
+              <div class="col-md-7 space ">
 
                 <div class="evant">
                   <span class="evant__option">Скоро</span>
@@ -39,7 +39,7 @@
                 </div>
               </div>
 
-              <div class="col-xl-5 ">
+              <div class="col-md-5">
                 <div class="backgroundWinner space_back">
 
 
@@ -162,7 +162,7 @@
 }
 
 .space {
-  padding: 30px 0 0 30px;
+  padding: 30px 30px 10px 30px;
 }
 
 

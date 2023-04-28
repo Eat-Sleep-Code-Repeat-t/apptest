@@ -251,7 +251,7 @@
 }
 
 .cartGame:hover button {
-  bottom: 20px;
+  bottom: 40px;
   opacity: 1;
 }
 

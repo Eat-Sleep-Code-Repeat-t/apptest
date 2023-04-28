@@ -2,16 +2,16 @@
 import path from 'path';
 
 <template>
-  <div class="GamesCategory">
+  <div class="GamesCategory d-none d-lg-block ">
     <div class="container">
 
       <div class="row border__category ">
-        <div class="col-xl-9 d-none d-xl-block ">
+        <div class="col-xll-9 col-xl-9 col-lg-8 col-md-8">
           <!-- navbar-menu  -->
           <div class="row spaceLeft">
-            <div class="col-xl-11">
+            <div class="col-xl-11 col-xl-11 col-lg-11 col-md-11">
               <div class="text-white position-relative overflow ">
-                <ul class="category__name d-none d-xl-block">
+                <ul class="category__name col-xll-12">
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Лобби</a>
                   </li>
@@ -52,9 +52,9 @@ import path from 'path';
               </div>
             </div>
 
-            <div class="col-xl-1">
+            <div class="col-xll-1 col-xl-1 col-lg-1 col-md-1">
               <div class="text-white arrow-posinion">
-                <button @click="scrollLeftOrRight('left')" class="arrow" style="padding-right: 20px;">&#60;
+                <button @click="scrollLeftOrRight('left')" class="arrow" style="padding-right: 30%;">&#60;
                 </button>
                 <button @click="scrollLeftOrRight('right')" class="arrow"> &#62;
                 </button>
@@ -65,11 +65,11 @@ import path from 'path';
 
         </div>
 
-        <div class="col-xl-3">
+        <div class="col-xll-3 col-xl-3 col-lg-4 col-md-4">
           <div class="category__menu d-flex justify-content-between">
             <div>
               <button class="bth">Поиск игр
-                
+
                 <div class="ico__serch">
                   <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -102,10 +102,31 @@ import path from 'path';
           </div>
         </div>
       </div>
-
     </div>
   </div>
-</template>
+
+  <div class="mobile_serch d-lg-none">
+    <div class="container">
+      <div class="row text-white mx-auto">
+        <div class="field__search">
+          <div class="field__search__items">
+            <div class="field__search__items__name">Поиск игр</div>
+
+            <div class="field__search__items__ico">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
+                </path>
+              </svg>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </template>
 
 <style scoped lang="scss">
 .spaceLeft {
@@ -142,6 +163,7 @@ import path from 'path';
 .nav-link {
   position: relative;
   padding-bottom: 5px;
+
 }
 
 .category__name__item .nav-link:hover:before {
@@ -170,7 +192,7 @@ import path from 'path';
     &__item {
       display: inline-block;
       padding-right: 25px;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       font-weight: 400;
       cursor: pointer;
 
@@ -194,7 +216,7 @@ import path from 'path';
   border-radius: 10px;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   transition: all .3s linear;
   background-color: #0d2129;
   color: rgb(236, 227, 227);
@@ -204,6 +226,12 @@ import path from 'path';
   overflow: hidden;
   outline: none;
   cursor: pointer;
+}
+
+@media (max-width: 1400px) and (min-width: 1198px) {
+  .bth {
+    padding: 10px 17px;
+  }
 }
 
 
@@ -218,7 +246,7 @@ import path from 'path';
 }
 
 .arrow-posinion {
-  // padding: 30px 0;
+  display: flex;
 }
 
 .arrow {
@@ -236,13 +264,45 @@ import path from 'path';
   padding-right: 0;
 }
 
-.ico__serch{
+.ico__serch {
   padding-left: 7px;
 }
 
-.ico__setting{
+.ico__setting {
   padding-left: 7px;
 }
+
+//mobile
+.field__search {
+  background-color: #17313a;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  padding: 0 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  
+
+  transition: all .3s linear;
+
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.field__search__items {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.field__search__items__name {
+}
+.field__search__items__ico {  
+}
+
 
 
 
