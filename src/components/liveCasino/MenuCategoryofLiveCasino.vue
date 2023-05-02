@@ -16,7 +16,7 @@ import path from 'path';
                     <a class="nav-link" href="#">Лобби</a>
                   </li>
                   <li class="category__name__item">
-                    <a class="nav-link" href="#">Все игры</a>
+                    <a class="nav-link active" href="#">Все игры</a>
                   </li>
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Новые</a>
@@ -225,6 +225,11 @@ import path from 'path';
 .category__name__item:last-child {
   padding-right: 0;
 }
+
+.active {
+  color: #d4145a;
+}
+
 </style>
 
 

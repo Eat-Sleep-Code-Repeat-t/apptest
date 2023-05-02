@@ -7,7 +7,7 @@
         <div class="carousel-inner">
           
           <div class="carousel-item active">
-            <img src="../assets/img/banner/1.webp" class="d-block w-100" alt="..." />
+            <img src="@/assets/img/banner/1.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block ">
               <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
               <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
@@ -17,7 +17,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="../assets/img/banner/2.webp" class="d-block w-100" alt="..." />
+            <img src="@/assets/img/banner/2.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h4 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h4>
               <h4 class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для
@@ -29,7 +29,7 @@
 
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/banner/3.webp" class="d-block w-100" alt="..." />
+            <img src="@/assets/img/banner/3.webp" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
               <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего

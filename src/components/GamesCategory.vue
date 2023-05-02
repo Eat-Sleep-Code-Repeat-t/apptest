@@ -12,7 +12,7 @@ import path from 'path';
             <div class="col-xl-11 col-xl-11 col-lg-11 col-md-11">
               <div class="text-white position-relative overflow ">
                 <ul class="category__name col-xll-12">
-                  <li class="category__name__item">
+                  <li class="category__name__item active">
                     <a class="nav-link" href="#">Лобби</a>
                   </li>
                   <li class="category__name__item">
@@ -156,8 +156,6 @@ import path from 'path';
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.2s ease-out;
-
-
 }
 
 .nav-link {
@@ -303,7 +301,9 @@ import path from 'path';
 .field__search__items__ico {  
 }
 
-
+.active {
+  color: #d4145a;
+}
 
 
 </style>

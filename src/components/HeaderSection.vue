@@ -302,11 +302,6 @@
                   <div class="field__search__items__name">Новые игры</div>
 
                   <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
                   </div>
 
                 </div>
@@ -316,29 +311,178 @@
                   <div class="field__search__items__name">Лайв Казино</div>
 
                   <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
                   </div>
 
                 </div>
               </div>
 
-              <div class="field__search mt-3">
-                <div class="field__search__items">
-                  <div class="field__search__items__name">Казино</div>
-
-                  <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
+              <div class="accordion accordion-flush" id="accordionFlush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Казино
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M3.491 2.683a.8.8 0 0 1 .65-.333H15.86a.8.8 0 0 1 .65.333l3.275 4.567a.8.8 0 0 1-.084 1.032l-9.134 9.134a.8.8 0 0 1-1.132 0L.3 8.282A.8.8 0 0 1 .216 7.25L3.49 2.683Zm1.06 1.267L2.64 6.615h3.683L7.438 3.95H4.552Zm4.62 0L8.058 6.615H11.9L10.784 3.95H9.172Zm3.347 0 1.115 2.665h3.727L15.448 3.95h-2.93Zm4.985 4.265h-3.792l-1.989 5.782 5.781-5.782ZM9.978 14.15l2.041-5.934H7.937l2.041 5.934ZM6.245 8.215H2.496l5.715 5.715-1.966-5.715Z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Слоты</div>
+                    </div>
                   </div>
 
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M6.493 16.423a4.682 4.682 0 0 1-4.682-4.682c0-1.127.389-2.238.949-3.28.562-1.046 1.322-2.071 2.128-3.036.775-.928 1.611-1.823 2.375-2.641l.093-.1c.799-.855 1.5-1.612 2.008-2.265a.8.8 0 0 1 1.263 0c.507.652 1.209 1.408 2.009 2.264l.092.1c.765.818 1.602 1.713 2.378 2.642.807.965 1.57 1.99 2.132 3.036.561 1.042.95 2.154.95 3.28a4.682 4.682 0 0 1-5.324 4.638c.59.632 1.218 1.306 1.822 2.004a.8.8 0 0 1-.532 1.32A46.011 46.011 0 0 1 10 19.89c-1.42 0-2.811-.064-4.16-.187a.8.8 0 0 1-.531-1.32c.603-.697 1.23-1.371 1.819-2.003-.208.029-.42.043-.635.043Zm-3.082-4.682a3.082 3.082 0 0 0 5.867 1.323.8.8 0 0 1 1.444 0 3.083 3.083 0 0 0 5.867-1.323c0-.764-.268-1.608-.76-2.522-.49-.91-1.176-1.841-1.95-2.768-.747-.894-1.557-1.76-2.33-2.587l-.082-.088a62.188 62.188 0 0 1-1.471-1.612 62.237 62.237 0 0 1-1.47 1.613l-.084.089c-.771.825-1.58 1.692-2.326 2.585-.773.926-1.458 1.857-1.947 2.767-.49.913-.758 1.758-.758 2.523Zm5.047 5.558a65.032 65.032 0 0 0 1.538-1.683c.464.534.995 1.102 1.539 1.684l.02.021c.277.297.559.598.841.905a45.068 45.068 0 0 1-4.798 0c.281-.306.563-.608.84-.904l.02-.023Z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Блекджеки</div>
+                    </div>
+                  </div>
+
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <g fill-rule="evenodd" clip-rule="evenodd">
+                            <path
+                              d="M10.088 4.256a.8.8 0 0 1 .8.8v.281c.498.076.984.237 1.402.495.649.403 1.163 1.074 1.163 1.992a.8.8 0 1 1-1.6 0c0-.241-.113-.45-.407-.632a1.96 1.96 0 0 0-.558-.225v2.42c.545.136 1.148.317 1.644.623.33.204.643.477.87.854.228.381.342.822.342 1.314 0 .998-.55 1.735-1.257 2.189a4.234 4.234 0 0 1-1.6.587v.345a.8.8 0 1 1-1.6 0v-.334a4.08 4.08 0 0 1-1.574-.562c-.722-.458-1.26-1.208-1.26-2.225a.8.8 0 0 1 1.6 0c0 .375.172.655.517.874.196.124.442.222.718.285v-2.694c-.42-.115-.853-.26-1.222-.467a2.478 2.478 0 0 1-.88-.793 2.27 2.27 0 0 1-.36-1.269c0-.962.464-1.694 1.122-2.162a3.6 3.6 0 0 1 1.34-.569v-.327a.8.8 0 0 1 .8-.8Zm-1.213 3c.118-.083.257-.155.413-.213v1.928a2.72 2.72 0 0 1-.44-.19.895.895 0 0 1-.325-.275.679.679 0 0 1-.097-.392c0-.388.165-.656.449-.858Zm2.013 6.066v-2.278c.323.095.592.197.806.329a.962.962 0 0 1 .336.315c.062.103.114.252.114.49 0 .334-.162.611-.521.842-.202.13-.454.233-.735.302Z">
+                            </path>
+                            <path
+                              d="M10.624.476a.8.8 0 0 0-1.248 0L7.341 3.013l-3.19-.635a.8.8 0 0 0-.956.802l.072 3.252L.415 7.995A.8.8 0 0 0 .2 9.225l2.145 2.444-1.18 3.03a.8.8 0 0 0 .624 1.081l3.215.494 1.044 3.08a.8.8 0 0 0 1.173.427L10 18.093l2.78 1.688a.8.8 0 0 0 1.173-.427l1.044-3.08 3.215-.494a.8.8 0 0 0 .624-1.08l-1.18-3.031 2.145-2.445a.8.8 0 0 0-.216-1.229l-2.852-1.563.072-3.252a.8.8 0 0 0-.956-.802l-3.19.635L10.624.476ZM8.285 4.393 10 2.255l1.715 2.138a.8.8 0 0 0 .78.284l2.688-.535-.06 2.74a.8.8 0 0 0 .415.72l2.403 1.317-1.808 2.06a.8.8 0 0 0-.144.817l.994 2.554-2.709.417a.8.8 0 0 0-.636.533l-.88 2.596-2.343-1.423a.8.8 0 0 0-.83 0l-2.343 1.423-.88-2.596a.8.8 0 0 0-.636-.534l-2.709-.416.994-2.554a.8.8 0 0 0-.144-.817l-1.808-2.06L4.462 7.6a.8.8 0 0 0 .416-.72l-.061-2.74 2.688.536a.8.8 0 0 0 .78-.284Z">
+                            </path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Джекпоты</div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M3.491 2.683a.8.8 0 0 1 .65-.333H15.86a.8.8 0 0 1 .65.333l3.275 4.567a.8.8 0 0 1-.084 1.032l-9.134 9.134a.8.8 0 0 1-1.132 0L.3 8.282A.8.8 0 0 1 .216 7.25L3.49 2.683Zm1.06 1.267L2.64 6.615h3.683L7.438 3.95H4.552Zm4.62 0L8.058 6.615H11.9L10.784 3.95H9.172Zm3.347 0 1.115 2.665h3.727L15.448 3.95h-2.93Zm4.985 4.265h-3.792l-1.989 5.782 5.781-5.782ZM9.978 14.15l2.041-5.934H7.937l2.041 5.934ZM6.245 8.215H2.496l5.715 5.715-1.966-5.715Z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Виртуальные игры</div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50">
+                          <path d="M39.9343 7.65359L7.60059 39.9325L9.95556 42.2915L42.2893 10.0126L39.9343 7.65359Z">
+                          </path>
+                          <path d="M9.95459 7.65421L7.59961 10.0132L39.9334 42.2921L42.2883 39.9331L9.95459 7.65421Z">
+                          </path>
+                          <path
+                            d="M30.1551 30.5439C25.5629 35.1356 23.3639 41.4684 24.1228 47.9173L27.4328 47.5278C26.7939 42.0989 28.6456 36.7673 32.5117 32.9006C36.52 28.8923 42.2356 27.0322 47.7911 27.9233L48.3194 24.6322C41.709 23.5712 34.9173 25.7817 30.1551 30.5439Z">
+                          </path>
+                          <path
+                            d="M24.1609 2.04663L20.8365 2.28667C21.2054 7.40171 19.3165 12.4361 15.6454 16.1073C12.0354 19.7656 7.14268 21.6023 1.87871 21.2806L1.6748 24.6079C2.14258 24.6368 2.60645 24.6506 3.06865 24.6506C8.77813 24.6506 14.0437 22.4773 18.0104 18.4562C22.3582 14.1083 24.5999 8.1272 24.1609 2.04663Z">
+                          </path>
+                          <path
+                            d="M25 0C11.215 0 0 11.215 0 25C0 38.785 11.215 50 25 50C38.785 50 50 38.785 50 25C50 11.215 38.785 0 25 0ZM25 46.6667C13.0527 46.6667 3.3333 36.9473 3.3333 25C3.3333 13.0527 13.0527 3.3333 25 3.3333C36.9473 3.3333 46.6667 13.0527 46.6667 25C46.6667 36.9473 36.9473 46.6667 25 46.6667Z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Настольные</div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <g>
+                            <path
+                              d="M10.146 4.324c-.69-.04-1.229-.41-1.205-.824.025-.414.603-.717 1.292-.677.69.04 1.229.409 1.204.823-.024.415-.602.718-1.291.678ZM15.91 8.401c.59.166 1.219-.239 1.405-.903.187-.665-.14-1.338-.73-1.504-.589-.166-1.218.239-1.405.903-.187.665.14 1.338.73 1.504ZM13.436 15.507c.59.165 1.22-.24 1.406-.904.187-.665-.14-1.338-.73-1.504-.589-.165-1.219.24-1.405.904-.187.665.14 1.338.73 1.504ZM8.369 10.135c.613 0 1.11-.56 1.11-1.25s-.497-1.25-1.11-1.25c-.613 0-1.11.56-1.11 1.25s.497 1.25 1.11 1.25ZM9.478 14.556c0 .69-.496 1.25-1.11 1.25-.612 0-1.108-.56-1.108-1.25s.496-1.25 1.109-1.25 1.11.56 1.11 1.25ZM4.837 7.694c0 .69-.497 1.25-1.11 1.25-.612 0-1.109-.56-1.109-1.25s.497-1.25 1.11-1.25c.612 0 1.109.56 1.109 1.25ZM3.727 14.616c.613 0 1.11-.56 1.11-1.25 0-.691-.497-1.25-1.11-1.25-.612 0-1.109.559-1.109 1.25 0 .69.497 1.25 1.11 1.25Z">
+                            </path>
+                            <path fill-rule="evenodd"
+                              d="M9.244.504a.8.8 0 0 0-.42.032L1.19 3.262a.8.8 0 0 0-.542.757v11.507a.8.8 0 0 0 .55.76l9.669 3.178a.8.8 0 0 0 .655-.053l7.412-4.095a.8.8 0 0 0 .413-.7V3.184a.8.8 0 0 0-.646-.86L9.245.504Zm6.596 2.898-4.777 2.053-6.79-1.595 4.883-1.743 6.684 1.285Zm-3.904 13.953V6.82l5.812-2.496v9.82l-5.812 3.21Zm-1.6-10.427v10.677L2.25 14.947V5.029l8.087 1.899Z"
+                              clip-rule="evenodd"></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Drops & Win</div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M4.367.717C5.82.324 7.784.09 9.92.09c2.137 0 4.1.234 5.554.627.72.195 1.362.441 1.842.748.442.283.963.76.963 1.47 0 .155-.025.299-.068.432l-1.724 9.01c-.008.069-.02.135-.038.199l-.099.515c.841.268 1.577.596 2.149.985.7.476 1.321 1.163 1.321 2.066 0 .771-.457 1.387-1.011 1.837-.56.454-1.323.828-2.195 1.127-1.75.6-4.117.957-6.694.957s-4.944-.357-6.695-.957c-.871-.299-1.634-.673-2.195-1.128C.477 17.53.02 16.913.02 16.143c0-.884.596-1.561 1.275-2.034.58-.404 1.335-.743 2.199-1.018l-.091-.474a1.24 1.24 0 0 1-.054-.28L1.64 3.391a1.385 1.385 0 0 1-.077-.457c0-.71.52-1.187.963-1.47.48-.307 1.12-.553 1.842-.748ZM3.22 2.935c.037-.032.09-.073.167-.122.285-.182.75-.377 1.397-.552 1.283-.346 3.099-.57 5.137-.57 2.038 0 3.854.224 5.136.57.647.175 1.113.37 1.398.552.077.05.13.09.166.122-.036.032-.09.073-.166.122-.285.182-.751.377-1.398.552-1.282.346-3.098.57-5.136.57-2.038 0-3.854-.224-5.137-.57-.646-.175-1.112-.37-1.397-.552-.077-.05-.13-.09-.167-.122Zm.577 11.74c-.677.227-1.21.484-1.588.746-.514.358-.589.616-.589.721 0 .09.052.296.42.594.36.292.93.59 1.705.857 1.543.529 3.727.87 6.176.87 2.449 0 4.632-.341 6.175-.87.776-.266 1.346-.565 1.706-.857.367-.298.42-.503.42-.594 0-.107-.08-.375-.622-.743-.375-.255-.897-.503-1.552-.723l-.147.769c-.002.618-.455 1.01-.776 1.216-.36.23-.827.407-1.333.544-1.023.277-2.392.438-3.872.438s-2.849-.162-3.872-.438c-.506-.137-.973-.314-1.332-.544-.323-.206-.777-.6-.777-1.22v-.02l-.142-.747ZM16.29 4.895l-1.36 7.11a.829.829 0 0 0-.024.099.932.932 0 0 1-.096.069c-.194.124-.53.266-1.015.398-.96.26-2.33.43-3.875.43s-2.915-.17-3.874-.43c-.485-.132-.82-.274-1.015-.398a.942.942 0 0 1-.097-.07.82.82 0 0 0-.008-.041l-1.37-7.165c.254.093.526.178.81.255 1.454.393 3.418.627 5.555.627 2.137 0 4.1-.234 5.554-.627.286-.077.56-.163.815-.257ZM5.544 15.291 5.3 14.02c.107.033.216.065.327.095 1.13.306 2.648.486 4.292.486 1.645 0 3.162-.18 4.293-.486.113-.03.223-.063.332-.097l-.243 1.268a1.07 1.07 0 0 1-.04.026c-.164.105-.456.23-.887.347-.852.23-2.074.383-3.455.383-1.38 0-2.602-.152-3.454-.383-.432-.117-.724-.242-.888-.347a.9.9 0 0 1-.034-.023Z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Live Roulette</div>
+                    </div>
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M4.367.717C5.82.324 7.784.09 9.92.09c2.137 0 4.1.234 5.554.627.72.195 1.362.441 1.842.748.442.283.963.76.963 1.47 0 .155-.025.299-.068.432l-1.724 9.01c-.008.069-.02.135-.038.199l-.099.515c.841.268 1.577.596 2.149.985.7.476 1.321 1.163 1.321 2.066 0 .771-.457 1.387-1.011 1.837-.56.454-1.323.828-2.195 1.127-1.75.6-4.117.957-6.694.957s-4.944-.357-6.695-.957c-.871-.299-1.634-.673-2.195-1.128C.477 17.53.02 16.913.02 16.143c0-.884.596-1.561 1.275-2.034.58-.404 1.335-.743 2.199-1.018l-.091-.474a1.24 1.24 0 0 1-.054-.28L1.64 3.391a1.385 1.385 0 0 1-.077-.457c0-.71.52-1.187.963-1.47.48-.307 1.12-.553 1.842-.748ZM3.22 2.935c.037-.032.09-.073.167-.122.285-.182.75-.377 1.397-.552 1.283-.346 3.099-.57 5.137-.57 2.038 0 3.854.224 5.136.57.647.175 1.113.37 1.398.552.077.05.13.09.166.122-.036.032-.09.073-.166.122-.285.182-.751.377-1.398.552-1.282.346-3.098.57-5.136.57-2.038 0-3.854-.224-5.137-.57-.646-.175-1.112-.37-1.397-.552-.077-.05-.13-.09-.167-.122Zm.577 11.74c-.677.227-1.21.484-1.588.746-.514.358-.589.616-.589.721 0 .09.052.296.42.594.36.292.93.59 1.705.857 1.543.529 3.727.87 6.176.87 2.449 0 4.632-.341 6.175-.87.776-.266 1.346-.565 1.706-.857.367-.298.42-.503.42-.594 0-.107-.08-.375-.622-.743-.375-.255-.897-.503-1.552-.723l-.147.769c-.002.618-.455 1.01-.776 1.216-.36.23-.827.407-1.333.544-1.023.277-2.392.438-3.872.438s-2.849-.162-3.872-.438c-.506-.137-.973-.314-1.332-.544-.323-.206-.777-.6-.777-1.22v-.02l-.142-.747ZM16.29 4.895l-1.36 7.11a.829.829 0 0 0-.024.099.932.932 0 0 1-.096.069c-.194.124-.53.266-1.015.398-.96.26-2.33.43-3.875.43s-2.915-.17-3.874-.43c-.485-.132-.82-.274-1.015-.398a.942.942 0 0 1-.097-.07.82.82 0 0 0-.008-.041l-1.37-7.165c.254.093.526.178.81.255 1.454.393 3.418.627 5.555.627 2.137 0 4.1-.234 5.554-.627.286-.077.56-.163.815-.257ZM5.544 15.291 5.3 14.02c.107.033.216.065.327.095 1.13.306 2.648.486 4.292.486 1.645 0 3.162-.18 4.293-.486.113-.03.223-.063.332-.097l-.243 1.268a1.07 1.07 0 0 1-.04.026c-.164.105-.456.23-.887.347-.852.23-2.074.383-3.455.383-1.38 0-2.602-.152-3.454-.383-.432-.117-.724-.242-.888-.347a.9.9 0 0 1-.034-.023Z">
+                          </path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Live Show</div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd"
+                            d="M10.395 6.286a.5.5 0 0 0-.788 0L6.941 9.693a.5.5 0 0 0 0 .616l2.665 3.406a.5.5 0 0 0 .787 0l2.666-3.408a.5.5 0 0 0 0-.616l-2.664-3.405Z">
+                          </path>
+                          <path fill-rule="evenodd "
+                            d="M3.523.288a.8.8 0 0 0-.8.8v17.824a.8.8 0 0 0 .8.8h12.955a.8.8 0 0 0 .8-.8V1.088a.8.8 0 0 0-.8-.8H3.523Zm.8 17.824V1.888h11.355v16.224H4.323Z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Покер</div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body accordion-body-casino">
+                      <div>
+                        <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                          <g>
+                            <path 
+                              d="M14.277 7.392a1.678 1.678 0 1 1 0-3.357 1.678 1.678 0 0 1 0 3.357ZM10 6.691a.8.8 0 0 1 .8.8v1.71h1.708a.8.8 0 0 1 0 1.6H10.8v1.707a.8.8 0 0 1-1.6 0V10.8H7.492a.8.8 0 0 1 0-1.6H9.2V7.491a.8.8 0 0 1 .8-.8Z">
+                            </path>
+                            <path fill-rule="evenodd" 
+                              d="M10 .05C4.505.05.05 4.505.05 10c0 5.495 4.455 9.95 9.95 9.95 5.495 0 9.95-4.455 9.95-9.95 0-5.495-4.455-9.95-9.95-9.95ZM1.65 10a8.35 8.35 0 1 1 16.7 0 8.35 8.35 0 0 1-16.7 0Z" clip-rule="evenodd">
+                            </path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="accordion-body-casino-menu">Рулетка</div>
+                    </div>
+                  </div>
                 </div>
+
               </div>
 
               <div class="field__search mt-3">
@@ -346,11 +490,6 @@
                   <div class="field__search__items__name">Акции</div>
 
                   <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
                   </div>
 
                 </div>
@@ -361,11 +500,7 @@
                   <div class="field__search__items__name">Турниры</div>
 
                   <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
+
                   </div>
 
                 </div>
@@ -382,7 +517,47 @@
                       </path>
                     </svg>
                   </div>
+                </div>
+              </div>
 
+              <div class="accordion accordion-flush" id="accordionFlush">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Русский
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body">
+                      <div>English</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/gb.svg" alt="en" /></div>
+                    </div>
+                  </div>
+
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body">
+                      <div>Français</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/fr.svg" alt="fr" /></div>
+                    </div>
+                  </div>
+
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body">
+                      <div>Español</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/es.svg" alt="es" /></div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#flush-collapseTwo">
+                    <div class="accordion-body">
+                      <div>Português</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/pt.svg" alt="pt" /></div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -392,11 +567,7 @@
                   <div class="field__search__items__name">Vip Program</div>
 
                   <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
+
                   </div>
 
                 </div>
@@ -407,20 +578,15 @@
                   <div class="field__search__items__name">FAQ</div>
 
                   <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
                   </div>
 
                 </div>
               </div>
 
-            </div>
 
 
-            <div class="field__search d-flex justify-content-center mt-3">
+
+              <!-- <div class="field__search d-flex justify-content-center mt-3">
               <select class="offcanvas__select form-select" aria-label="Default select example">
                 <option value="0" selected>
                   <img src="@/assets/img/header/ru.svg" alt="ru" />Русский
@@ -438,6 +604,48 @@
                   <img src="@/assets/img/header/pt.svg" alt="pt" />Português
                 </option>
               </select>
+            </div> -->
+
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Русский
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <div>English</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/gb.svg" alt="en" /></div>
+                    </div>
+                  </div>
+
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <div>Français</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/fr.svg" alt="fr" /></div>
+                    </div>
+                  </div>
+
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <div>Español</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/es.svg" alt="es" /></div>
+                    </div>
+                  </div>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <div>Português</div>
+                      <div><img class="accordion_flag" src="@/assets/img/header/pt.svg" alt="pt" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -655,7 +863,7 @@ export default {
     color: #fff;
     width: 100%;
     background-color: #17313a;
-    
+
     border: none;
 
     font-style: normal;
@@ -877,4 +1085,58 @@ export default {
 .field__search__items__name {}
 
 .field__search__items__ico {}
+
+
+.accordion {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  --bs-accordion-active-bg: #ec0404;
+}
+
+.accordion-item {
+  color: #fff;
+  background-color: #17313a;
+  border-radius: 10px;
+
+
+}
+
+.accordion-button {
+  margin-top: 10px;
+  color: #fff;
+  background-color: #17313a;
+  font-size: 1.5rem;
+  border-radius: 10px !important;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+  background-image: --bs-accordion-btn-icon;
+}
+
+.accordion-body {
+  text-align: left;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion_flag {
+  width: 15px;
+  border-radius: 10px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.accordion-body-casino {
+  justify-content: start;
+}
+
+.accordion-body-casino-menu {
+  padding-left: 8px;
+}
 </style>

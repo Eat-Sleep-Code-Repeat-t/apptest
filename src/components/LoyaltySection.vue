@@ -6,50 +6,20 @@
         <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
-              <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
+              <img class="loyalty__card-icon__img" src="@/assets/img/loyalty/1.png" alt="" />
             </div>
             <div class="loyalty__card-title">1 Уровень</div>
             <div class="loyalty__card-quantity">
               0 - 100
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z"
-                  fill="#FF8C5A"
-                ></path>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z" fill="#FFE182"></path>
+                <path d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z" fill="#FFCD73"></path>
+                <path d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z" fill="#FFCD73"></path>
+                <path d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z" fill="#FFCD73"></path>
+                <path d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z" fill="#FFAA64"></path>
+                <path d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z" fill="#FFE182"></path>
+                <path d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z" fill="#FFAA64"></path>
+                <path d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z" fill="#FF8C5A"></path>
               </svg>
             </div>
           </div>
@@ -57,50 +27,20 @@
         <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
-              <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
+              <img class="loyalty__card-icon__img" src="@/assets/img/loyalty/1.png" alt="" />
             </div>
             <div class="loyalty__card-title">2 Уровень</div>
             <div class="loyalty__card-quantity">
               100 - 500
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z"
-                  fill="#FF8C5A"
-                ></path>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z" fill="#FFE182"></path>
+                <path d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z" fill="#FFCD73"></path>
+                <path d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z" fill="#FFCD73"></path>
+                <path d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z" fill="#FFCD73"></path>
+                <path d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z" fill="#FFAA64"></path>
+                <path d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z" fill="#FFE182"></path>
+                <path d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z" fill="#FFAA64"></path>
+                <path d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z" fill="#FF8C5A"></path>
               </svg>
             </div>
           </div>
@@ -108,50 +48,20 @@
         <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
-              <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
+              <img class="loyalty__card-icon__img" src="@/assets/img/loyalty/1.png" alt="" />
             </div>
             <div class="loyalty__card-title">3 Уровень</div>
             <div class="loyalty__card-quantity">
               500 - 3000
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z"
-                  fill="#FF8C5A"
-                ></path>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z" fill="#FFE182"></path>
+                <path d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z" fill="#FFCD73"></path>
+                <path d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z" fill="#FFCD73"></path>
+                <path d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z" fill="#FFCD73"></path>
+                <path d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z" fill="#FFAA64"></path>
+                <path d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z" fill="#FFE182"></path>
+                <path d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z" fill="#FFAA64"></path>
+                <path d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z" fill="#FF8C5A"></path>
               </svg>
             </div>
           </div>
@@ -159,50 +69,20 @@
         <div class="col-12 col-md-6 col-xl-3 space1">
           <div class="loyalty__card">
             <div class="loyalty__card-icon">
-              <img class="loyalty__card-icon__img" src="../assets/img/loyalty/1.png" alt="" />
+              <img class="loyalty__card-icon__img" src="@/assets/img/loyalty/1.png" alt="" />
             </div>
             <div class="loyalty__card-title">4 Уровень</div>
             <div class="loyalty__card-quantity">
               3000 - 50000
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z"
-                  fill="#FFCD73"
-                ></path>
-                <path
-                  d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z"
-                  fill="#FFE182"
-                ></path>
-                <path
-                  d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z"
-                  fill="#FFAA64"
-                ></path>
-                <path
-                  d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z"
-                  fill="#FF8C5A"
-                ></path>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.7672 5.59082L7.71655 14.3839L15.2166 5.59082H10.7672Z" fill="#FFE182"></path>
+                <path d="M3.32 1.71143L0.216553 5.59074H4.6659L3.32 1.71143Z" fill="#FFCD73"></path>
+                <path d="M10.7671 5.59074H15.2164L12.113 1.71143L10.7671 5.59074Z" fill="#FFCD73"></path>
+                <path d="M10.7673 5.59074L7.71667 1.71143L4.66602 5.59074H10.7673Z" fill="#FFCD73"></path>
+                <path d="M7.71662 1.71143H3.32007L4.66597 5.59074L7.71662 1.71143Z" fill="#FFAA64"></path>
+                <path d="M12.1131 1.71143H7.71655L10.7672 5.59074L12.1131 1.71143Z" fill="#FFE182"></path>
+                <path d="M4.66602 5.59082L7.71667 14.3839L10.7673 5.59082H4.66602Z" fill="#FFAA64"></path>
+                <path d="M0.216553 5.59082L7.71655 14.3839L4.6659 5.59082H0.216553Z" fill="#FF8C5A"></path>
               </svg>
             </div>
           </div>
@@ -211,39 +91,19 @@
       <div class="row">
         <div class="col">
           <!-- Button trigger modal -->
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Читать дальше
           </button>
           <!-- Modal -->
-          <div
-            class="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
                   <!-- <h5 class="modal-title" id="exampleModalLabel">
                     Modal title
                   </h5> -->
-                  <img
-                    class="modal-header-wrapper"
-                    src="../assets/img/loyalty/loyalty-info-bg.jpg"
-                    alt=""
-                  />
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
+                  <img class="modal-header-wrapper" src="@/assets/img/loyalty/loyalty-info-bg.jpg" alt="" />
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="contianer">
@@ -286,11 +146,7 @@
                         </div>
                       </div>
                       <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-bs-dismiss="modal"
-                        >
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                           Закрыть
                         </button>
                       </div>
@@ -311,18 +167,18 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-
 .space1 {
-padding-top: 10px;
-padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .loyalty {
-  background-image: url(../assets/img/loyalty/bg.jpg);
+  background-image: url(@/assets/img/loyalty/bg.jpg);
   background-position: center;
   background-size: cover;
   color: #fff;
   padding: 40px 0;
+
   &__card {
     &-icon {
       &__img {
@@ -330,6 +186,7 @@ padding-bottom: 10px;
         border-radius: 50%;
       }
     }
+
     &-title {
       font-style: normal;
       font-weight: bold;
@@ -337,34 +194,41 @@ padding-bottom: 10px;
       line-height: 1.45;
       margin: 20px 0 0 0;
     }
+
     &-quantity {
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 1.4rem;
       line-height: 1.45;
+
       svg {
         margin-left: 5px;
       }
     }
   }
+
   .modal-header-wrapper {
     width: 100%;
     border-radius: 4px 4px 0 0;
   }
+
   .modal-header {
     padding: 0;
     position: relative;
   }
+
   .modal-content {
     background-color: #132932;
   }
+
   .modal-body-title {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 1.45;
     padding: 20px 0 20px 0;
   }
+
   // .table__head {
   //   display: flex;
   // }
@@ -377,10 +241,12 @@ padding-bottom: 10px;
     line-height: 1.45;
     padding: 20px 10px;
   }
+
   .table__body .table-row:nth-child(2n + 1) {
     background-color: #1f3842;
     border-radius: 10px;
   }
+
   // .table__body-cell{
   //   padding: 20px 10px;
   // }

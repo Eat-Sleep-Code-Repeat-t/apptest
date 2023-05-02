@@ -3,7 +3,7 @@
     <div class="container text-white">
       <div class="row ">
 
-        <div class="col-xl-4 col-lg-6 col-md-6 mx-auto space1">
+        <div class="col-xl-4 col-lg-5 col-md-6 mx-auto space1">
           <div class="col__first">
 
             <div class="col__title">
@@ -15,14 +15,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -33,7 +33,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -48,14 +48,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row ">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -66,7 +66,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -81,14 +81,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="...">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row ">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -99,7 +99,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -114,14 +114,14 @@
                 <div class="row">
                   <div class="col-4 ">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -132,7 +132,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -147,7 +147,7 @@
           </div>
         </div>
         
-        <div class="col-xl-4 col-lg-6 col-md-6  mx-auto space1  ">
+        <div class="col-xl-4 col-lg-5 col-md-6  mx-auto space1  ">
           <div class="col__second">
 
             <div class="col__title">
@@ -159,14 +159,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row">
                       <div class="col-xl-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/au.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/au.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -177,7 +177,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -192,14 +192,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/fire_in_the_hole_xbomb.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/fire_in_the_hole_xbomb.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -210,7 +210,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -225,14 +225,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -243,7 +243,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -258,14 +258,14 @@
                 <div class="row">
                   <div class="col-4">
                     <div class="col__game__logoGame">
-                      <img class="img" src="../../src/assets/img/bestWinnerArea/yeti.jpg" alt="">
+                      <img class="img" src="@/assets/img/bestWinnerArea/yeti.jpg" alt="">
                     </div>
                   </div>
                   <div class="col-7">
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__flag">
-                          <img class="img__flag" src="../../src/assets/img/bestWinnerArea/jp.svg" alt="">
+                          <img class="img__flag" src="@/assets/img/bestWinnerArea/jp.svg" alt="">
                         </div>
                       </div>
                       <div class="col-9">
@@ -276,7 +276,7 @@
                     <div class="row">
                       <div class="col-2">
                         <div class="col__game__coinIco">
-                          <img class="img__coinIco" src="../../src/assets/img/bestWinnerArea/logo-white.png" alt="">
+                          <img class="img__coinIco" src="@/assets/img/bestWinnerArea/logo-white.png" alt="">
                         </div>
                       </div>
                       <div class="col-10">
@@ -360,6 +360,7 @@ div:nth-of-type(2) .col__title {
 
   padding: 8px;
   border-radius: 10px;
+  cursor: pointer;
 
 }
 
@@ -377,7 +378,7 @@ div:nth-of-type(2) .col__title {
 .img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 25px;
   display: block;
   width: 100%;
   height: 100%;
@@ -411,6 +412,7 @@ div:nth-of-type(2) .col__title {
 .col__game__nameGames {
   font-size: 1.8rem;
   text-align: left;
+  
 }
 
 .col__game__coinIco {
@@ -434,4 +436,6 @@ div:nth-of-type(2) .col__title {
   font-size: 1.7rem;
   text-align: left;
 }
+
+
 </style>

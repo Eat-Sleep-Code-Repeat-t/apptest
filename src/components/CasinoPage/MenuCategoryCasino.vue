@@ -13,7 +13,7 @@ import path from 'path';
               <div class="text-white position-relative overflow d-flex justify-content-between left-posion">
                 <ul class="category__name">
                   <li class="category__name__item">
-                    <a class="nav-link" href="#">Лобби</a>
+                    <a class="nav-link active" href="#">Лобби</a>
                   </li>
                   <li class="category__name__item">
                     <a class="nav-link" href="#">Все игры</a>
@@ -229,6 +229,10 @@ import path from 'path';
 .category__name__item:last-child {
   padding-right: 0;
 }
+.active {
+  color: #d4145a;
+}
+
 </style>
 
 

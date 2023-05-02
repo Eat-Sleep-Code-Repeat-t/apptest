@@ -138,6 +138,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <style scoped lang="scss">
@@ -247,8 +248,6 @@
   height: 100%;
   position: relative;
   border-radius: 0 10px 10px 0;
- 
-
 }
 
 // .backgroundWinner::before {
@@ -345,7 +344,7 @@
   }
 
   &__list {
-  
+
     padding: 3%;
 
     &__numb {
