@@ -319,7 +319,8 @@
               <div class="accordion accordion-flush" id="accordionFlush">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed btn" :style="{ backgroundColor: buttonColor }"
+                      @click="toggleButtonColor" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
                       Казино
                     </button>
@@ -469,11 +470,12 @@
                       <div>
                         <svg fill="#d4145a" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
                           <g>
-                            <path 
+                            <path
                               d="M14.277 7.392a1.678 1.678 0 1 1 0-3.357 1.678 1.678 0 0 1 0 3.357ZM10 6.691a.8.8 0 0 1 .8.8v1.71h1.708a.8.8 0 0 1 0 1.6H10.8v1.707a.8.8 0 0 1-1.6 0V10.8H7.492a.8.8 0 0 1 0-1.6H9.2V7.491a.8.8 0 0 1 .8-.8Z">
                             </path>
-                            <path fill-rule="evenodd" 
-                              d="M10 .05C4.505.05.05 4.505.05 10c0 5.495 4.455 9.95 9.95 9.95 5.495 0 9.95-4.455 9.95-9.95 0-5.495-4.455-9.95-9.95-9.95ZM1.65 10a8.35 8.35 0 1 1 16.7 0 8.35 8.35 0 0 1-16.7 0Z" clip-rule="evenodd">
+                            <path fill-rule="evenodd"
+                              d="M10 .05C4.505.05.05 4.505.05 10c0 5.495 4.455 9.95 9.95 9.95 5.495 0 9.95-4.455 9.95-9.95 0-5.495-4.455-9.95-9.95-9.95ZM1.65 10a8.35 8.35 0 1 1 16.7 0 8.35 8.35 0 0 1-16.7 0Z"
+                              clip-rule="evenodd">
                             </path>
                           </g>
                         </svg>
@@ -523,8 +525,9 @@
               <div class="accordion accordion-flush" id="accordionFlush">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <button class="accordion-button collapsed btn" :style="{ backgroundColor: buttonColor2 }" type="button"
+                      @click="toggleButtonColor2" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false" aria-controls="flush-collapseOne">
                       Русский
                     </button>
                   </h2>
@@ -707,11 +710,34 @@
 <script>
 import RegisterSection from "@/components/RegisterSection.vue";
 import LoginSection from "@/components/LoginSection.vue";
+
 export default {
   name: "HeaderSection",
   components: {
     LoginSection,
     RegisterSection
+  },
+  data() {
+    return {
+      buttonColor: 'transparent',
+      buttonColor2: 'transparent',
+    };
+  },
+  methods: {
+    toggleButtonColor() {
+      if (this.buttonColor === 'transparent') {
+        this.buttonColor = '#d4145a';
+      } else {
+        this.buttonColor = 'transparent';
+      }
+    },
+    toggleButtonColor2() {
+      if (this.buttonColor2 === 'transparent') {
+        this.buttonColor2 = '#d4145a';
+      } else {
+        this.buttonColor2 = 'transparent';
+      }
+    },
   },
 };
 </script>
@@ -1140,3 +1166,4 @@ img {
   padding-left: 8px;
 }
 </style>
+
