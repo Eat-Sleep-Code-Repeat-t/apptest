@@ -163,7 +163,7 @@ export default {
     color: #fff;
     font-size: 1.2rem;
     font-style: normal;
-    max-width: 15%;
+    max-width: 17%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     display: inline-block;

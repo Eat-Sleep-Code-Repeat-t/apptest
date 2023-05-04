@@ -508,57 +508,56 @@
                 </div>
               </div>
 
-              <div class="field__search mt-3">
-                <div class="field__search__items">
-                  <div class="field__search__items__name">Информация</div>
-
-                  <div class="field__search__items__ico">
-                    <svg width="19" height="19" viewBox="0 0 19 19" fill="white" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M0 8.56639C0 3.83531 3.83531 0 8.56639 0C13.2975 0 17.1328 3.83531 17.1328 8.56639C17.1328 10.3124 16.6104 11.9363 15.7135 13.2906L18.3443 15.9213C19.0133 16.5904 19.0133 17.6752 18.3443 18.3443C17.6752 19.0133 16.5904 19.0133 15.9213 18.3443L13.2906 15.7135C11.9363 16.6104 10.3124 17.1328 8.56639 17.1328C3.83531 17.1328 0 13.2975 0 8.56639ZM12.3033 12.0954C12.2661 12.1268 12.2299 12.1599 12.1949 12.1949C12.1599 12.2299 12.1268 12.2661 12.0954 12.3033C11.1748 13.173 9.93286 13.7062 8.56639 13.7062C5.72774 13.7062 3.42656 11.405 3.42656 8.56639C3.42656 5.72774 5.72774 3.42656 8.56639 3.42656C11.405 3.42656 13.7062 5.72774 13.7062 8.56639C13.7062 9.93286 13.173 11.1748 12.3033 12.0954Z">
-                      </path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-
               <div class="accordion accordion-flush" id="accordionFlush">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed btn" :style="{ backgroundColor: buttonColor2 }" type="button"
-                      @click="toggleButtonColor2" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                      aria-expanded="false" aria-controls="flush-collapseOne">
-                      Русский
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed btn" :style="{ backgroundColor: buttonColor2 }"
+                      type="button" @click="toggleButtonColor2" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Информация
                     </button>
                   </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#flush-collapseTwo">
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
+                    data-bs-parent="#flush-collapseThree">
                     <div class="accordion-body">
-                      <div>English</div>
-                      <div><img class="accordion_flag" src="@/assets/img/header/gb.svg" alt="en" /></div>
+                      <div>Условия и положения</div>
                     </div>
                   </div>
 
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#flush-collapseTwo">
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
+                    data-bs-parent="#flush-collapseThree">
                     <div class="accordion-body">
-                      <div>Français</div>
-                      <div><img class="accordion_flag" src="@/assets/img/header/fr.svg" alt="fr" /></div>
+                      <div>Политика конфиденциальности</div>
+
                     </div>
                   </div>
 
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#flush-collapseTwo">
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
+                    data-bs-parent="#flush-collapseThree">
                     <div class="accordion-body">
-                      <div>Español</div>
-                      <div><img class="accordion_flag" src="@/assets/img/header/es.svg" alt="es" /></div>
+                      <div>Ответственная игра</div>
+
                     </div>
                   </div>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#flush-collapseTwo">
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
+                    data-bs-parent="#flush-collapseThree">
                     <div class="accordion-body">
-                      <div>Português</div>
-                      <div><img class="accordion_flag" src="@/assets/img/header/pt.svg" alt="pt" /></div>
+                      <div>Честная игра</div>
+
+                    </div>
+                  </div>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
+                    data-bs-parent="#flush-collapseThree">
+                    <div class="accordion-body">
+                      <div>Партнёрская программа</div>
+
+                    </div>
+                  </div>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
+                    data-bs-parent="#flush-collapseThree">
+                    <div class="accordion-body">
+                      <div>Правила игр</div>
+
                     </div>
                   </div>
                 </div>
@@ -612,39 +611,42 @@
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button collapsed btn" :style="{ backgroundColor: buttonColor3 }"
+                      @click="toggleButtonColor3" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      Русский
+
+                      <div><img class="accordion_flag" src="@/assets/img/header/ru.svg" alt="ru" /></div>
+                      <div>English</div>
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      <div>English</div>
                       <div><img class="accordion_flag" src="@/assets/img/header/gb.svg" alt="en" /></div>
+                      <div>English</div>
                     </div>
                   </div>
 
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      <div>Français</div>
                       <div><img class="accordion_flag" src="@/assets/img/header/fr.svg" alt="fr" /></div>
+                      <div>Français</div>
                     </div>
                   </div>
 
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      <div>Español</div>
                       <div><img class="accordion_flag" src="@/assets/img/header/es.svg" alt="es" /></div>
+                      <div>Español</div>
                     </div>
                   </div>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      <div>Português</div>
                       <div><img class="accordion_flag" src="@/assets/img/header/pt.svg" alt="pt" /></div>
+                      <div>Português</div>
                     </div>
                   </div>
                 </div>
@@ -721,6 +723,7 @@ export default {
     return {
       buttonColor: 'transparent',
       buttonColor2: 'transparent',
+      buttonColor3: 'transparent'
     };
   },
   methods: {
@@ -736,6 +739,13 @@ export default {
         this.buttonColor2 = '#d4145a';
       } else {
         this.buttonColor2 = 'transparent';
+      }
+    },
+    toggleButtonColor3() {
+      if (this.buttonColor3 === 'transparent') {
+        this.buttonColor3 = '#d4145a';
+      } else {
+        this.buttonColor3 = 'transparent';
       }
     },
   },
@@ -1141,17 +1151,22 @@ export default {
   background-image: --bs-accordion-btn-icon;
 }
 
+.accordion-button:focus {
+ 
+    box-shadow: none;
+}
 .accordion-body {
   text-align: left;
   font-size: 1.5rem;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .accordion_flag {
   width: 15px;
   border-radius: 10px;
+  margin-right: 8px;
 }
 
 img {
@@ -1164,6 +1179,10 @@ img {
 
 .accordion-body-casino-menu {
   padding-left: 8px;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #36495d;
 }
 </style>
 

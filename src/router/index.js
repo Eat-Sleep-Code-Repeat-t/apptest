@@ -4,6 +4,14 @@ import LiveCasino from "../views/LiveCasino.vue";
 import CasinoPage from "../views/CasinoPage.vue";
 import PromoPage from "../views/PromoPage.vue";
 import TournomentPage from "../views/TournamentsPage.vue";
+import ContactUs from "../views/ContactUs.vue";
+import PoliticsConf from "../views/PoliticsConf.vue";
+import ResponsGambling from "../views/ResponsibleGambling.vue";
+import fairGame from "../views/fairGame.vue";
+import ruleGame from "../views/ruleGame.vue"
+import termsCondition from "../views/termsCondition.vue"
+
+
 
 
 
@@ -34,6 +42,36 @@ const routes = [
     path: "/tournaments",
     name: "TornomentPage",
     component: TournomentPage,
+  },
+  {
+    path: "/contacts/contactus",
+    name: "ContactUs",
+    component: ContactUs,
+  },
+  {
+    path: "/contacts/politics",
+    name: "PoliticsConf",
+    component: PoliticsConf,
+  },
+  {
+    path: "/contacts/respons",
+    name: "ResponsGambling",
+    component: ResponsGambling,
+  },
+  {
+    path: "/contacts/fairgames",
+    name: "fairGame",
+    component: fairGame,
+  },
+  {
+    path: "/contacts/rules",
+    name: "ruleGame",
+    component: ruleGame,
+  },
+  {
+    path: "/contacts/terms",
+    name: "termsCondition",
+    component: termsCondition,
   },
   {
     path: "/about",
