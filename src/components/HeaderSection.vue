@@ -65,16 +65,16 @@
                     <a class="dropdown-item" href="#"><img src="@/assets/img/header/ru.svg" alt="ru" /></a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"><img src="../assets/img/header/fr.svg" alt="ru" /></a>
+                    <a class="dropdown-item" href="#"><img src="@/assets/img/header/fr.svg" alt="ru" /></a>
                   </li>
                 </div>
 
                 <div class="dropdown-item-group">
                   <li>
-                    <a class="dropdown-item" href="#"><img src="../assets/img/header/es.svg" alt="ru" /></a>
+                    <a class="dropdown-item" href="#"><img src="@/assets/img/header/es.svg" alt="ru" /></a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"><img src="../assets/img/header/pt.svg" alt="ru" /></a>
+                    <a class="dropdown-item" href="#"><img src="@/assets/img/header/pt.svg" alt="ru" /></a>
                   </li>
                   <li></li>
                 </div>
@@ -175,7 +175,7 @@
             </a>
           </li>
           <li class="nav-item offcanvas__nav-item ">
-            <a class="nav-link" href="#2">
+            <a class="nav-link" href="/casino">
               <div class="d-flex align-items-center">
                 <svg class="offcanvas__menu-icon" width="50" height="50" viewBox="0 0 50 50" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -192,7 +192,7 @@
             </a>
           </li>
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link" href="#3">
+            <a class="nav-link" href="/promo">
               <div class="d-flex align-items-center">
                 <svg class="offcanvas__menu-icon" width="50" height="50" viewBox="0 0 50 50" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -213,7 +213,7 @@
             </a>
           </li>
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link" href="#4">
+            <a class="nav-link" href="/tournaments">
               <div class="d-flex align-items-center">
                 <svg class="offcanvas__menu-icon" width="50" height="50" viewBox="0 0 50 50" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -221,7 +221,6 @@
                     d="M48.5352 3.6087H42.1188C42.1421 2.89803 42.1551 2.18315 42.1551 1.46484C42.1551 0.655746 41.4989 0 40.6902 0H9.30977C8.50105 0 7.84492 0.655746 7.84492 1.46484C7.84492 2.18315 7.85789 2.89803 7.88116 3.6087H1.46484C0.655746 3.6087 0 4.26445 0 5.07355C0 11.6371 1.71547 17.8295 4.83017 22.5105C7.90901 27.1381 12.0102 29.7924 16.4406 30.0507C17.445 31.1436 18.5066 32.0347 19.6125 32.7145V39.225H17.1551C14.1842 39.225 11.7676 41.642 11.7676 44.6125V47.0699H11.6634C10.8543 47.0699 10.1986 47.7261 10.1986 48.5348C10.1986 49.3439 10.8543 49.9996 11.6634 49.9996H38.3366C39.1457 49.9996 39.8014 49.3439 39.8014 48.5348C39.8014 47.7261 39.1457 47.0699 38.3366 47.0699H38.2324V44.6125C38.2324 41.642 35.8158 39.225 32.8449 39.225H30.3875V32.7145C31.4934 32.0351 32.5554 31.1436 33.5598 30.0507C37.9898 29.7924 42.091 27.1381 45.1702 22.5105C48.2849 17.8295 50 11.6371 50 5.07355C50 4.26445 49.3443 3.6087 48.5352 3.6087ZM7.26929 20.8878C4.70009 17.0269 3.19061 11.977 2.96059 6.53839H8.04482C8.57315 13.224 10.1425 19.4038 12.5954 24.3092C12.986 25.0904 13.3945 25.8286 13.8184 26.5236C11.3819 25.6035 9.12704 23.6801 7.26929 20.8878ZM35.3027 44.6125V47.0703H14.6973V44.6125C14.6973 43.2575 15.7997 42.1547 17.1551 42.1547H32.8449C34.2003 42.1547 35.3027 43.2575 35.3027 44.6125ZM27.4578 39.225H22.5422V33.9874C23.3475 34.1995 24.168 34.3098 25 34.3098C25.832 34.3098 26.6525 34.1995 27.4578 33.9874V39.225ZM28.3649 30.5023C28.299 30.5294 28.2356 30.5622 28.175 30.5984C27.1397 31.1134 26.0757 31.3801 25 31.3801C23.9246 31.3801 22.8611 31.1134 21.8262 30.5992C21.7648 30.5622 21.701 30.5294 21.6343 30.5016C20.4857 29.8943 19.3745 28.9772 18.3235 27.7721C18.2682 27.6932 18.206 27.6203 18.137 27.5539C17.0937 26.3153 16.1121 24.7917 15.2157 22.9988C12.5237 17.6151 10.9688 10.5362 10.7918 2.92969H39.2082C39.0308 10.5362 37.476 17.6155 34.7843 22.9988C33.8879 24.7917 32.9063 26.3153 31.8634 27.5539C31.794 27.6203 31.731 27.6936 31.6761 27.7725C30.6252 28.978 29.5135 29.8946 28.3649 30.5023ZM42.7307 20.8878C40.873 23.6801 38.6181 25.6035 36.1816 26.5236C36.6055 25.8286 37.014 25.0904 37.4046 24.3092C39.8575 19.4038 41.4265 13.224 41.9552 6.53839H47.0394C46.8094 11.977 45.2999 17.0269 42.7307 20.8878Z"
                     fill="white"></path>
                 </svg>
-
                 <p class="offcanvas__menu-text">Турниры</p>
               </div>
             </a>
@@ -232,42 +231,49 @@
 
         <ul class="nav flex-column d-none d-lg-block">
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link active" href="#5">
-              <div class="row">
+
+            <div class="row">
+              <a class="nav-link active" href="/contacts/terms">
                 <div class="d-flex align-items-center">
                   <p class="offcanvas__menu-text ms-2">Условия и положения</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+
           </li>
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link" href="#6">
-              <div class="row">
+
+            <div class="row">
+              <a class="nav-link" href="/contacts/politics">
                 <div class="d-flex align-items-center">
                   <p class="offcanvas__menu-text ms-2">
                     Политика конфиденциальности
                   </p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+
           </li>
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link" href="#7">
-              <div class="row">
+
+            <div class="row">
+              <a class="nav-link" href="/contacts/respons">
                 <div class="d-flex align-items-center">
                   <p class="offcanvas__menu-text ms-2">Ответственная игра</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </li>
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link" href="#8">
-              <div class="row">
+
+            <div class="row">
+              <a class="nav-link" href="/contacts/fairgames">
                 <div class="d-flex align-items-center">
                   <p class="offcanvas__menu-text ms-2">Честная игра</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+
           </li>
 
           <li class="nav-item offcanvas__nav-item">
@@ -281,13 +287,15 @@
           </li>
 
           <li class="nav-item offcanvas__nav-item">
-            <a class="nav-link" href="#10">
-              <div class="row">
+
+            <div class="row">
+              <a class="nav-link" href="/contacts/rules">
                 <div class="d-flex align-items-center">
                   <p class="offcanvas__menu-text ms-2">Правила игр</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+
           </li>
         </ul>
 
@@ -308,8 +316,9 @@
               </div>
               <div class="field__search mt-3">
                 <div class="field__search__items">
-                  <div class="field__search__items__name">Лайв Казино</div>
-
+                  <a class="a-noDeciration" href="/livecasino">
+                    <div class="field__search__items__name">Лайв Казино</div>
+                  </a>
                   <div class="field__search__items__ico">
                   </div>
 
@@ -335,7 +344,7 @@
                           </path>
                         </svg>
                       </div>
-                      <div class="accordion-body-casino-menu">Слоты</div>
+                      <div class="accordion-body-casino-menu"> <a class="a-noDeciration" href="/livecasino">Слоты</a></div>
                     </div>
                   </div>
 
@@ -520,31 +529,34 @@
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
                     data-bs-parent="#flush-collapseThree">
                     <div class="accordion-body">
-                      <div>Условия и положения</div>
+                      <a class="a-noDeciration" href="/contacts/terms">
+                        <div>Условия и положения</div>
+                      </a>
                     </div>
                   </div>
 
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
                     data-bs-parent="#flush-collapseThree">
-                    <div class="accordion-body">
-                      <div>Политика конфиденциальности</div>
-
-                    </div>
+                    <a class="a-noDeciration"  href="/contacts/politics">
+                      <div class="accordion-body">
+                        <div>Политика конфиденциальности</div>
+                      </div>
+                    </a>
                   </div>
 
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
                     data-bs-parent="#flush-collapseThree">
                     <div class="accordion-body">
                       <div>Ответственная игра</div>
-
                     </div>
                   </div>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
                     data-bs-parent="#flush-collapseThree">
-                    <div class="accordion-body">
-                      <div>Честная игра</div>
-
-                    </div>
+                    <a class="a-noDeciration" href="/contacts/fairgames">
+                      <div class="accordion-body">
+                        <div>Честная игра</div>
+                      </div>
+                    </a>
                   </div>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-collapseOne"
                     data-bs-parent="#flush-collapseThree">
@@ -708,8 +720,8 @@
     </div>
 
 
-     <!-- Modal -->
-     <div class="offcanvas__modal modal fade" id="RestorePassModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    <!-- Modal -->
+    <div class="offcanvas__modal modal fade" id="RestorePassModal" tabindex="-1" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -730,18 +742,38 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="offcanvas__modal modal fade" id="restorePass" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="col">
+              <RestoreSectionMODAL />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import RegisterSection from "@/components/RegisterSection.vue";
 import LoginSection from "@/components/LoginSection.vue";
+import RestoreSectionMODAL from "./RestoreSectionMODAL.vue";
+
 
 export default {
   name: "HeaderSection",
   components: {
     LoginSection,
-    RegisterSection
+    RegisterSection,
+    RestoreSectionMODAL
   },
   data() {
     return {
@@ -961,9 +993,7 @@ export default {
 
   width: 100%;
   background-color: #869094;
-
   border-radius: 2px;
-
   margin-top: 6px;
 }
 
@@ -1230,5 +1260,11 @@ img {
 }
 
 .btn-style:hover {}
+
+.a-noDeciration {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 </style>
 

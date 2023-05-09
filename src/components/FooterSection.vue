@@ -497,25 +497,37 @@
                 </div>
                 <div class="col-xl-4">
                   <div class="footer__main-menu ">
-                    <div class="footer__main-menu__item">
-                      Условия и положения
-                    </div>
-                    <div class="footer__main-menu__item">
-                      Политикой Конфиденциальности
-                    </div>
-                    <div class="footer__main-menu__item">
-                      Ответственная игра
-                    </div>
+                    <a href="/contacts/terms" class="a-noDeciration">
+                      <div class="footer__main-menu__item">
+                        Условия и положения
+                      </div>
+                    </a>
+                    <a href="/contacts/politics" class="a-noDeciration">
+                      <div class="footer__main-menu__item">
+                        Политикой Конфиденциальности
+                      </div>
+                    </a>
+                    <a href="/contacts/respons" class="a-noDeciration">
+                      <div class="footer__main-menu__item">
+                        Ответственная игра
+                      </div>
+                    </a>
                   </div>
                 </div>
                 <div class="col-xl-4">
-                  <div class="footer__main-menu">
-                    <div class="footer__main-menu__item">Честная игра</div>
-                    <div class="footer__main-menu__item">
+                  <div href="/contacts/respons" class="footer__main-menu">
+                    <a  class="a-noDeciration">
+                      <div href="/contacts/fairgames" class="footer__main-menu__item">Честная игра</div>
+                    </a>
+                    <div  href="#" class="footer__main-menu__item">
                       Партнёрская программа
                     </div>
-                    <div class="footer__main-menu__item">Правила игр</div>
-                    <div class="footer__main-menu__item">Контакты</div>
+                    <a href="/contacts/rules" class="a-noDeciration">
+                      <div class="footer__main-menu__item">Правила игр</div>
+                    </a>
+                    <a href="/contacts/contactus" class="a-noDeciration">
+                      <div class="footer__main-menu__item">Контакты</div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -657,5 +669,10 @@ export default {
   &__logo {
     max-width: 120px;
   }
+}
+
+.a-noDeciration {
+  text-decoration: none;
+  color: whitesmoke;
 }
 </style>

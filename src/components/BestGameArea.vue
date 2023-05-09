@@ -74,10 +74,12 @@
       </div>
     </div>
   </div>
+
+
+  
 </template>
 
 <style scoped lang="scss">
-
 .BestGameArea {
   margin: 30px 0;
 }
@@ -111,7 +113,7 @@
       &:hover {
         filter: grayscale(1);
         transition: .3s;
-        
+
       }
 
     }
@@ -121,7 +123,7 @@
 
 
 
-.cartGame:hover> .cartGame__block {
+.cartGame:hover>.cartGame__block {
   filter: grayscale(1);
   transition: .3s;
 }
@@ -143,7 +145,7 @@
   box-shadow: 0 0 15px #ff3d84;
   border: 2px solid #d4145a;
   color: #fff;
-  
+
   opacity: 0;
   transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -168,9 +170,8 @@
 }
 
 .font {
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: bold;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: bold;
 }
-
 </style>

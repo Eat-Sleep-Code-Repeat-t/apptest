@@ -2,9 +2,9 @@
   <div class="registration">
     <div class="form">
       <div class="container">
-        <div class="form-group">
+        <div class="form-group mx-auto">
           <form @submit.prevent='handleSubmit' method="post" action="/api/auth/signup">
-            <h1 class="h3 mb-3 fw-normal">Регистрация</h1>
+            <h1 class="h2 mb-3 fw-normal">Восстановление пароля</h1>
             <!-- <div class="form-floating">
               <input
                 type="text"
@@ -13,30 +13,32 @@
                 name="username"
               />
             </div> -->
-            <div class="name-field space1">Эл.почта *</div>
-            <div class="form-floating">
-              <input type="email" class="form-control" id="useremail" placeholder="name@example.com" name="useremail" />
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div class="name-field space1">Пароль *</div>
 
-            <div class="form-floating">
+            <div class="restore-text mx-auto">Пожалуйста, введите эл.почту, которая была использована для создания учетной
+              записи на
+              coingames.bet Ссылка для сброса пароля будет отправлена на вашу эл.почту в ближайшее время.</div>
+
+
+            <div class="name-field space1 mx-auto">Пароль *</div>
+
+            <div class="form-floating mx-auto">
               <input type="password" class="form-control" id="password" placeholder="Password" name="userpassword" />
               <label for="floatingInput">Password</label>
-            </div>
-
-            <div class="checkbox checkbox1 mb-3">
-              <label class="center-position" value="remember-me">
-                <input type="checkbox" value="remember-me" />
-                <span style="padding-left: 3px; font-size: 1.2rem;">Remember me</span>
-              </label>
             </div>
 
             <button class="w-50 btn btn-lg btn-primary btn-style" type="submit">
               Sign in
             </button>
-
           </form>
+
+          <div class="wrap">
+            <div class="question space1">Нет аккаунта?</div>
+            <div class="registratin">
+              <button class="btn-style-froget" data-bs-target="#regModal" data-bs-toggle="modal">
+                <span class="text-forget">Зарегестрироваться ></span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -72,6 +74,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.form-group {
+  width: 350px;
+}
+
 .form-signin {
   width: 100%;
   max-width: 330px;
@@ -132,6 +138,8 @@ export default {
   user-select: none;
   margin: 0 0 0 10px;
   min-height: 20px;
+
+
 }
 
 .space1 {
@@ -159,6 +167,8 @@ export default {
   background-color: transparent;
   border: 2px solid #d4145a;
   transition: .3s;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .btn-style:hover {
@@ -171,4 +181,39 @@ export default {
   box-shadow: 0px 3px 20px 0px #d4145a;
 }
 
+.restore-text {
+  padding-top: 15px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.question {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  transition: color 0.3s linear;
+}
+
+.registratin {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: .3s;
+  padding-bottom: 20px;
+}
+
+.btn-style-froget {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-forget {
+  color: whitesmoke;
+  transition: .2s;
+}
+
+.text-forget:hover {
+  color: #d4145a;
+}
 </style>

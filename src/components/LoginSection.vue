@@ -27,45 +27,30 @@
               </label>
             </div>
 
-            <div class="forget-pass">
-              <button class="btn-style-froget" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" >
-                <span class="text-forget">Забыли пароль?</span>
-              </button>
-            </div>
-
             <button class="w-50 btn btn-lg btn-primary btn-style" type="submit">
               Sign in
             </button>
-
-            <div class="">
-              <div class="question space1">Нет аккаунта?</div>
-              <div class="registratin">Зарегестрироваться ></div>
-            </div>
           </form>
-        </div>
-      </div>
-    </div>
 
-    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-      tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Hide this modal and show the first with the button below.
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
-              first</button>
+          <div class="wrap">
+            <div class="question space1">Нет аккаунта?</div>
+            <div class="registratin">
+              <button class="btn-style-froget" data-bs-target="#regModal" data-bs-toggle="modal">
+                <span class="text-forget">Зарегестрироваться ></span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
+  </div>
 
+
+  <div class="forget-pass">
+    <button class="btn-style-froget" data-bs-target="#restorePass" data-bs-toggle="modal">
+      <span class="text-forget">Забыли пароль?</span>
+    </button>
   </div>
 </template>
 
@@ -188,7 +173,6 @@ export default {
 
 .text-forget {
   color: whitesmoke;
-  text-decoration: underline;
   transition: .2s;
 }
 
