@@ -15,11 +15,23 @@
         <div class="col-xl-2 col-md-3 col-sm-4 col-6">
           <div class="cartGame mx-auto">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/background.webp">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/balloon.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/balloon'">Демо</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+          <div class="cartGame mx-auto">
+            <div class="cartGame__block">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/footballX.webp">
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button ">Играть</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/footballX'">Демо</button>
             </div>
           </div>
         </div>
@@ -31,7 +43,7 @@
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/SpaceXY'">Демо</button>
             </div>
           </div>
         </div>
@@ -39,11 +51,23 @@
         <div class="col-xl-2 col-md-3 col-sm-4 col-6">
           <div class="cartGame mx-auto">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/background.webp">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/plinko.webp">
             </div>
             <div class="cartGame__button_position font">
-              <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
+              <button class="cartGame__button">Играть</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/plinko'">Демо</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+          <div class="cartGame mx-auto">
+            <div class="cartGame__block">
+              <img class="cartGame__block__img" src="@/assets/img/BestGameArea/WildCash.webp">
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button">Играть</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/jetx3'">Демо</button>
             </div>
           </div>
         </div>
@@ -139,7 +163,7 @@
 }
 
 .cartGame:hover button {
-  bottom: 20px;
+  bottom: 30px;
   opacity: 1;
 }
 

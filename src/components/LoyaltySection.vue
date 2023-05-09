@@ -145,8 +145,8 @@
                           </div>
                         </div>
                       </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      <div class="modal-footer ">
+                        <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">
                           Закрыть
                         </button>
                       </div>
@@ -255,5 +255,21 @@ export default {
     top: 30px;
     right: 30px;
   }
+}
+
+.btn-primary {
+  background-color: #d4145a;
+  border: 2px solid #d4145a !important;
+
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  width: 144px;
+}
+
+.btn-primary:hover {
+
+  box-shadow: 0px 3px 20px 0px #d4145a;
+
 }
 </style>

@@ -4,50 +4,78 @@
       <div class="container">
         <div class="form-group">
           <form>
-            <h1 class="h3 mb-3 fw-normal">Please log in</h1>
+            <h1 class="h2 mb-3 fw-normal">Вход</h1>
+            <h2 class="h4 mb-3 fw-normal">С возвращением!</h2>
 
+            <div class="name-field">Эл.почта *</div>
             <div class="form-floating">
-              <input
-                type="email"
-                class="form-control"
-                id="floatingInput"
-                placeholder="name@example.com"
-              />
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
               <label for="floatingInput">Email address</label>
             </div>
-            <div class="form-floating">
-              <input
-                type="password"
-                class="form-control"
-                id="floatingPassword"
-                placeholder="Password"
-              />
-              <label for="floatingPassword">Password</label>
+            <div class="space1">
+              <div class="name-field">Пароль *</div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+                <label for="floatingPassword">Password</label>
+              </div>
             </div>
 
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="remember-me" /> Remember me
+            <div class="checkbox checkbox1  mb-3">
+              <label class="center-position">
+                <input type="checkbox" value="remember-me" />
+                <span style="padding-left: 3px; font-size: 1.2rem;">Remember me</span>
               </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">
+
+            <div class="forget-pass">
+              <button class="btn-style-froget" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" >
+                <span class="text-forget">Забыли пароль?</span>
+              </button>
+            </div>
+
+            <button class="w-50 btn btn-lg btn-primary btn-style" type="submit">
               Sign in
             </button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+
+            <div class="">
+              <div class="question space1">Нет аккаунта?</div>
+              <div class="registratin">Зарегестрироваться ></div>
+            </div>
           </form>
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+      tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Hide this modal and show the first with the button below.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
+              first</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </template>
 
 <script>
 export default {
   name: "LoginSection",
-  methods:{
-    handleSubmit(e){
-        e.preventDefault()
-        console.log('submitted');
+  methods: {
+    handleSubmit(e) {
+      e.preventDefault()
+      console.log('submitted');
     }
   }
 };
@@ -80,5 +108,126 @@ export default {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.fw-normal {
+  color: white;
+
+}
+
+.form-group {
+  width: 400px !important;
+  margin: auto;
+
+}
+
+.name-field {
+
+  color: #667b83;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.45;
+  display: flex;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  margin: 0 0 0 10px;
+  min-height: 20px;
+}
+
+.form-floating {
+  display: block;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: .3s;
+}
+
+.form-floating:hover {
+  background-color: #d4145a;
+  border: 1px solid #d4145a;
+  box-shadow: #d4145a;
+}
+
+.form-control {
+  font-size: 1.4rem;
+}
+
+.space1 {
+  padding-top: 20px;
+  padding-bottom: 3px;
+}
+
+.checkbox1 {
+  color: whitesmoke;
+  display: flex;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+
+.center-position {
+  display: flex;
+}
+
+
+.forget-pass {
+  text-align: end;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+}
+
+.btn-style-froget {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-forget {
+  color: whitesmoke;
+  text-decoration: underline;
+  transition: .2s;
+}
+
+.text-forget:hover {
+  color: #d4145a;
+}
+
+.btn-style {
+  background-color: transparent;
+  border: 2px solid #d4145a;
+  transition: .3s;
+}
+
+.btn-style:hover {
+  background-color: transparent;
+  background-color: #d4145a !important;
+  border: 2px solid #d4145a !important;
+
+  -webkit-box-shadow: 0px 3px 20px 0px #d4145a;
+  -moz-box-shadow: 0px 3px 20px 0px #d4145a;
+  box-shadow: 0px 3px 20px 0px #d4145a;
+}
+
+.question {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  transition: color 0.3s linear;
+}
+
+
+.registratin {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: .3s;
+  padding-bottom: 20px;
+}
+
+.registratin:hover {
+  color: #d4145a;
 }
 </style>

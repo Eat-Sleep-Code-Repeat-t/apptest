@@ -662,18 +662,19 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Login Modal</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <LoginSection />
+            <div class="col">
+              <LoginSection />
+            </div>
           </div>
-          <div class="modal-footer">
+          <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
               Close
             </button>
-            <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
-          </div>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
         </div>
       </div>
     </div>
@@ -681,28 +682,51 @@
     <!-- Modal -->
     <div class="offcanvas__modal modal fade" id="regModal" tabindex="-1" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Reg Modal</h5>
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <div class="container">
-              <div class="row">
-                <div class="col-xl-7">
-                  <RegisterSection />
+              <RegisterSection />
+              <!-- <div class="row">
+                <div class="col-xl">
                 </div>
-                <div class="col-xl-5"></div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary bth-style" data-bs-dismiss="modal">
+              Close
+            </button> -->
+            <!-- <button type="button" class="btn btn-primary">Save chan111ges</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Modal -->
+     <div class="offcanvas__modal modal fade" id="RestorePassModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="col">
+              <LoginSection />
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
               Close
             </button>
-            <!--  <button type="button" class="btn btn-primary">Save changes</button>-->
-          </div>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
         </div>
       </div>
     </div>
@@ -919,7 +943,6 @@ export default {
   .offcanvas__modal .modal-content {
     background-color: #132932;
   }
-
 }
 
 .header__burger {
@@ -1152,9 +1175,10 @@ export default {
 }
 
 .accordion-button:focus {
- 
-    box-shadow: none;
+
+  box-shadow: none;
 }
+
 .accordion-body {
   text-align: left;
   font-size: 1.5rem;
@@ -1182,7 +1206,29 @@ img {
 }
 
 .accordion-button:not(.collapsed) {
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #36495d;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #36495d;
 }
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+//modal_windows_reg
+// .modal-title{
+//   display: none;
+// }
+
+.btn-style {
+  background-color: #d4145a;
+  border: 2px solid #d4145a !important;
+  width: 20%;
+
+}
+
+.btn-style:hover {}
 </style>
 

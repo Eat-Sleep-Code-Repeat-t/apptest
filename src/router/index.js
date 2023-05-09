@@ -12,9 +12,6 @@ import ruleGame from "../views/ruleGame.vue"
 import termsCondition from "../views/termsCondition.vue"
 
 
-
-
-
 const routes = [
   {
     path: "/",
@@ -90,11 +87,59 @@ const routes = [
   },
   {
     path: "/SpaceXY",
-    name: "SpaceXY",
+    name: "SpaceXYGame",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/games/SpaceXY.vue"),
+      import(/* webpackChunkName: "about" */ "../views/games/SpaceXYGame.vue"),
   },
-
+  {
+    path: "/aviator",
+    name: "AviatorGame",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/AviatorGame.vue"),
+  },
+  {
+    path: "/balloon",
+    name: "BaloonGame",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/BalloonGame.vue"),
+  },
+  {
+    path: "/footballX",
+    name: "FootballXGame",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/FootballXGame.vue"),
+  },
+  {
+    path: "/jetx3",
+    name: "Jetx3Game",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/JetX3Game.vue"),
+  },
+  {
+    path: "/Plinko",
+    name: "plinkoGame",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/PlinkoGame.vue"),
+  },
+  {
+    path: "/casinofr",
+    name: "casinofr",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/CasinoGames/CasinoFrGame.vue"),
+  },
+  {
+    path: "/DivineFortuneMegaways",
+    name: "DivineFortuneMegaways",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/CasinoGames/DivineFortuneMegaways.vue"),
+  },
+  {
+    path: "/fruitshop",
+    name: "FruitShopGame",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/games/CasinoGames/FruitShopGame.vue"),
+  },
+  
 ];
 
 const router = createRouter({

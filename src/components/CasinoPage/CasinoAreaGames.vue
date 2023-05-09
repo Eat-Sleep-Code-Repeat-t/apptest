@@ -6,11 +6,11 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
             </div>
             <div class="cartGame__button_position font ">
               <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/casinofr'">Демо</button>
             </div>
           </div>
         </div>
@@ -18,23 +18,11 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/divine_fortune_megaways.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
-          <div class="cartGame">
-            <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
-            </div>
-            <div class="cartGame__button_position font">
-              <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/DivineFortuneMegaways'">Демо</button>
             </div>
           </div>
         </div>
@@ -46,7 +34,19 @@
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
-              <button class="cartGame__button__two">Демо</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/deadoralive'">Демо</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-3 col-sm-4 col-6">
+          <div class="cartGame">
+            <div class="cartGame__block">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/fruit_shop_megaways.webp">
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button ">Играть</button>
+              <button class="cartGame__button__two" onclick="window.location.href='/fruitshop'">Демо</button>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/fruit_shop_megaways.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -73,7 +73,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/hotline_not_mobile_sw.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -85,7 +85,7 @@
         <div class="ccol-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/irish_pot_luck.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -96,7 +96,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/jackandbeanstalk_sw.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -115,7 +115,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/aviator.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/jumanji_not_mobile_sw.webp">
             </div>
             <div class="cartGame__button_position font ">
               <button class="cartGame__button ">Играть</button>
@@ -127,7 +127,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/starburst_sw.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -139,7 +139,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/european_roulette_sw.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/twinspin_sw.webp">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
@@ -151,7 +151,7 @@
         <div class="col-xl-3 col-md-3 col-sm-4 col-6">
           <div class="cartGame">
             <div class="cartGame__block">
-              <img class="cartGame__block__img" src="@/assets/img/casinoPage/deadoralive2_not_mobile_sw.webp">
+              <img class="cartGame__block__img" src="@/assets/img/casinoPage/wildworlds_not_mobile_sw.jpg">
             </div>
             <div class="cartGame__button_position font">
               <button class="cartGame__button ">Играть</button>
