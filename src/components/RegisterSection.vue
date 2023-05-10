@@ -3,7 +3,7 @@
     <div class="form">
       <div class="container">
         <div class="form-group">
-          <form @submit.prevent='handleSubmit' method="post" action="/api/auth/signup">
+          <form @submit.prevent="handleSubmit" method="post" action="/api/auth/signup">
             <h1 class="h3 mb-3 fw-normal">Регистрация</h1>
             <!-- <div class="form-floating">
               <input
@@ -13,15 +13,18 @@
                 name="username"
               />
             </div> -->
+
             <div class="name-field space1">Эл.почта *</div>
             <div class="form-floating">
-              <input type="email" class="form-control" id="useremail" placeholder="name@example.com" name="useremail" />
+              <input type="email" v-model="email" class="form-control" id="email" placeholder="name@example.com"
+                name="usermail" />
               <label for="floatingInput">Email address</label>
             </div>
-            <div class="name-field space1">Пароль *</div>
 
+            <div class="name-field space1">Пароль *</div>
             <div class="form-floating">
-              <input type="password" class="form-control" id="password" placeholder="Password" name="userpassword" />
+              <input type="password" v-model="password" class="form-control" id="password" placeholder="Password"
+                name="userpassword" />
               <label for="floatingInput">Password</label>
             </div>
 
@@ -48,14 +51,20 @@ import axios from "axios";
 
 export default {
   name: "RegisterSection",
+  data() {
+    return {
+      email: '',
+      password: ''
+    }
+  },
   methods: {
     handleSubmit() {
       // e.preventDefault()
       // Simple POST request with a JSON body using axios
       const article = {
         // username: document.getElementById("username").value.trim(),
-        email: document.getElementById("useremail").value.trim(),
-        password: document.getElementById("password").value.trim(),
+        email: this.email.trim(),
+        password: this.password.trim(),
         roles: ["user"]
       };
       axios.post("http://localhost:9090/api/auth/signup", article, {
@@ -170,5 +179,4 @@ export default {
   -moz-box-shadow: 0px 3px 20px 0px #d4145a;
   box-shadow: 0px 3px 20px 0px #d4145a;
 }
-
 </style>
