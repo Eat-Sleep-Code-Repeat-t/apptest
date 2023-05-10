@@ -109,41 +109,77 @@
                   <div class="contianer">
                     <div class="row">
                       <div class="col-xl-10 mx-auto">
-                        <h3 class="modal-body-title">Программа лояльности</h3>
-                        <div class="table__head">
-                          <div class="table-row">
-                            <div class="table__head-cell">Уровень</div>
-                            <div class="table__head-cell">Название уровня</div>
-                            <div class="table__head-cell">Опыт</div>
-                            <div class="table__head-cell">Коэффициент</div>
+                        <table class="table table-borderless ">
+                          <h3 class="modal-body-title">Программа лояльности</h3>
+                          <div class="table__head">
+                            <div class="table-row text-start">
+                              <div class="table__head-cell">Уровень</div>
+                              <div class="table__head-cell">Название уровня</div>
+                              <div class="table__head-cell">Опыт</div>
+                              <div class="table__head-cell">Коэффициент</div>
+                            </div>
                           </div>
-                        </div>
-                        <div class="table__body">
-                          <div class="table-row">
-                            <div class="table__body-cell">1</div>
-                            <div class="table__body-cell">Начинающий</div>
-                            <div class="table__body-cell">100</div>
-                            <div class="table__body-cell">0.5</div>
+                          <div class="table__body">
+                            <div class="table-row">
+                              <div class="table__body-cell">1</div>
+                              <div class="table__body-cell">Начинающий</div>
+                              <div class="table__body-cell">100</div>
+                              <div class="table__body-cell">0.5</div>
+                            </div>
+                            <div class="table-row">
+                              <div class="table__body-cell">2</div>
+                              <div class="table__body-cell">Любитель</div>
+                              <div class="table__body-cell">500</div>
+                              <div class="table__body-cell">1</div>
+                            </div>
+                            <div class="table-row">
+                              <div class="table__body-cell">3</div>
+                              <div class="table__body-cell">Игрок</div>
+                              <div class="table__body-cell">3000</div>
+                              <div class="table__body-cell">1.5</div>
+                            </div>
+                            <div class="table-row">
+                              <div class="table__body-cell">4</div>
+                              <div class="table__body-cell">Профессионал</div>
+                              <div class="table__body-cell">50000</div>
+                              <div class="table__body-cell">2</div>
+                            </div>
                           </div>
-                          <div class="table-row">
-                            <div class="table__body-cell">2</div>
-                            <div class="table__body-cell">Любитель</div>
-                            <div class="table__body-cell">500</div>
-                            <div class="table__body-cell">1</div>
-                          </div>
-                          <div class="table-row">
-                            <div class="table__body-cell">3</div>
-                            <div class="table__body-cell">Игрок</div>
-                            <div class="table__body-cell">3000</div>
-                            <div class="table__body-cell">1.5</div>
-                          </div>
-                          <div class="table-row">
-                            <div class="table__body-cell">4</div>
-                            <div class="table__body-cell">Профессионал</div>
-                            <div class="table__body-cell">50000</div>
-                            <div class="table__body-cell">2</div>
-                          </div>
-                        </div>
+                          <thead class="text-white">
+                            <tr class="table-row">
+                              <th scope="col">Уровень</th>
+                              <th scope="col">Название уровня</th>
+                              <th scope="col">Опыт</th>
+                              <th scope="col">Коэффициент</th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-white">
+                            <tr class="table-row two">
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                              <td>100</td>
+                              <td>@mdo</td>
+                            </tr>
+                            <tr class="table-row">
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>300</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr class="table-row two">
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>5000</td>
+                              <td>@fat</td>
+                            </tr>
+                            <tr class="table-row">
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                              <td>7000</td>
+                              <td>@fat</td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                       <div class="modal-footer ">
                         <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">
@@ -243,6 +279,11 @@ export default {
   }
 
   .table__body .table-row:nth-child(2n + 1) {
+    background-color: #1f3842;
+    border-radius: 10px;
+  }
+
+  .two {
     background-color: #1f3842;
     border-radius: 10px;
   }
