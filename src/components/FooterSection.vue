@@ -495,7 +495,7 @@
                 <div class="col-xl-auto">
                   <img class="footer__logo" src="@/assets/img/footer/logo.png" alt="footer-logo" />
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-6 col-12">
                   <div class="footer__main-menu ">
                     <a href="/contacts/terms" class="a-noDeciration">
                       <div class="footer__main-menu__item">
@@ -514,12 +514,12 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-lg-6 col-12">
                   <div href="/contacts/respons" class="footer__main-menu">
-                    <a  class="a-noDeciration">
-                      <div href="/contacts/fairgames" class="footer__main-menu__item">Честная игра</div>
+                    <a class="a-noDeciration" href="/contacts/fairgames">
+                      <div  class="footer__main-menu__item">Честная игра</div>
                     </a>
-                    <div  href="#" class="footer__main-menu__item">
+                    <div href="#" class="footer__main-menu__item">
                       Партнёрская программа
                     </div>
                     <a href="/contacts/rules" class="a-noDeciration">
@@ -533,7 +533,7 @@
               </div>
             </div>
             <div class="col-xl-7 text-start">
-              <div class="row">
+              <div class="row footer__main-license__block18_1">
                 <div class="col-auto">
                   <div class="footer__main-license">
                     <div class="footer__main-license__licenseImg">
@@ -555,7 +555,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-10 space1">
+                <div class="d-none d-lg-block col-xl-10 space1">
                   <div class="footer__main__text">
                     Coingames.bet является зарегистрированной торговой маркой SG
                     International N.V. по адресу Dr. M.J. Hugenholtzweg 25 Unit
@@ -674,5 +674,24 @@ export default {
 .a-noDeciration {
   text-decoration: none;
   color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .text-start {
+    text-align: center !important;
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .footer__main-license__licenseImg {
+    display: none;
+  }
+
+  .footer__main-license__block18_1 {
+   justify-content: center;
+   padding-top: 30px;
+  }
 }
 </style>

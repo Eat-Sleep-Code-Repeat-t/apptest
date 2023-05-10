@@ -4,27 +4,30 @@
       <div class="windowInfo">
         <div class="row">
           <div class="col-xl-4">
-            <div class="areaNavigate">
+            <div class="areaNavigate ">
 
-              <div class="contactUS field__space">Связатся с нами</div>
-
+              <a href="/contacts/contactus">
+                <div class="contactUS field__space a-noDeciration">Связатся с нами</div>
+              </a>
 
               <!-- <div class="blog field__space">Блог</div> -->
 
+              <a href="/contacts/politics">
+                <div class="politicsConf field__space a-noDeciration">Политикой Конфиденциальности</div>
+              </a>
 
-              <div class="politicsConf field__space">Политикой Конфиденциальности</div>
-
-
-              <div class="gameRespons field__space">Responsible Gambling</div>
-
-
-              <div class="rulesGame field__space">Честная игра</div>
-
-
-              <div class="contactUS field__space">Правила игр</div>
-
-
-              <div class="termsCondit field__space active">Условиями и положениями</div>
+              <a href="/contacts/respons">
+                <div class="gameRespons field__space a-noDeciration">Responsible Gambling</div>
+              </a>
+              <a href="/contacts/fairgames">
+                <div class="rulesGame field__space a-noDeciration">Честная игра</div>
+              </a>
+              <a href="/contacts/rules">
+                <div class="contactUS field__space a-noDeciration">Правила игр</div>
+              </a>
+              <a href="/contacts/terms">
+                <div class="termsCondit field__space active a-noDeciration">Условиями и положениями</div>
+              </a>
 
             </div>
           </div>
@@ -84,8 +87,7 @@
                 warrant to us that gambling is not illegal in the territory where you reside.</p>
 
               <p>7. RBL is committed to providing excellent customer service. As part of that commitment, RBL is committed
-                to supporting responsible gambling, for further details please click&nbsp;<a
-                  href="#">here</a>.</p>
+                to supporting responsible gambling, for further details please click&nbsp;<a href="#">here</a>.</p>
 
               <p>Although RBL will use its reasonable endeavours to enforce its responsible gambling policies, RBL does
                 not accept any responsibility or liability if you nevertheless continue gambling and/or seek to use the
@@ -187,8 +189,8 @@
               <p>1.8 RBL reserves the right to refuse to register any customer account application at its sole discretion.
               </p>
 
-              <p>1.9 In order to open an account with RBL you must visit&nbsp;<a
-                  href="#">coingamesfun</a>&nbsp;and click on the &lsquo;Register&rsquo; tab at the top
+              <p>1.9 In order to open an account with RBL you must visit&nbsp;<a href="#">coingamesfun</a>&nbsp;and click
+                on the &lsquo;Register&rsquo; tab at the top
                 to screen, then follow the registration instructions.</p>
 
               <p><strong>2. Account Details</strong></p>
@@ -462,9 +464,7 @@
 
               <p>If your complaint is not resolved to a satisfactory conclusion for all concerned then the matter can be
                 escalated to our regulator, the Isle of Man Gambling Supervision Commission by selecting the following
-                link&nbsp;<a
-                  href="#"
-                  rel="noopener noreferrer"
+                link&nbsp;<a href="#" rel="noopener noreferrer"
                   target="_blank">https://www.gov.im/categories/business-and-industries/gambling-and-e-gaming/player-protection/#complaints</a>
               </p>
 
@@ -514,7 +514,7 @@
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.field__space:last-child {
+.areaNavigate a:last-of-type .field__space {
   border-bottom: none;
 }
 
@@ -675,4 +675,13 @@
 
 .active {
   background-color: #d4145a;
-}</style>
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+</style>

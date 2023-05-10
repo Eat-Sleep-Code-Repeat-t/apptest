@@ -3,41 +3,45 @@
     <div class="form">
       <div class="container">
         <div class="form-group">
-          <form>
-            <h1 class="h2 mb-3 fw-normal">Вход</h1>
-            <h2 class="h4 mb-3 fw-normal">С возвращением!</h2>
+          <div class="row">
+            <div class="col">
+              <form>
+                <h1 class="h2 mb-3 fw-normal">Вход</h1>
+                <h2 class="h4 mb-3 fw-normal">С возвращением!</h2>
 
-            <div class="name-field">Эл.почта *</div>
-            <div class="form-floating">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-              <label for="floatingInput">Email address</label>
-            </div>
-            <div class="space1">
-              <div class="name-field">Пароль *</div>
-              <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-                <label for="floatingPassword">Password</label>
+                <div class="name-field">Эл.почта *</div>
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="space1">
+                  <div class="name-field">Пароль *</div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                </div>
+
+                <div class="checkbox checkbox1  mb-3">
+                  <label class="center-position">
+                    <input type="checkbox" value="remember-me" />
+                    <span style="padding-left: 3px; font-size: 1.2rem;">Remember me</span>
+                  </label>
+                </div>
+
+                <button class="w-50 btn btn-lg btn-primary btn-style" type="submit">
+                  Sign in
+                </button>
+              </form>
+
+              <div class="wrap">
+                <div class="question space1">Нет аккаунта?</div>
+                <div class="registratin">
+                  <button class="btn-style-froget" data-bs-target="#regModal" data-bs-toggle="modal">
+                    <span class="text-forget">Зарегестрироваться ></span>
+                  </button>
+                </div>
               </div>
-            </div>
-
-            <div class="checkbox checkbox1  mb-3">
-              <label class="center-position">
-                <input type="checkbox" value="remember-me" />
-                <span style="padding-left: 3px; font-size: 1.2rem;">Remember me</span>
-              </label>
-            </div>
-
-            <button class="w-50 btn btn-lg btn-primary btn-style" type="submit">
-              Sign in
-            </button>
-          </form>
-
-          <div class="wrap">
-            <div class="question space1">Нет аккаунта?</div>
-            <div class="registratin">
-              <button class="btn-style-froget" data-bs-target="#regModal" data-bs-toggle="modal">
-                <span class="text-forget">Зарегестрироваться ></span>
-              </button>
             </div>
           </div>
         </div>
@@ -101,7 +105,7 @@ export default {
 }
 
 .form-group {
-  width: 400px !important;
+  width: 350px !important;
   margin: auto;
 
 }

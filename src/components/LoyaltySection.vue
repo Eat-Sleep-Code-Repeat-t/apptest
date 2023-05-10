@@ -192,7 +192,7 @@ export default {
       font-weight: bold;
       font-size: 2.4rem;
       line-height: 1.45;
-      margin: 20px 0 0 0;
+      margin: 3px 0 0 0;
     }
 
     &-quantity {

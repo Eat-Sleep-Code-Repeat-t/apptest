@@ -6,25 +6,28 @@
           <div class="col-xl-4">
             <div class="areaNavigate">
 
-              <div class="contactUS field__space active">Связатся с нами</div>
-
+              <a href="/contacts/contactus">
+                <div class="contactUS field__space">Связатся с нами</div>
+              </a>
 
               <!-- <div class="blog field__space">Блог</div> -->
 
+              <a href="/contacts/politics">
+                <div class="politicsConf field__space">Политикой Конфиденциальности</div>
+              </a>
 
-              <div class="politicsConf field__space">Политикой Конфиденциальности</div>
-
-
-              <div class="gameRespons field__space">Responsible Gambling</div>
-
-            
-              <div class="rulesGame field__space">Честная игра</div>
-
-
-              <div class="contactUS field__space active">Правила игр</div>
-
-
+              <a href="/contacts/respons">
+                <div class="gameRespons field__space">Responsible Gambling</div>
+              </a>
+              <a href="/contacts/fairgames">
+                <div class="rulesGame field__space">Честная игра</div>
+              </a>
+              <a href="/contacts/rules">
+                <div class="contactUS field__space active">Правила игр</div>
+              </a>
+              <a href="/contacts/terms">
               <div class="termsCondit field__space">Условиями и положениями</div>
+            </a>
 
             </div>
           </div>
@@ -535,7 +538,7 @@
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.field__space:last-child {
+.areaNavigate a:last-of-type .field__space {
   border-bottom: none;
 }
 
@@ -696,4 +699,11 @@
 
 .active {
   background-color: #d4145a;
-}</style>
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+</style>
