@@ -1,8 +1,10 @@
 
-const express = require("express");
+const express = require("express"); 
 const cors = require("cors");
 const cookieSession = require("cookie-session");
 
+
+//for parse json
 const app = express();
 
 var corsOptions = {
@@ -30,6 +32,7 @@ app.use(
 //   res.json({ message: "Welcome to bezkoder application." });
 // });
 
+
 // set port, listen for requests
 const PORT = process.env.PORT || 9090;
 app.listen(PORT, () => {
@@ -39,8 +42,17 @@ app.listen(PORT, () => {
 const db = require("./app/models");
 const Role = db.role;
 
+// mongodb+srv://Userdb:gfrxu9sAH8bsPcqC@clusterone.0itk6f1.mongodb.net/?retryWrites=true&w=majority
+// mongodb+srv://test_admin:cGu70kKjiSpZJLOI@cluster0.u6w4bka.mongodb.net/?retryWrites=true&w=majority
+
+// conntect to BD Mongo 
+//log:test_admin pass:Gu70kKjiSpZJLOI
+
+const mongoose = require('mongoose');
+mongoose.set('strictQuery', false);
+
 db.mongoose
-  .connect(`mongodb+srv://test_admin:cGu70kKjiSpZJLOI@cluster0.u6w4bka.mongodb.net/?retryWrites=true&w=majority`, {
+  .connect(`mongodb+srv://Userdb:gfrxu9sAH8bsPcqC@clusterone.0itk6f1.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })

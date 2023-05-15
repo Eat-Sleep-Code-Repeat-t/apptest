@@ -111,15 +111,15 @@
                       <div class="col-xl-10 mx-auto">
                         <table class="table table-borderless ">
                           <h3 class="modal-body-title">Программа лояльности</h3>
-                          <div class="table__head">
+                          <!-- <div class="table__head">
                             <div class="table-row text-start">
                               <div class="table__head-cell">Уровень</div>
                               <div class="table__head-cell">Название уровня</div>
                               <div class="table__head-cell">Опыт</div>
                               <div class="table__head-cell">Коэффициент</div>
                             </div>
-                          </div>
-                          <div class="table__body">
+                          </div> -->
+                          <!-- <div class="table__body">
                             <div class="table-row">
                               <div class="table__body-cell">1</div>
                               <div class="table__body-cell">Начинающий</div>
@@ -144,9 +144,9 @@
                               <div class="table__body-cell">50000</div>
                               <div class="table__body-cell">2</div>
                             </div>
-                          </div>
+                          </div> -->
                           <thead class="text-white">
-                            <tr class="table-row">
+                            <tr class="table-row-head">
                               <th scope="col">Уровень</th>
                               <th scope="col">Название уровня</th>
                               <th scope="col">Опыт</th>
@@ -156,33 +156,33 @@
                           <tbody class="text-white">
                             <tr class="table-row two">
                               <th scope="row">1</th>
-                              <td>Mark</td>
+                              <td>Любитель</td>
                               <td>100</td>
-                              <td>@mdo</td>
+                              <td>2</td>
                             </tr>
                             <tr class="table-row">
                               <th scope="row">2</th>
-                              <td>Jacob</td>
+                              <td>Начинающий</td>
                               <td>300</td>
-                              <td>@fat</td>
+                              <td>2</td>
                             </tr>
                             <tr class="table-row two">
                               <th scope="row">2</th>
-                              <td>Jacob</td>
+                              <td>Профи</td>
                               <td>5000</td>
-                              <td>@fat</td>
+                              <td>0,5</td>
                             </tr>
                             <tr class="table-row">
                               <th scope="row">2</th>
-                              <td>Jacob</td>
+                              <td>Игрок</td>
                               <td>7000</td>
-                              <td>@fat</td>
+                              <td>1</td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div class="modal-footer ">
-                        <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">
+                      <div class="modal-footer  ">
+                        <button type="button" class="btn btn-secondary btn-primary mx-auto" data-bs-dismiss="modal">
                           Закрыть
                         </button>
                       </div>
@@ -268,25 +268,34 @@ export default {
   // .table__head {
   //   display: flex;
   // }
-  .table-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+  .table-row-head{
     font-size: 1.4rem;
     font-style: normal;
-    line-height: 1.45;
+    line-height: 3;
     padding: 20px 10px;
   }
 
-  .table__body .table-row:nth-child(2n + 1) {
-    background-color: #1f3842;
-    border-radius: 10px;
+  .table-row {
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 3;
+    // padding: 20px 10px;
   }
 
-  .two {
+  .table-row:nth-child(2n + 1) {
     background-color: #1f3842;
-    border-radius: 10px;
+    border-radius: 20px;
   }
+
+
+  // .two {
+  //   background-color: #1f3842;
+  //   border-radius: 10px;
+  // }
 
   // .table__body-cell{
   //   padding: 20px 10px;

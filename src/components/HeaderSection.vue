@@ -1008,6 +1008,13 @@ export default {
   height: auto;
 }
 
+@media (max-width:768px) {
+  .header__logo {
+  
+  width: 100px;
+  
+}
+}
 .header__navbar .nav-link {
   color: #ffffff;
   margin-left: 20px;
