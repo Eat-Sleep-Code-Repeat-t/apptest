@@ -1,20 +1,25 @@
-
 const express = require("express"); 
+const PORT = process.env.PORT || 9090;
+const mongoose = require ('mongoose')
+
+//routers
+const authRouter = require('./app/routes/authRouter')
+
 const cors = require("cors");
 const cookieSession = require("cookie-session");
 
-
 //for parse json
 const app = express();
+
+// parse requests of content-type - application/json
+app.use(express.json());
+app.use("/auth", authRouter)
 
 var corsOptions = {
   origin: "*"
 };
 
 app.use(cors(corsOptions));
-
-// parse requests of content-type - application/json
-app.use(express.json());
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
@@ -27,81 +32,23 @@ app.use(
   })
 );
 
-// simple route
-// app.get("/", (req, res) => {
-//   res.json({ message: "Welcome to bezkoder application." });
-// });
-
-
-// set port, listen for requests
-const PORT = process.env.PORT || 9090;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
-});
-
-const db = require("./app/models");
-const Role = db.role;
-
 // mongodb+srv://Userdb:gfrxu9sAH8bsPcqC@clusterone.0itk6f1.mongodb.net/?retryWrites=true&w=majority
-// mongodb+srv://test_admin:cGu70kKjiSpZJLOI@cluster0.u6w4bka.mongodb.net/?retryWrites=true&w=majority
 
 // conntect to BD Mongo 
 //log:test_admin pass:Gu70kKjiSpZJLOI
 
-const mongoose = require('mongoose');
-mongoose.set('strictQuery', false);
+// set port, listen for requests, use after enbale express 
 
-db.mongoose
-  .connect(`mongodb+srv://Userdb:gfrxu9sAH8bsPcqC@clusterone.0itk6f1.mongodb.net/?retryWrites=true&w=majority`, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
-  .then(() => {
-    console.log("Successfully connect to MongoDB.");
-    initial();
-  })
-  .catch(err => {
-    console.error("Connection error", err);
-    process.exit();
-  });
+const start = async () => {
+  try {
+    await mongoose.connect('mongodb+srv://Userdb:gfrxu9sAH8bsPcqC@clusterone.0itk6f1.mongodb.net/?retryWrites=true&w=majority');
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}.`);
+    });
+  } catch (error) {
+    console.error(`Failed to start server on port ${PORT}: ${error}`);
+  }
+};
 
-function initial() {
-  Role.estimatedDocumentCount((err, count) => {
-    if (!err && count === 0) {
-      new Role({
-        name: "user"
-      }).save(err => {
-        if (err) {
-          console.log("error", err);
-        }
 
-        console.log("added 'user' to roles collection");
-      });
-
-      new Role({
-        name: "moderator"
-      }).save(err => {
-        if (err) {
-          console.log("error", err);
-        }
-
-        console.log("added 'moderator' to roles collection");
-      });
-
-      new Role({
-        name: "admin"
-      }).save(err => {
-        if (err) {
-          console.log("error", err);
-        }
-
-        console.log("added 'admin' to roles collection");
-      });
-    }
-  });
-}
-// routes
-require('./app/routes/auth.routes')(app);
-require('./app/routes/user.routes')(app);
-
-// set port, listen for requests
+start();
