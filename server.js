@@ -13,7 +13,7 @@ const app = express();
 
 // parse requests of content-type - application/json
 app.use(express.json());
-app.use("/auth", authRouter)
+app.use("/", authRouter)
 
 // var corsOptions = {
 //   origin: "*"
