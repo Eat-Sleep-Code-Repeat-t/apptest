@@ -139,6 +139,17 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/games/CasinoGames/FruitShopGame.vue"),
   },
+
+
+  // --------------- ADMIN -------------------------
+
+    {
+    path: "/admin",
+    name: "Admin",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/admin/adminPanel.vue"),
+  },
+
   
 ];
 
