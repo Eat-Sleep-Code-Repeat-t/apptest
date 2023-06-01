@@ -74,5 +74,6 @@
   border: solid 1px;
   border-radius: 10px;
   text-align: left;
+  padding: 19px 20px;
 }
 </style>
