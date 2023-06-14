@@ -19,6 +19,14 @@ const routes = [
     component: HomeView,
   },
   {
+    path: "/new",
+    name: "homeNew",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW.vue"),
+  },
+
+
+  {
     path: "/livecasino",
     name: "LiveCasino",
     component: LiveCasino,
