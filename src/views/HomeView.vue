@@ -3,7 +3,7 @@
     <HeaderSection /> 
     <BannerSection />
     <GamesCategory />
-    <BestGameArea />
+    <!-- <BestGameArea /> -->
     <BestWinnerArea />
     <LoyaltySection />
     <FooterSection />
@@ -17,7 +17,7 @@ import HeaderSection from "@/components/HeaderSection.vue";
 import LoyaltySection from "@/components/LoyaltySection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import GamesCategory from "@/components/GamesCategory.vue";
-import BestGameArea from "@/components/BestGameArea.vue";
+// import BestGameArea from "@/components/BestGameArea.vue";
 import BestWinnerArea from "@/components/BestWinnerArea.vue";
 import 'animate.css';
 
@@ -29,7 +29,7 @@ export default {
   components: {
     HeaderSection,
     GamesCategory,
-    BestGameArea,
+    // BestGameArea,
     BannerSection,
     BestWinnerArea,
     FooterSection,

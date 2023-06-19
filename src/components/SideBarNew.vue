@@ -2,32 +2,102 @@
   <div class="container-fluid">
     <div class="row">
       <div class="left">
+        <div class="logoPanda">
+          <img class="logoPanda__design" src="@/assets/img/logo.png" alt="" />
+        </div>
 
-<div class="logoPanda">
-  <img class="logoPanda__design" src="" alt="">
-</div>
+        <div class="colNavigOne">
+          <div class="colNavigOne__one">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/liveCasino.png"
+              alt="CasinoLive"
+            /> 
+            <span class="textStyle">Лайв Казино</span>
+          </div>
+          <div class="colNavigOne__one">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/casino.png"
+              alt="CasinoLive"
+            /> 
+            <span class="textStyle">Казино</span>
+          </div>
+          <div class="colNavigOne__one">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/promo.png"
+              alt="Casino"
+            /> 
+            <span class="textStyle">Акции</span>
+          </div>
+          <div class="colNavigOne__one">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/tournamnent.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Лайв Казино</span>
+          </div>
+        </div>
 
-<div class="colNavigOne">
-  <div class="colNavigOne__casinoLive"></div>
-  <div class="casino__casinoLive"></div>
-  <div class="promo__casinoLive"></div>
-  <div class="tournaments__casinoLive"></div>
-</div>
+        <div class="colNavigTwo">
+          <div class="colNavigTwo__two">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/polozenie.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Условия и положениями</span>
+          </div>
+          <div class="colNavigTwo__two">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/politycs.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Политика конфиденциальности</span>
+          </div>
+          <div class="colNavigTwo__two">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/respons.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Responsible Gambling</span>
+          </div>
+          <div class="colNavigTwo__two">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/fearGame.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Честная игра</span>
+          </div>
+          <div class="colNavigTwo__two">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/ruleGame.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Правила игр</span>
+          </div>
+        </div>
 
-
-<div class="colNavigTwo">
-
-</div>
-
-
-<div class="colNavigThree">
-  
-</div>
-
-
-
-
-
+        <div class="colNavigThree">
+          <div class="colNavigThree__three">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/favoriteGame.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">FAVORITE CASINO</span>
+          </div>
+          <div class="colNavigThree__three">
+            <img class="imgLogo"
+              src="@/assets/img/sideBarNew/TOPup.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle">Top-Up</span>
+          </div>
+          <div class="colNavigThree__three">
+            <img class="imgLogo" style="width: 22px;"
+              src="@/assets/img/sideBarNew/log-off.png"
+              alt="Promo"
+            /> 
+            <span class="textStyle exitStyle">Выход</span>
+          </div>
+        </div>
 
         <!-- <ul>
           <a href="#">
@@ -86,6 +156,7 @@ export default {};
 
 <style lang="scss" scoped>
 .left {
+  text-align: left;
   position: fixed;
   left: 0;
   top: 0;
@@ -96,6 +167,7 @@ export default {};
   transition: width 0.5s;
   position: fixed;
   z-index: 9999;
+  overflow: hidden;
 }
 .left ul {
   padding: 0;
@@ -135,4 +207,56 @@ span.menu {
   margin-left: 15px;
   width: 190px;
 }
+
+.logoPanda {
+  padding-top: 16px ;
+  padding-left: 4px;
+}
+
+.colNavigOne{
+  padding-top: 55px ;
+  padding-left: 18px;
+}
+
+.colNavigOne__one:not(:last-child) {
+  padding-bottom: 30px;
+}
+.imgLogo {
+  width: 24px;
+}
+
+.textStyle {
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  
+}
+
+.colNavigTwo .textStyle{
+  color:#7E7E7E
+}
+
+.colNavigTwo {
+  padding-top: 60px ;
+  padding-left: 18px;
+}
+
+.colNavigTwo__two:not(:last-child) {
+  padding-bottom: 30px;
+}
+
+.colNavigThree {
+  padding-top: 69px ;
+  padding-left: 18px;
+}
+
+.colNavigThree__three:not(:last-child) {
+  padding-bottom: 37px;
+}
+
+.exitStyle {
+  color:#7E7E7E
+}
+
+
 </style>

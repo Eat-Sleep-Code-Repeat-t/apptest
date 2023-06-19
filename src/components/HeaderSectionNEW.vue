@@ -47,6 +47,7 @@
                 />
                 </button>
               </div>
+              
             </div>
           </div>
         </nav>
@@ -62,7 +63,9 @@ export default {};
 <style lang="scss" scoped>
 .navbar {
   padding: 16px 103px 16px 98px;
-  background-color: rgba(19, 20, 32, 0.4)
+  background-color: rgba(19, 20, 32, 0.4);
+  z-index: 2;
+  backdrop-filter: blur(5px);
 }
 .navbar__elements {
   width: 100%;
@@ -89,6 +92,8 @@ export default {};
   padding-left: 20px;
 }
 .searchInput__text {
+  font-size: 14px;
+  font-weight: 500;
   background-color: transparent;
   height: 17px;
   border: none;
@@ -113,6 +118,9 @@ export default {};
 .changeLang__option {
   text-transform: uppercase;
   padding-right: 17px;
+
+  font-weight: 500;
+  font-size: 14px;
 }
 .changeLang__ico {
 }

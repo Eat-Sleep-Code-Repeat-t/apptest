@@ -1,50 +1,78 @@
 <template>
   <div class="banner">
-    <div class="container">
-      <h1 class="banner__title text-start">CoinGames</h1>
+    <div class="container-fluid">
+      <!-- <h1 class="banner__title text-start">CoinGames</h1> -->
 
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
-          
           <div class="carousel-item active">
-            <img src="@/assets/img/banner/1.webp" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block ">
-              <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
-              <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
-                слайда.</p>
-              <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
+            <img
+              src="@/assets/img/banner/1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="animate__animated animate__slideInUp style__p">
+                Create your own casino
+              </h4>
+              <h3 class="animate__animated animate__slideInUp style__h5">
+                Create a casino with
+              </h3>
+              <h4 class="animate__animated animate__slideInUp style__h5">
+                over 50% conversion rate🔥
+              </h4>
+              <div class="buttonPosition">
+                <button
+                  class="animate__animated animate__slideInUp style__buttom"
+                >
+                  Add a casino 🎰
+                </button>
+
+                <button
+                  class="animate__animated animate__slideInUp style__buttomTwo"
+                >
+                More details 🃏
+                </button>
+              </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <img src="@/assets/img/banner/2.webp" class="d-block w-100" alt="..." />
+            <img
+              src="@/assets/img/banner/2.png"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
-              <h4 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h4>
-              <h4 class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для
-                третьего
-                слайда.</h4>
-
-              <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet1</button>
+              <h4 class="animate__animated animate__slideInUp style__p">
+                Create your own casino
+              </h4>
+              <h3 class="animate__animated animate__slideInUp style__h5">
+                Create a casino with
+              </h3>
+              <h4 class="animate__animated animate__slideInUp style__h5">
+                over 50% conversion rate🔥
+              </h4>
+              <div class="buttonPosition">
+                <button
+                  class="animate__animated animate__slideInUp style__buttom"
+                >
+                  Add a casino 🎰
+                </button>
+                <button
+                  class="animate__animated animate__slideInUp style__buttomTwo"
+                >
+                More details 🃏
+                </button>
+              </div>
             </div>
-
-          </div>
-          <div class="carousel-item">
-            <img src="@/assets/img/banner/3.webp" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
-              <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
-                слайда.</p>
-              <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
-            </div>
-          </div>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="animate__animated animate__slideInUp style__h5">Метка третьего слайда</h5>
-            <p class="animate__animated animate__slideInUp style__p">Некоторый репрезентативный заполнитель для третьего
-              слайда.</p>
-            <button class="animate__animated animate__slideInUp style__buttom ">Cennect Wallet</button>
           </div>
         </div>
-        <div class="buttons">
+        <!-- <div class="buttons">
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -53,9 +81,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> -->
       </div>
-
     </div>
   </div>
 </template>
@@ -67,11 +94,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 .banner {
-
-  margin-bottom: 20px;
-
+  margin-top: -84px;
+  z-index: 1;
 
   &__title {
     color: #fff;
@@ -84,13 +109,13 @@ export default {
 
   @media (max-width: 767px) {
     .banner__title {
-      font-size: 2.6rem;  
+      font-size: 2.6rem;
     }
   }
 
-    @media (max-width: 450px) {
-      .banner__title {
-      font-size: 2.0rem;
+  @media (max-width: 450px) {
+    .banner__title {
+      font-size: 2rem;
     }
   }
 
@@ -132,45 +157,66 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
 
-    // right: auto;
-    left: 5%;
-    padding-bottom: 0;
-
+    top: 166px;
+    left: 90px;
   }
 
-  .banner__content__block {}
+  .banner__content__block {
+  }
 
   .style__h5 {
     font-size: 3.5rem;
-    font-weight: bold;
+    font-weight: 700;
     text-align: left;
-
+    letter-spacing: 2px;
   }
 
   .style__p {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
     text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    padding-bottom: 10px;
   }
 
-  .button__block {
+  .cl .button__block {
     max-width: 100%;
     max-height: 100%;
   }
 
+  .buttonPosition {
+    align-self: flex-start;
+    padding-top: 20px;
+  }
+
   .style__buttom {
-    background-color: #d4145a;
+    background: #7647dc;
+    border-radius: 20px;
+    padding: 15.5px 23.5px;
     border: none;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
     font-style: normal;
-    max-width: 17%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    display: inline-block;
+  }
+
+  .style__buttomTwo {
+    background-color: transparent;
+    border: none;
+
+    
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: normal;
+
+    padding-left: 37px ;
   }
 
   @media (max-width: 1200px) {
-
     .style__h5 {
       font-size: 2.3rem;
     }
@@ -182,7 +228,6 @@ export default {
     .style__buttom {
       font-size: 1rem;
     }
-
   }
 
   @media (max-width: 767px) {
@@ -200,10 +245,9 @@ export default {
     }
   }
 
-    @media (max-width: 450px) {
+  @media (max-width: 450px) {
     .style__h5 {
       font-size: 1.5rem;
-      
     }
 
     .style__p {
@@ -215,11 +259,9 @@ export default {
       max-width: 35%;
     }
 
-    .buttons{
-      display: none
+    .buttons {
+      display: none;
     }
-  
   }
-
 }
 </style>
