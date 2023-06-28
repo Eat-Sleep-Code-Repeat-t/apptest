@@ -53,15 +53,23 @@
 .category__name {
   list-style-type: none; 
   display: flex; 
-  justify-content: center; 
+  justify-content: space-between; 
   align-items: center;
-  
 }
 
 .category__name__item {
-  margin-right: 70px; 
   font-size: 12px;
-  
+  padding: 10px 16px;
+}
+
+.category__name__item:hover {
+
+  border-radius: 20px;
+  font-weight: bold;
+ 
+  background-color: #7647DC;
+  box-sizing: border-box; /* Добавляем это свойство */
+
 }
 
 .category__name__item:last-child {

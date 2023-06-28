@@ -33,15 +33,23 @@
                 </div>
               </div>
 
-              <div class="btn">
+              <div class="btnPosition">
+                
                 <button class="btn__style btn__style__space">
                   <img
-                  class=""
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#regModal"
                   src="@/assets/img/newMainPage/ButtonLogin.svg"
                 />
                 </button>
+
+
                 <button class="btn__style">
                   <img
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#loginModal"
                   class=""
                   src="@/assets/img/newMainPage/Buttonregist.svg"
                 />
@@ -54,10 +62,116 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal LOGIN-->
+  <div class="offcanvas__modal modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div> -->
+          <div class="modal-body">
+            <div class="col">
+              <LoginSection />
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal REGISTRATION -->
+    <div class="offcanvas__modal modal fade" id="regModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <RegisterSection />
+              <!-- <div class="row">
+                <div class="col-xl">
+                </div>
+              </div> -->
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal Restore-->
+     <div class="offcanvas__modal modal fade" id="restorePass" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          </div>
+          <div class="modal-body">
+            <div class="col">
+              <RestoreSectionMODAL />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </template>
 
 <script>
-export default {};
+import RegisterSection from "@/components/RegisterSection.vue";
+import LoginSection from "@/components/LoginSection.vue";
+import RestoreSectionMODAL from "@/components/RestoreSectionMODAL.vue";
+
+
+export default {
+  name: "HeaderSection",
+  components: {
+    LoginSection,
+    RegisterSection,
+    RestoreSectionMODAL
+  },
+  data() {
+    return {
+      buttonColor: 'transparent',
+      buttonColor2: 'transparent',
+      buttonColor3: 'transparent'
+    };
+  },
+  methods: {
+    toggleButtonColor() {
+      if (this.buttonColor === 'transparent') {
+        this.buttonColor = '#d4145a';
+      } else {
+        this.buttonColor = 'transparent';
+      }
+    },
+    toggleButtonColor2() {
+      if (this.buttonColor2 === 'transparent') {
+        this.buttonColor2 = '#d4145a';
+      } else {
+        this.buttonColor2 = 'transparent';
+      }
+    },
+    toggleButtonColor3() {
+      if (this.buttonColor3 === 'transparent') {
+        this.buttonColor3 = '#d4145a';
+      } else {
+        this.buttonColor3 = 'transparent';
+      }
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -85,6 +199,15 @@ export default {};
   background-color: #7647dc;
   padding: 14px 22px;
   border-radius: 20px;
+}
+
+.ico__search:hover {
+  background-color: #7445d7 !important;
+  border: solid 0 #7445d7 !important;
+
+  -webkit-box-shadow: 0px 3px 20px 0px #7445d7;
+  -moz-box-shadow: 0px 3px 20px 0px #7445d7;
+  box-shadow: 0px 3px 20px 0px #7445d7;
 }
 
 .searchInput {
@@ -131,7 +254,7 @@ export default {};
   // align-items: center;
 }
 
-.btn {
+.btnPosition {
   align-self: center;
   display: flex;
 }
@@ -144,7 +267,34 @@ export default {};
   outline: none;
 }
 
+.btn__style:hover {
+  background-color: #7445d7 !important;
+  border: none solid #7445d7 !important;
+
+  -webkit-box-shadow: 0px 3px 20px 0px #7445d7;
+  -moz-box-shadow: 0px 3px 20px 0px #7445d7;
+  box-shadow: 0px 3px 20px 0px #7445d7;
+}
+
+
 .btn__style__space {
   margin-right: 20px;
 }
+
+//modalSTyle
+
+.offcanvas__modal .modal-content {
+    background-color: transparent;
+    border: transparent;
+  }
+
+  .modal-header {
+  border-bottom: none;
+}
+
+.btn-close {
+  filter: invert(100%);
+}
+
+
 </style>

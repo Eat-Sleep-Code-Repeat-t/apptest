@@ -1,42 +1,96 @@
 <template>
-  <div class="registration">
+  <div class="login">
     <div class="form">
       <div class="container">
-        <div class="form-group mx-auto">
-          <form @submit.prevent='handleSubmit' method="post" action="/api/auth/signup">
-            <h1 class="h2 mb-3 fw-normal">Восстановление пароля</h1>
-            <!-- <div class="form-floating">
-              <input
-                type="text"
-                class="form-control"
-                id="username"
-                name="username"
-              />
-            </div> -->
+        <div class="text-end">
+          <button
+            type="button"
+            class="btn-close btn-closeStyle"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
 
-            <div class="restore-text mx-auto">Пожалуйста, введите эл.почту, которая была использована для создания учетной
-              записи на
-              coingames.bet Ссылка для сброса пароля будет отправлена на вашу эл.почту в ближайшее время.</div>
+        <div class="for m-group">
+          <div class="row">
+            <div class="col">
+              <form>
+                <h1 class="h1 fw-normal">Restore password</h1>
 
+                <div class="emailLogin">
+                  <div class="emailLogin__solid">
+                    <div class="emailLogin-style">Email</div>
+                  </div>
+                  <div class="emailLogin__solid">
+                    <div class="emailLogin-style">Phone</div>
+                  </div>
+                </div>
 
-            <div class="name-field space1 mx-auto">Пароль *</div>
+                <div class="textStyleDesc">
+                  Enter the email address you used when registering on the site
+                </div>
 
-            <div class="form-floating mx-auto">
-              <input type="password" class="form-control" id="password" placeholder="Password" name="userpassword" />
-              <label for="floatingInput">Password</label>
-            </div>
+                <div class="fieldPositions">
+                  <div class="name-field">Email</div>
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput" class="colorLabel"
+                      >name@example.com</label
+                    >
+                  </div>
 
-            <button class="w-50 btn btn-lg btn-primary btn-style" type="submit">
-              Sign in
-            </button>
-          </form>
+                  <!-- <div class="checkbox checkbox1">
+                    <label class="center-position">
+                      <input class="custom-checkbox" type="checkbox" value="remember-me" />
+                      <span style="padding-left: 11px; font-size: 1.5rem"
+                        >Remember me</span
+                      >
+                    </label>
+                  </div> -->
+                </div>
+<!-- 
+                <div class="forget-pass forget-pass1">
+                  <a
+                    class="btn-style-froget"
+                    data-bs-target="#restorePass"
+                    data-bs-toggle="modal"
+                  >
+                    <span class="text-forget">I forgot my password</span>
+                  </a>
+                </div> -->
 
-          <div class="wrap">
-            <div class="question space1">Нет аккаунта?</div>
-            <div class="registratin">
-              <button class="btn-style-froget" data-bs-target="#regModal" data-bs-toggle="modal">
-                <span class="text-forget">Зарегестрироваться ></span>
-              </button>
+                <button
+                  class="w-100 btn btn-lg btn-primary btn-style btn-style1"
+                  type="submit"
+                >
+                Restore access 🔐
+                </button>
+              </form>
+
+              <!-- <div class="wrap">
+                <div class="question space1">Or login via</div>
+                <div class="registratin">
+                  <a
+                    class="btn-style-froget"
+                    data-bs-target="#regModal"
+                    data-bs-toggle="modal"
+                  >
+                    <span class="text-forget">Зарегестрироваться ></span>
+                  </a>
+                </div>
+              </div> -->
+
+                <!-- <div class="icoSocialLogin">
+                  <img class="icoSocialLogin__position" src="@/assets/img/loginModal/google.png" alt="">
+                  <img class="icoSocialLogin__position" src="@/assets/img/loginModal/telegram.png" alt="">
+                  <img class="icoSocialLogin__position" src="@/assets/img/loginModal/facebook.png" alt="">
+                  <img src="@/assets/img/loginModal/twitter.png" alt="">
+                </div> -->
             </div>
           </div>
         </div>
@@ -46,36 +100,30 @@
 </template>
 
 <script>
-import axios from "axios";
-
 export default {
-  name: "RegisterSection",
+  name: "LoginSection",
   methods: {
-    handleSubmit() {
-      // e.preventDefault()
-      // Simple POST request with a JSON body using axios
-      const article = {
-        // username: document.getElementById("username").value.trim(),
-        email: document.getElementById("useremail").value.trim(),
-        password: document.getElementById("password").value.trim(),
-        roles: ["user"]
-      };
-      axios.post("http://localhost:9090/api/auth/signup", article, {
-        headers: {
-          // Overwrite Axios's automatically set Content-Type
-          'Content-Type': 'application/json'
-        }
-      })
-        .then(response => this.articleId = response.data.id);
-      // console.log('submitted'+e);
-    }
-  }
+    handleSubmit(e) {
+      e.preventDefault();
+      console.log("submitted");
+    },
+  },
 };
 </script>
 
 <style scoped lang="scss">
-.form-group {
-  width: 350px;
+.container {
+  padding: 0;
+}
+.login {
+  background-color: #ffffff;
+
+  padding: 20px 22px;
+  border-radius: 20px;
+  color: #020103;
+  width: 512px;
+  height: 470px;
+  box-sizing: border-box;
 }
 
 .form-signin {
@@ -90,21 +138,7 @@ export default {
 }
 
 .form-signin .form-floating:focus-within {
-  z-index: 2;
-}
-
-.form-floating {
-  display: block;
-  border: 2px solid;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  transition: .3s;
-}
-
-.form-floating:hover {
-  background-color: #d4145a;
-  border: 1px solid #d4145a;
-  box-shadow: #d4145a;
+  z-index: 0;
 }
 
 .form-signin input[type="email"] {
@@ -119,17 +153,52 @@ export default {
   border-top-right-radius: 0;
 }
 
-.fw-normal {
-  color: white;
+.btn-closeStyle {
 }
 
+.fw-normal {
+  padding-top: 14px;
+  color: #020103;
+  font-weight: 900 !important;
+  font-size: 32px !important;
+  line-height: 39px;
+}
+
+.emailLogin {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.emailLogin-style {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.emailLogin-style {
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  width: 234px;
+}
+
+//fields
+
+.fieldPositions {
+  padding-top: 20px;
+}
+
+.form-group {
+  width: 427px !important;
+  margin: auto;
+}
 
 .name-field {
-
-  color: #667b83;
+  padding-bottom: 9px;
+  color: #000000;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 1.45;
   display: flex;
   align-items: center;
@@ -138,68 +207,74 @@ export default {
   user-select: none;
   margin: 0 0 0 10px;
   min-height: 20px;
-
-
 }
 
-.space1 {
-  padding-top: 20px;
-  padding-bottom: 3px;
+.spaceField {
+  padding-top: 24px;
+}
+
+.form-floating {
+  display: block;
+
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+
+  background: #1b1c2c;
+  // border: 2px solid #7647DC;
+  border-radius: 19px;
 }
 
 .form-control {
-  font-size: 1.4rem;
+  display: block;
+
+  border-radius: 10px;
+  font-size: 1.6rem;
+  transition: 0.3s;
+
+  background: #1b1c2c;
+  border: 2px solid #7647dc;
+  border-radius: 19px;
+
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 17px;
+  color: #ffffff;
+  padding-left: 24px;
+
+  height: 57px;
 }
 
+.colorLabel {
+  color: #515154;
+  padding-left: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
 .checkbox1 {
-  color: whitesmoke;
+  color: #000000;
   display: flex;
   padding-left: 5px;
+
   cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+
+  padding-top: 10px;
 }
 
 .center-position {
   display: flex;
-  padding-top: 4px;
 }
 
-.btn-style {
-  background-color: transparent;
-  border: 2px solid #d4145a;
-  transition: .3s;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.btn-style:hover {
-  background-color: transparent;
-  background-color: #d4145a !important;
-  border: 2px solid #d4145a !important;
-
-  -webkit-box-shadow: 0px 3px 20px 0px #d4145a;
-  -moz-box-shadow: 0px 3px 20px 0px #d4145a;
-  box-shadow: 0px 3px 20px 0px #d4145a;
-}
-
-.restore-text {
-  padding-top: 15px;
-  color: whitesmoke;
-  text-align: center;
+.forget-pass {
+  text-align: end;
+  color: #000000;
   font-size: 1.3rem;
-}
-
-.question {
-  color: whitesmoke;
-  font-size: 1.3rem;
-  transition: color 0.3s linear;
-}
-
-.registratin {
-  color: whitesmoke;
-  font-size: 1.4rem;
-  cursor: pointer;
-  transition: .3s;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .btn-style-froget {
@@ -209,11 +284,80 @@ export default {
 }
 
 .text-forget {
-  color: whitesmoke;
-  transition: .2s;
+  color: #7445d7;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.2s;
+  text-decoration-line: underline;
 }
 
 .text-forget:hover {
+  color: #7445d7;
+}
+
+.btn-style {
+  background-color: transparent;
+  border: 2px solid #7445d7;
+  transition: 0.3s;
+}
+
+.btn-style:hover {
+  
+  background-color: #7445d7 !important;
+  border: none solid #7445d7 !important;
+
+  -webkit-box-shadow: 0px 3px 20px 0px #7445d7;
+  -moz-box-shadow: 0px 3px 20px 0px #7445d7;
+  box-shadow: 0px 3px 20px 0px #7445d7;
+}
+
+.btn-style1 {
+
+  margin-top: 23px;
+
+  height: 57px;
+  background: #7445d7;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.question {
+  padding-top: 9px;
+  color: #000000;
+  font-size: 14px;
+  transition: color 0.3s linear;
+}
+
+.registratin {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-bottom: 20px;
+}
+
+.registratin:hover {
   color: #d4145a;
 }
+
+.icoSocialLogin {
+  padding-top: 20px;
+}
+
+.icoSocialLogin__position{
+  padding-right: 28px;
+  
+}
+
+.textStyleDesc {
+  font-size: 14px;
+ 
+  padding-top: 35px;
+}
+
 </style>

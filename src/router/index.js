@@ -25,6 +25,20 @@ const routes = [
       import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW.vue"),
   },
 
+  {
+    path: "/new",
+    name: "homeNew",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW.vue"),
+  },
+
+  {
+    path: "/new-admin",
+    name: "homeNew-admin",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW-admin.vue"),
+  },
+
 
   {
     path: "/livecasino",

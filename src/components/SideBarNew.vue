@@ -91,7 +91,7 @@
             <span class="textStyle">Top-Up</span>
           </div>
           <div class="colNavigThree__three">
-            <img class="imgLogo" style="width: 22px;"
+            <img class="imgLogo"
               src="@/assets/img/sideBarNew/log-off.png"
               alt="Promo"
             /> 
@@ -215,18 +215,23 @@ span.menu {
 
 .colNavigOne{
   padding-top: 55px ;
-  padding-left: 18px;
+  padding-left: 16px;
 }
 
 .colNavigOne__one:not(:last-child) {
   padding-bottom: 30px;
 }
+
+
 .imgLogo {
-  width: 24px;
+  width: 26px;
 }
 
+
+
+
 .textStyle {
-  padding-left: 25px;
+  padding-left: 25.5px;
   font-weight: 500;
   font-size: 15px;
   
@@ -238,7 +243,7 @@ span.menu {
 
 .colNavigTwo {
   padding-top: 60px ;
-  padding-left: 18px;
+  padding-left: 15px;
 }
 
 .colNavigTwo__two:not(:last-child) {
@@ -247,7 +252,7 @@ span.menu {
 
 .colNavigThree {
   padding-top: 69px ;
-  padding-left: 18px;
+  padding-left: 16px;
 }
 
 .colNavigThree__three:not(:last-child) {

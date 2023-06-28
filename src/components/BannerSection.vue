@@ -35,7 +35,7 @@
                 <button
                   class="animate__animated animate__slideInUp style__buttomTwo"
                 >
-                More details 🃏
+                  More details 🃏
                 </button>
               </div>
             </div>
@@ -66,7 +66,7 @@
                 <button
                   class="animate__animated animate__slideInUp style__buttomTwo"
                 >
-                More details 🃏
+                  More details 🃏
                 </button>
               </div>
             </div>
@@ -202,18 +202,26 @@ export default {
     font-style: normal;
   }
 
+  .style__buttom:hover {
+    background-color: #7445d7 !important;
+    border: none solid #7445d7 !important;
+
+    -webkit-box-shadow: 0px 3px 20px 0px #7445d7;
+    -moz-box-shadow: 0px 3px 20px 0px #7445d7;
+    box-shadow: 0px 3px 20px 0px #7445d7;
+  }
+
   .style__buttomTwo {
     background-color: transparent;
     border: none;
 
-    
     border: none;
     color: #fff;
     font-size: 1.6rem;
     font-weight: 500;
     font-style: normal;
 
-    padding-left: 37px ;
+    padding-left: 37px;
   }
 
   @media (max-width: 1200px) {

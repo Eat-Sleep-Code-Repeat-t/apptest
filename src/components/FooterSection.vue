@@ -792,7 +792,7 @@
       <div class="footer__main text-white">
         <div class="container">
           <div class="row">
-            <div class="col-xl-5 text-start">
+            <div class="col-xl-4 text-start">
               <div class="row">
                 <div class="col-xl-auto">
                   <div class="footerStyleLogo">WIN PANDA</div>
@@ -801,16 +801,28 @@
               </div>
               <div class="iconWrapper">
                 <div class="iconWrapperStyle">
-                  <img class="iconSocialStyle" style="width: 12px;" src="@/assets/img/footer/facebook.png" />
+                  <img
+                    class="iconSocialStyle"
+                    style="width: 15px"
+                    src="@/assets/img/footer/facebook.png"
+                  />
                 </div>
                 <div class="iconWrapperStyle">
-                  <img class="iconSocialStyle" style="width: 22px;" src="@/assets/img/footer/telegram.png" />
+                  <img
+                    class="iconSocialStyle"
+                    style="width: 26px"
+                    src="@/assets/img/footer/telegram.png"
+                  />
                 </div>
                 <div class="iconWrapperStyle">
-                  <img class="iconSocialStyle" style="width: 23px;" src="@/assets/img/footer/insta.png" />
+                  <img
+                    class="iconSocialStyle"
+                    style="width: 23px"
+                    src="@/assets/img/footer/insta.png"
+                  />
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-6 col-12">
+              <div class="col-12">
                 <div class="footer__main-menu">
                   <a href="/contacts/terms" class="a-noDeciration">
                     <div class="footer__main-menu__item">
@@ -827,10 +839,6 @@
                       Ответственная игра
                     </div>
                   </a>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-6 col-12">
-                <div href="/contacts/respons" class="footer__main-menu">
                   <a class="a-noDeciration" href="/contacts/fairgames">
                     <div class="footer__main-menu__item">Честная игра</div>
                   </a>
@@ -845,48 +853,50 @@
                   </a>
                 </div>
               </div>
+              <!-- <div class="col-xl-4 col-lg-6 col-12">
+                <div href="/contacts/respons" class="footer__main-menu">
+                </div>
+              </div> -->
             </div>
-            <div class="col-xl-7 text-start">
+            <div class="col-xl-8 text-start">
               <div class="row footer__main-license__block18_1">
                 <div class="col-auto">
                   <div class="footer__main-license">
                     <div class="footer__main-license__licenseImg">
                       <img
                         class="img-fluid"
-                        src="@/assets/img/footer/license.png"
+                        src="@/assets/img/footer/type.png"
                         alt=""
                       />
                     </div>
 
-                    <div class="footer__main-license__block18">
-                      <svg viewBox="0 0 37 37" fill="#fff">
-                        <path
-                          d="M11.6343 10.528H9.14201C8.16677 10.528 7.6972 10.7089 7.6972 11.5051V12.4099C7.6972 13.2062 8.20289 13.3871 9.14201 13.3871H9.71993C10.0811 13.3871 10.2256 13.5681 10.2256 14.1472V26.0182C10.2256 26.9954 10.4062 27.4659 11.2009 27.4659H12.14C12.9346 27.4659 13.1152 26.9592 13.1152 26.0182V11.5051C13.0791 10.7089 12.5734 10.528 11.6343 10.528Z"
-                        ></path>
-                        <path
-                          d="M28.7552 2.27617C27.6716 1.2266 26.3352 0.683716 24.7098 0.683716H12.5373C10.9119 0.683716 9.5393 1.2266 8.49182 2.27617L2.02631 8.71838C1.01495 9.73176 0.473145 11.0709 0.473145 12.5547V24.9687C0.473145 26.6697 1.05107 28.0088 2.20691 29.1308L8.34734 35.2834C9.5393 36.4778 10.9119 37.0568 12.6456 37.0207H24.6736C26.3352 37.0207 27.7077 36.514 28.9719 35.2834L35.1124 29.1308C36.2321 28.0088 36.8461 26.6697 36.8461 24.9687V12.5547C36.8461 11.0709 36.3043 9.73176 35.293 8.71838L28.7552 2.27617ZM34.39 16.7892C34.39 17.1873 34.2094 17.4045 33.812 17.4045H31.9699V16.1016C31.9699 15.1244 31.8254 14.6539 30.9947 14.6539H30.1639C29.3331 14.6539 29.1887 15.1606 29.1887 16.1016V17.4045H27.9245C26.9492 17.4045 26.4797 17.5493 26.4797 18.3817V19.2503C26.4797 20.0827 26.9853 20.2275 27.9245 20.2275H29.2248V21.5304C29.2248 22.5076 29.3693 22.9781 30.2 22.9781H31.0308C31.8616 22.9781 32.006 22.4714 32.006 21.5304V20.2275H33.8482C34.2094 20.2275 34.39 20.4084 34.4261 20.7704V24.9687C34.4261 25.982 34.1371 26.7421 33.4147 27.4297L27.2743 33.5824C26.5519 34.3062 25.7572 34.632 24.782 34.632H12.5012C11.5259 34.632 10.7313 34.3062 10.0089 33.5824L3.86844 27.4297C3.14604 26.7059 2.82095 25.982 2.85707 24.9687V12.8443C2.85707 11.8309 3.18216 10.9623 3.94068 10.2023L10.1533 3.86863C10.7674 3.25336 11.5982 3.03621 12.5012 3.03621H24.7459C25.6489 3.03621 26.4435 3.21717 27.0937 3.86863L33.3425 10.2023C34.0649 10.9623 34.4261 11.8309 34.4261 12.8443V16.7892H34.39Z"
-                        ></path>
-                        <path
-                          d="M23.554 18.6712C25.1071 17.5493 25.1071 16.3911 25.1071 15.4501V14.5091C24.9265 11.3966 23.9152 10.2023 20.3032 10.2023C16.6911 10.2023 15.6798 11.3966 15.4992 14.5091V15.4501C15.4992 16.3911 15.5353 17.5493 17.0523 18.6712C15.2102 19.3951 15.0657 20.9513 15.0657 23.0143C15.0657 26.0544 16.1493 27.5745 20.267 27.6469C24.4209 27.5745 25.4683 26.0544 25.4683 23.0143C25.5406 20.9513 25.3961 19.3951 23.554 18.6712ZM20.3393 12.7719C21.8563 12.7719 22.4704 13.3148 22.4704 15.1606C22.4704 16.934 21.8563 17.5493 20.3393 17.5493C18.8222 17.5493 18.2082 16.934 18.2082 15.1606C18.2082 13.3148 18.8222 12.7719 20.3393 12.7719ZM20.3393 25.0772C18.5694 25.0772 17.9553 24.3896 17.9553 22.6524C17.9553 20.9151 18.5694 20.1189 20.3393 20.1189C22.1092 20.1189 22.7232 20.9151 22.7232 22.6524C22.7232 24.3896 22.073 25.0772 20.3393 25.0772Z"
-                        ></path>
-                      </svg>
+                    <div class="footer__main-license__licenseImg text-center">
+                      <img
+                        class="img-fluid"
+                        src="@/assets/img/footer/disclame.png"
+                        alt=""
+                        style=""
+                      />
                     </div>
                   </div>
                 </div>
-                <div class="d-none d-lg-block col-xl-10 space1">
+                <div class="d-none d-lg-block col-xl-10">
                   <div class="footer__main__text">
                     Coingames.bet является зарегистрированной торговой маркой SG
                     International N.V. по адресу Dr. M.J. Hugenholtzweg 25 Unit
                     11, Кюрасао и регистрационным номером 137028. Игорная
                     деятельность организована в соответствии с правилами игорной
-                    лицензии. Номер игорной лицензии No.8048/JAZZ2015-035. Все
-                    права на эксплуатацию программного обеспечения защищены. В
-                    соответствии с этим лицензионным соглашением, посредником
+                    лицензии. Номер игорной лицензии No.8048/JAZZ2015-035.
+                  </div>
+                  <div class="footer__main__text footer__main__text-style">
+                    Все права на эксплуатацию программного обеспечения защищены.
+                    В соответствии с этим лицензионным соглашением, посредником
                     (исполнителем) в предоставлении платежных услуг для SG
                     International N.V. (заказчика) выступает SG International
                     LP, 29d Bradshaw Street, Saltcoats, Шотландия,
-                    Великобритания, KA21 5HR, рег.номер SL023302. Заказчик SG
-                    International N.V. принимает эти условия.
+                    Великобритания, KA21 5HR, рег.номер SL023302. </div>
+                    <div class="footer__main__text">
+                    Заказчик SG International N.V. принимает эти условия.
                   </div>
                   <div class="footer__main-copyright">
                     © CoinGames. Все права защищены.
@@ -956,22 +966,25 @@ export default {
     padding-bottom: 30px;
 
     &-menu {
-      font-size: 1.4rem;
-      font-weight: bold;
+      margin-top: 30px;
+      font-weight: 500;
+      font-size: 1.7rem;
 
       &__item {
-        padding: 5px 0;
+        padding: 3px 0;
       }
     }
 
     &__text {
-      font-size: 1.2rem;
+      font-size: 1.7rem;
+      font-weight: 500;
     }
 
     &-license {
       &__licenseImg {
-        width: 45px;
-        margin: 0 0 20px 0;
+        width: 100px;
+        margin: 0 0 70px 0;
+        align-self: center;
       }
 
       &__block18 {
@@ -980,8 +993,9 @@ export default {
     }
 
     &-copyright {
-      font-size: 1.2rem;
+      font-size: 1.7rem;
       margin: 20px 0 0 0;
+      font-weight: 500;
     }
   }
 
@@ -1018,21 +1032,24 @@ export default {
   font-weight: 800;
   font-size: 37px;
   font-style: italic;
-  font-style: bold;
+
   text-transform: uppercase;
 }
 
 .iconWrapper {
   margin-top: 20px;
   display: flex;
+  justify-content: space-between;
+  width: 200px;
 }
 
-.iconWrapperStyle{
- 
+.iconWrapperStyle {
 }
 
-.iconSocialStyle{
-  margin-right: 60px;
+.iconSocialStyle {
 }
 
+.footer__main__text-style{
+  padding-top: 50px;
+}
 </style>
