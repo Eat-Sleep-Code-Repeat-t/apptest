@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import HomeView from "../views/newDesign/HomeViewNEW.vue";
 import LiveCasino from "../views/LiveCasino.vue";
 import CasinoPage from "../views/CasinoPage.vue";
 import PromoPage from "../views/PromoPage.vue";
@@ -10,7 +10,7 @@ import ResponsGambling from "../views/ResponsibleGambling.vue";
 import fairGame from "../views/fairGame.vue";
 import ruleGame from "../views/ruleGame.vue"
 import termsCondition from "../views/termsCondition.vue"
-
+import homeNewAdmin from "@/views/newDesign/HomeViewNEW-admin.vue"
 
 const routes = [
   {
@@ -18,25 +18,18 @@ const routes = [
     name: "home",
     component: HomeView,
   },
-  {
-    path: "/new",
-    name: "homeNew",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW.vue"),
-  },
 
-  {
-    path: "/new",
-    name: "homeNew",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW.vue"),
-  },
+  // {
+  //   path: "/new",
+  //   name: "homeNew",
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW.vue"),
+  // },
 
   {
     path: "/new-admin",
     name: "homeNew-admin",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/newDesign/HomeViewNEW-admin.vue"),
+    component:homeNewAdmin ,
   },
 
 

@@ -1,12 +1,12 @@
 <template>
   <div class="home">
-    <HeaderSectionNEW /> 
+    <HeaderSectionNEW />
     <SideBarNew/>
+    <SideBarBotMobile/>
     <BannerSection />
     <GamesCategory />
     <TopGameArea />
     <BestWinnerArea />
-    
     <LoyaltySection />
     <FooterSection />
   </div>
@@ -14,6 +14,7 @@
 
 <script>
 import HeaderSectionNEW from "@/components/HeaderSectionNEW.vue";
+import SideBarBotMobile from "@/components/SideBarBotMobile.vue"
 import SideBarNew from "@/components/SideBarNew.vue";
 import GamesCategory from "@/components/GamesCategory.vue";
 import BannerSection from "@/components/BannerSection.vue";
@@ -35,6 +36,7 @@ export default {
   name: "HomeView",
   components: {
     HeaderSectionNEW,
+    SideBarBotMobile,
     SideBarNew,
     BannerSection,
     GamesCategory,

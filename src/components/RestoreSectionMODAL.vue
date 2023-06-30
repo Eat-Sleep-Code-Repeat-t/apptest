@@ -305,7 +305,7 @@ export default {
 .btn-style:hover {
   
   background-color: #7445d7 !important;
-  border: none solid #7445d7 !important;
+  // border: none solid #7445d7 !important;
 
   -webkit-box-shadow: 0px 3px 20px 0px #7445d7;
   -moz-box-shadow: 0px 3px 20px 0px #7445d7;
