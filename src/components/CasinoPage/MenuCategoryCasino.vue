@@ -212,7 +212,7 @@ import path from 'path';
 }
 
 .arrow-posinion {
-  // padding: 30px 0;
+  
 }
 
 .arrow {

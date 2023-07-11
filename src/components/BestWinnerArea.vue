@@ -10,107 +10,94 @@
       <div class="tableWins">
         <div class="row">
           <div class="borderHead gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyle">Игра</div>
-            <div class="col-xl-3 gameFieldStyle">Игрок</div>
-            <div class="col-xl-2 gameFieldStyle">Страна</div>
-            <div class="col-xl-2 gameFieldStyle">Время</div>
-            <div class="col-xl-2 gameFieldStyle">Сумма</div>
+            <div class="col-4 gameFieldStyle">Игра</div>
+            <div class="col-2 gameFieldStyle">Игрок</div>
+            <div class="col-2 gameFieldStyle">Страна</div>
+            <div class="col-2 gameFieldStyle">Время</div>
+            <div class="col-2 gameFieldStyle">Сумма</div>
           </div>
         </div>
+
         <div class="row">
           <div class="borderBody gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyleBody">
-              <div>
+            <div class="col-4 gameFieldStyleBody">
+              <div class="col">
                 <img
                   class="styleGame"
                   src="@/assets/img/recentWins/CashX9990.png"
                   alt=""
                 />
               </div>
-              <div class="styleGameName">CashX9990</div>
+              <div class="col styleGameName">CashX9990</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">MarkZero</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-            <img
-            class="styleGameName"
-            src="@/assets/img/flags/eng.png"
-            />
+            <div class="col-2 gameFieldStyleBody">MarkZero</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/eng.png" />
             </div>
-            <div class="col-xl-2 gameFieldStyleBody">2s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">43 001</div>
+            <div class="col-2 gameFieldStyleBody">2s ago</div>
+            <div class="col-2 gameFieldStyleBody">43 001</div>
           </div>
         </div>
+
         <div class="row">
           <div class="borderBody gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyleBody">
-              <div>
+            <div class="col-4 gameFieldStyleBody">
+              <div class="col" >
                 <img
                   class="styleGame"
                   src="@/assets/img/recentWins/Baloon.png"
                   alt=""
                 />
               </div>
-              <div class="styleGameName">Balloon</div>
+              <div class="col styleGameName">Balloon</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">ID 90766435</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-          <img
-          class="styleGameName"
-          src="@/assets/img/flags/ua.png"
-          />
-          </div>
-            <div class="col-xl-2 gameFieldStyleBody">3s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">129 531</div>
+            <div class="col-2 gameFieldStyleBody">ID 90766435</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/ua.png" />
+            </div>
+            <div class="col-2 gameFieldStyleBody">3s ago</div>
+            <div class="col-2 gameFieldStyleBody">129 531</div>
           </div>
         </div>
         <div class="row">
           <div class="borderBody gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyleBody">
-              <div>
+            <div class="col-4 gameFieldStyleBody">
+              <div class="col">
                 <img
                   class="styleGame"
                   src="@/assets/img/recentWins/coinSpace.png"
                   alt=""
                 />
               </div>
-              <div class="styleGameName">CoinSpace</div>
+              <div class="col styleGameName">CoinSpace</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">BONUS</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-          <img
-          class="styleGameName"
-          src="@/assets/img/flags/ua.png"
-          />
-          </div>
-            <div class="col-xl-2 gameFieldStyleBody">5s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">1 000 000</div>
+            <div class="col-2 gameFieldStyleBody">BONUS</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="col styleGameName" src="@/assets/img/flags/ua.png" />
+            </div>
+            <div class="col-2 gameFieldStyleBody">5s ago</div>
+            <div class="col-2 gameFieldStyleBody">1 000 000</div>
           </div>
         </div>
+        
         <div class="row">
           <div class="borderBody gameFieldStyleHead lastChild">
-            <div class="col-xl-4 gameFieldStyleBody">
-              <div>
+            <div class="col-4 gameFieldStyleBody">
+              <div class="col">
                 <img
                   class="styleGame"
                   src="@/assets/img/recentWins/Footballx.png"
                   alt=""
                 />
               </div>
-              <div class="styleGameName">Footballx</div>
+              <div class="col styleGameName">Footballx</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">WinPanda</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-          <img
-          class="styleGameName"
-          src="@/assets/img/flags/ge.png"
-          />
-          </div>
-            <div class="col-xl-2 gameFieldStyleBody">12s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">66 096</div>
+            <div class="col-2 gameFieldStyleBody">WinPanda</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/ge.png" />
+            </div>
+            <div class="col-2 gameFieldStyleBody">12s ago</div>
+            <div class="col-2 gameFieldStyleBody">66 096</div>
           </div>
         </div>
       </div>
@@ -128,16 +115,16 @@
       <div class="tableWins">
         <div class="row">
           <div class="borderHead gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyle">Игра</div>
-            <div class="col-xl-3 gameFieldStyle">Игрок</div>
-            <div class="col-xl-2 gameFieldStyle">Страна</div>
-            <div class="col-xl-2 gameFieldStyle">Время</div>
-            <div class="col-xl-2 gameFieldStyle">Сумма</div>
+            <div class="col-4 gameFieldStyle">Игра</div>
+            <div class="col-2 gameFieldStyle">Игрок</div>
+            <div class="col-2 gameFieldStyle">Страна</div>
+            <div class="col-2 gameFieldStyle">Время</div>
+            <div class="col-2 gameFieldStyle">Сумма</div>
           </div>
         </div>
         <div class="row">
           <div class="borderBody gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyleBody">
+            <div class="col-4 gameFieldStyleBody">
               <div>
                 <img
                   class="styleGame"
@@ -147,21 +134,17 @@
               </div>
               <div class="styleGameName">Balloon</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">MarkZero</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-            <img
-            class="styleGameName"
-            src="@/assets/img/flags/eng.png"
-            />
+            <div class="col-2 gameFieldStyleBody">MarkZero</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/eng.png" />
             </div>
-            <div class="col-xl-2 gameFieldStyleBody">2s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">43 001</div>
+            <div class="col-2 gameFieldStyleBody">2s ago</div>
+            <div class="col-2 gameFieldStyleBody">43 001</div>
           </div>
         </div>
         <div class="row">
           <div class="borderBody gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyleBody">
+            <div class="col-3 gameFieldStyleBody">
               <div>
                 <img
                   class="styleGame"
@@ -171,21 +154,17 @@
               </div>
               <div class="styleGameName">Balloon</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">ID 90766435</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-          <img
-          class="styleGameName"
-          src="@/assets/img/flags/eng.png"
-          />
-          </div>
-            <div class="col-xl-2 gameFieldStyleBody">3s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">129 531</div>
+            <div class="col-3 gameFieldStyleBody">ID 90766435</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/eng.png" />
+            </div>
+            <div class="col-2 gameFieldStyleBody">3s ago</div>
+            <div class="col-2 gameFieldStyleBody">129 531</div>
           </div>
         </div>
         <div class="row">
           <div class="borderBody gameFieldStyleHead">
-            <div class="col-xl-4 gameFieldStyleBody">
+            <div class="col-4 gameFieldStyleBody">
               <div>
                 <img
                   class="styleGame"
@@ -195,21 +174,17 @@
               </div>
               <div class="styleGameName">Balloon</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">BONUS</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-          <img
-          class="styleGameName"
-          src="@/assets/img/flags/ge.png"
-          />
-          </div>
-            <div class="col-xl-2 gameFieldStyleBody">5s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">1 000 000</div>
+            <div class="col-2 gameFieldStyleBody">BONUS</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/ge.png" />
+            </div>
+            <div class="col-2 gameFieldStyleBody">5s ago</div>
+            <div class="col-2 gameFieldStyleBody">1 000 000</div>
           </div>
         </div>
         <div class="row">
           <div class="borderBody gameFieldStyleHead lastChild">
-            <div class="col-xl-4 gameFieldStyleBody">
+            <div class="col-4 gameFieldStyleBody">
               <div>
                 <img
                   class="styleGame"
@@ -219,16 +194,12 @@
               </div>
               <div class="styleGameName">Balloon</div>
             </div>
-            <div class="col-xl-3 gameFieldStyleBody">WinPanda</div>
-            <div class="col-xl-2 gameFieldStyleBody">
-          
-          <img
-          class="styleGameName"
-          src="@/assets/img/flags/ua.png"
-          />
-          </div>
-            <div class="col-xl-2 gameFieldStyleBody">12s ago</div>
-            <div class="col-xl-2 gameFieldStyleBody">66 096</div>
+            <div class="col-2 gameFieldStyleBody">WinPanda</div>
+            <div class="col-2 gameFieldStyleBody">
+              <img class="styleGameName" src="@/assets/img/flags/ua.png" />
+            </div>
+            <div class="col-2 gameFieldStyleBody">12s ago</div>
+            <div class="col-2 gameFieldStyleBody">66 096</div>
           </div>
         </div>
       </div>
@@ -237,10 +208,19 @@
 </template>
 
 <style>
+.BestWinnerArea {
+  padding: 35px 16px 0 16px;
+}
+
 .banner__title {
-  padding-top: 35px;
   font-weight: 700;
   font-size: 32px;
+}
+
+@media (max-width: 700px) {
+  .banner__title {
+    font-size: 20px;
+  }
 }
 
 .tableWins {
@@ -249,8 +229,8 @@
 
 .gameFieldStyleHead {
   display: flex;
-  width: 99%;
   margin: 0 auto;
+  width: 99%;
 }
 
 .borderHead {
@@ -261,12 +241,25 @@
   margin-bottom: 15px;
 }
 
+@media (max-width: 1000px) {
+  .borderHead {
+    display: none;
+  }
+}
+
 .borderBody {
   padding: 20px 20px;
   border-radius: 19px;
   background-color: #131420;
   border: none;
   margin-bottom: 15px;
+
+}
+
+@media (max-width: 700px) {
+  .borderBody {
+    padding: 15px 15px;
+  }
 }
 
 .gameFieldStyle {
@@ -287,12 +280,25 @@
   width: 90px;
 }
 
+@media (max-width: 700px) {
+  .styleGame {
+    width: 58px;
+  }
+}
+
 .styleGameFlag {
   width: 75px;
 }
 
 .styleGameName {
   padding-left: 10px;
+}
+
+@media (max-width: 700px) {
+  .styleGameName {
+    padding-left: 10px;
+    width: 23px;
+  }
 }
 
 .lastChild {
@@ -305,4 +311,9 @@
   font-size: 32px;
 }
 
+@media (max-width: 700px) {
+  .banner__titleTwo {
+    font-size: 20px;
+  }
+}
 </style>

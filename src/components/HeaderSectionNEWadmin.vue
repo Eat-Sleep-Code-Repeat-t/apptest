@@ -22,7 +22,7 @@
               </div>
             </div>
             <div class="navbar__elements__rightSide">
-              <div class="changeLang">
+              <div class="changeLang d-lg-none">
                 <div class="changeLang__option">en</div>
                 <div class="changeLang__ico">
                   <img
@@ -373,7 +373,7 @@ export default {
   height: 17px;
   border: none;
   outline: none;
-  width: 600px;
+  width: 270px;
   color: #7e7e7e;
 }
 

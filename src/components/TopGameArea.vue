@@ -8,8 +8,8 @@
       </div>
 
       <div class="row">
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -28,8 +28,8 @@
             <div class="cartGame__nameGame">Balloon</div>
           </div>
         </div>
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -49,8 +49,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -70,8 +70,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -91,8 +91,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -112,8 +112,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -133,8 +133,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -154,8 +154,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -175,8 +175,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -196,8 +196,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -217,8 +217,8 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -238,8 +238,68 @@
           </div>
         </div>
 
-        <div class="col-xl-2">
-          <div class="cartGame mx-auto">
+        <div class="col">
+          <div class="cartGame ">
+            <div class="cartGame__block">
+              <img
+                class="cartGame__block__img"
+                src="@/assets/img/BestGameArea/WildCash.webp"
+              />
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button">Играть</button>
+              <button
+                class="cartGame__button__two"
+                onclick="window.location.href='/jetx3'"
+              >
+                Демо
+              </button>
+            </div>
+            <div class="cartGame__nameGame">Balloon</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="cartGame ">
+            <div class="cartGame__block">
+              <img
+                class="cartGame__block__img"
+                src="@/assets/img/BestGameArea/WildCash.webp"
+              />
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button">Играть</button>
+              <button
+                class="cartGame__button__two"
+                onclick="window.location.href='/jetx3'"
+              >
+                Демо
+              </button>
+            </div>
+            <div class="cartGame__nameGame">Balloon</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="cartGame ">
+            <div class="cartGame__block">
+              <img
+                class="cartGame__block__img"
+                src="@/assets/img/BestGameArea/WildCash.webp"
+              />
+            </div>
+            <div class="cartGame__button_position font">
+              <button class="cartGame__button">Играть</button>
+              <button
+                class="cartGame__button__two"
+                onclick="window.location.href='/jetx3'"
+              >
+                Демо
+              </button>
+            </div>
+            <div class="cartGame__nameGame">Balloon</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="cartGame ">
             <div class="cartGame__block">
               <img
                 class="cartGame__block__img"
@@ -275,7 +335,6 @@
           </div>
         </div>
       </div>
-      
     </div>
   </div>
 </template>
@@ -285,13 +344,14 @@
   position: relative;
   margin: 30px 0;
   z-index: 1;
+  padding: 0px 16px 0 16px  ;
 }
 
 .banner__title {
   padding-top: 4%;
   text-transform: uppercase;
+  font-size: 20px;
   font-weight: 700;
-  font-size: 32px;
 }
 
 .cartGame {
@@ -299,6 +359,12 @@
   position: relative;
   margin-bottom: 10px;
   width: 200px;
+
+  display: flex; /* Добавлено */
+  flex-direction: column; /* Добавлено */
+  align-items: center;
+  margin: auto;
+  
 
   &__block {
     // position: relative;
@@ -322,6 +388,14 @@
 
     font-weight: 700;
     font-size: 20px;
+
+    align-self: start;
+  }
+}
+
+@media (max-width: 500px) {
+  .cartGame {
+    width: 150px;
   }
 }
 
@@ -404,7 +478,7 @@
 }
 
 .buttonNext__style:hover {
-   background-color: #7445d7 !important;
+  background-color: #7445d7 !important;
   // border: none solid #7445d7 !important;
 
   -webkit-box-shadow: 0px 3px 20px 0px #7445d7;
@@ -416,5 +490,4 @@
   padding-left: 12px;
   margin: auto;
 }
-
 </style>

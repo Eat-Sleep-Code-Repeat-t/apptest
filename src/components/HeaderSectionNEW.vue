@@ -15,9 +15,8 @@
               <div class="searchInput">
                 <input
                   class="searchInput__text"
-                  width="20px"
                   type="text"
-                  placeholder="Search for casinos, games and more..."
+                  placeholder="Search for casinos games..."
                 />
               </div>
             </div>
@@ -142,54 +141,76 @@ export default {
     RestoreSectionMODAL
   },
   data() {
-    return {
-      buttonColor: 'transparent',
-      buttonColor2: 'transparent',
-      buttonColor3: 'transparent'
-    };
+    // return {
+    //   buttonColor: 'transparent',
+    //   buttonColor2: 'transparent',
+    //   buttonColor3: 'transparent'
+    // };
   },
   methods: {
-    toggleButtonColor() {
-      if (this.buttonColor === 'transparent') {
-        this.buttonColor = '#d4145a';
-      } else {
-        this.buttonColor = 'transparent';
-      }
-    },
-    toggleButtonColor2() {
-      if (this.buttonColor2 === 'transparent') {
-        this.buttonColor2 = '#d4145a';
-      } else {
-        this.buttonColor2 = 'transparent';
-      }
-    },
-    toggleButtonColor3() {
-      if (this.buttonColor3 === 'transparent') {
-        this.buttonColor3 = '#d4145a';
-      } else {
-        this.buttonColor3 = 'transparent';
-      }
-    },
+    // toggleButtonColor() {
+    //   if (this.buttonColor === 'transparent') {
+    //     this.buttonColor = '#d4145a';
+    //   } else {
+    //     this.buttonColor = 'transparent';
+    //   }
+    // },
+    // toggleButtonColor2() {
+    //   if (this.buttonColor2 === 'transparent') {
+    //     this.buttonColor2 = '#d4145a';
+    //   } else {
+    //     this.buttonColor2 = 'transparent';
+    //   }
+    // },
+    // toggleButtonColor3() {
+    //   if (this.buttonColor3 === 'transparent') {
+    //     this.buttonColor3 = '#d4145a';
+    //   } else {
+    //     this.buttonColor3 = 'transparent';
+    //   }
+    // },
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .navbar {
-  padding: 16px 103px 16px 98px;
+  padding: 16px 5% 16px 98px;
   background-color: rgba(19, 20, 32, 0.4);
   z-index: 2;
   backdrop-filter: blur(5px);
+}
+
+@media (max-width: 700px) {
+  .navbar{
+    padding: 16px 5% 16px 78px;
+  }
 }
 .navbar__elements {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 640px) {
+  .navbar__elements {
+    justify-content: end;
+  }
+}
+
+
+
 .navbar__elements__leftSide {
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 640px) {
+  .navbar__elements__leftSide{
+    display: none;
+  }
+}
+
 .ico {
   display: inline-block;
 }
@@ -221,8 +242,14 @@ export default {
   height: 17px;
   border: none;
   outline: none;
-  width: 600px;
+  width: 270px;
   color: #7e7e7e;
+}
+
+@media (max-width: 850px) {
+  .searchInput__text {
+    width: 200px;
+  }
 }
 
 .searchInput__text::placeholder {
@@ -238,6 +265,27 @@ export default {
   align-items: center;
   padding-right: 76px;
 }
+
+@media (max-width: 850px) {
+  .changeLang {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .changeLang {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .changeLang {
+    display: none;
+  }
+}
+
+
+
 .changeLang__option {
   text-transform: uppercase;
   padding-right: 17px;
@@ -296,5 +344,8 @@ export default {
   filter: invert(100%);
 }
 
+.container-fluid{
+  padding: 0;
+}
 
 </style>

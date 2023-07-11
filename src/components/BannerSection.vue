@@ -4,36 +4,53 @@
       <!-- <h1 class="banner__title text-start">CoinGames</h1> -->
 
       <div
-        id="carouselExampleFade"
+        id="carouselExampleIndicators"
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
               src="@/assets/img/banner/1.png"
-              class="d-block w-100"
+              class="d-block w-100 style-mobile"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h4 class="animate__animated animate__slideInUp style__p">
+              <h4 class="animate__animated animate__flipInX style__p">
                 Create your own casino
               </h4>
-              <h3 class="animate__animated animate__slideInUp style__h5">
+              <h3 class="animate__animated animate__flipInX style__h5">
                 Create a casino with
               </h3>
-              <h4 class="animate__animated animate__slideInUp style__h5">
-                over 50% conversion rate🔥
+              <h4 class="animate__animated animate__flipInX style__h5">
+                <span class="style__h5-color">over 50%</span> conversion rate🔥
               </h4>
               <div class="buttonPosition">
                 <button
-                  class="animate__animated animate__slideInUp style__buttom"
+                  class="animate__animated animate__flipInX style__buttom"
                 >
                   Add a casino 🎰
                 </button>
 
                 <button
-                  class="animate__animated animate__slideInUp style__buttomTwo"
+                  class="animate__animated animate__flipInX style__buttomTwo"
                 >
                   More details 🃏
                 </button>
@@ -44,22 +61,22 @@
           <div class="carousel-item">
             <img
               src="@/assets/img/banner/2.png"
-              class="d-block w-100"
+              class="d-block w-100 style-mobile"
               alt="..."
             />
             <div class="carousel-caption d-none d-md-block">
-              <h4 class="animate__animated animate__slideInUp style__p">
+              <h4 class="animate__animated animate__flipInX style__p">
                 Create your own casino
               </h4>
-              <h3 class="animate__animated animate__slideInUp style__h5">
+              <h3 class="animate__animated animate__flipInX style__h5">
                 Create a casino with
               </h3>
-              <h4 class="animate__animated animate__slideInUp style__h5">
-                over 50% conversion rate🔥
+              <h4 class="animate__animated animate__flipInX style__h5">
+                <span class="style__h5-color">over 50%</span> conversion rate🔥
               </h4>
               <div class="buttonPosition">
                 <button
-                  class="animate__animated animate__slideInUp style__buttom"
+                  class="animate__animated animate__flipInX style__buttom"
                 >
                   Add a casino 🎰
                 </button>
@@ -161,6 +178,24 @@ export default {
     left: 90px;
   }
 
+  @media (max-width: 1500px) {
+    .carousel-caption {
+      top: 128px;
+    }
+  }
+
+  @media (max-width: 1360px) {
+    .carousel-caption {
+      top: 110px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .carousel-caption {
+      left: 27px;
+    }
+  }
+
   .banner__content__block {
   }
 
@@ -168,7 +203,16 @@ export default {
     font-size: 3.5rem;
     font-weight: 700;
     text-align: left;
-    letter-spacing: 2px;
+  }
+
+  @media (max-width: 768px) {
+    .style__h5-width {
+      width: 190px;
+    }
+  }
+
+  .style__h5-color {
+    color: #7647dc;
   }
 
   .style__p {
@@ -181,6 +225,12 @@ export default {
     padding-bottom: 10px;
   }
 
+  @media (max-width: 790px) {
+    .style__p {
+      display: none;
+    }
+  }
+
   .cl .button__block {
     max-width: 100%;
     max-height: 100%;
@@ -189,6 +239,12 @@ export default {
   .buttonPosition {
     align-self: flex-start;
     padding-top: 20px;
+  }
+
+  @media (max-width: 800px) {
+    .buttonPosition {
+      display: none;
+    }
   }
 
   .style__buttom {
@@ -226,50 +282,75 @@ export default {
 
   @media (max-width: 1200px) {
     .style__h5 {
-      font-size: 2.3rem;
-    }
-
-    .style__p {
-      font-size: 1.6rem;
-    }
-
-    .style__buttom {
-      font-size: 1rem;
+      font-size: 28px;
     }
   }
 
   @media (max-width: 767px) {
-    .style__h5 {
-      font-size: 1.8rem;
-    }
-
-    .style__p {
-      font-size: 0.9rem;
-    }
-
-    .style__buttom {
-      font-size: 0.7rem;
-      max-width: 20%;
+    .banner__title {
+      font-size: 2.6rem;
     }
   }
+}
 
-  @media (max-width: 450px) {
-    .style__h5 {
-      font-size: 1.5rem;
-    }
-
-    .style__p {
-      font-size: 0.7rem;
-    }
-
-    .style__buttom {
-      font-size: 0.8rem;
-      max-width: 35%;
-    }
-
-    .buttons {
-      display: none;
-    }
+@media (max-width: 767px) {
+  .style-mobile {
+    width: 920px !important;
+    height: 366px;
   }
+}
+
+.carousel-indicators {
+  z-index: 0;
+}
+
+@media (max-width: 767px) {
+  .carousel-indicators {
+    z-index: 2;
+    justify-content: start;
+    left: -82px;
+    bottom: 105px;
+   
+  }
+}
+
+@media (max-width: 626px) {
+  .carousel-indicators {
+    left: -64px;
+   
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-indicators {
+    left: -45px;
+   
+  }
+}
+
+@media (max-width: 420px) {
+  .carousel-indicators {
+    left: -36px;
+   
+  }
+}
+
+@media (max-width: 377px) {
+  .carousel-indicators {
+    left: -28px;
+   
+  }
+}
+
+@media (max-width: 361px) {
+  .carousel-indicators {
+    
+    bottom: 66px;
+  }
+}
+
+
+.container-fluid {
+  padding: 0;
 }
 </style>
